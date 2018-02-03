@@ -1,5 +1,5 @@
 Group 6
-Members: 
+Members: Kathleen Sungu Lee kl2926 - Seungwook Han sh3264 - Vladislav Scherbich vss2113
 
 1. What are the purposes of the following subdirectories in a ROS workspace?
 	1. src
