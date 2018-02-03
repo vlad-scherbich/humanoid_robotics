@@ -15,8 +15,13 @@ Members: Kathleen Sungu Lee kl2926 - Seungwook Han sh3264 - Vladislav Scherbich 
 4. roscore is started either through the command  roscore or whenever roslaunch is called. Doing
 so will start up the following processes. Please explain what each of them do:
 	1. ROS Master
+	- provides naming and registration services to to the other nodes in the ROS system. It tracks publishers and subscribers to topics / services. Master enables nodes to locate each other, after which point they communicate with each other directly.
+	
 	2. ROS Parameter Server
+	- is a shared, multi-variate dictionary that's accessible via network APIs. It's used by nodes to store/retrieve run-time parameters. Since it's not designed for high performance, it's best to store non-binary data such as config params. Parameter Server is globally accessible.
+
 	3. rosout node
+	- it's an ROS node used for subscribing, logging, and republishing of messages.
 
 5. When should you use a ROS Topic? a ROS Service? a ROS Action?
 
