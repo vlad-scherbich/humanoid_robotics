@@ -1,0 +1,40 @@
+Group 6
+Members: Kathleen Sungu Lee kl2926 - Seungwook Han sh3264 - Vladislav Scherbich vss2113
+
+1. What are the purposes of the following subdirectories in a ROS workspace?
+	1. src
+	2. build 
+	3. devel
+	4. log
+	5. install
+
+2. What is a ROS node?
+
+3. What is a ROS package?
+
+4. roscore is started either through the command  roscore or whenever roslaunch is called. Doing
+so will start up the following processes. Please explain what each of them do:
+	1. ROS Master
+	- provides naming and registration services to to the other nodes in the ROS system. It tracks publishers and subscribers to topics / services. Master enables nodes to locate each other, after which point they communicate with each other directly.
+	
+	2. ROS Parameter Server
+	- is a shared, multi-variate dictionary that's accessible via network APIs. It's used by nodes to store/retrieve run-time parameters. Since it's not designed for high performance, it's best to store non-binary data such as config params. Parameter Server is globally accessible.
+
+	3. rosout node
+	- it's an ROS node used for subscribing, logging, and republishing of messages.
+
+5. When should you use a ROS Topic? a ROS Service? a ROS Action?
+	1. ROS Topic
+	- when you have mutliple producers writing to, or multiple consumers reading from, a topic. Also when nodes aren't aware of each other.
+
+	2. ROS Service
+	- enables direct communication between two nodes. Use it when nodes are aware of each other's existence. 
+
+	3. ROS Action
+	- 
+
+6. From within the bci_epxeriment_launch package find an example of each of the following:
+	1. A parameter that will be placed on the ROS Parameter Server and what type of parameter it is.
+	2. The name of a package that is used by this system other than bci_experiment_launch.
+	3. The name of a node that is specified by one of the launch files and runs when this system is
+	started.
