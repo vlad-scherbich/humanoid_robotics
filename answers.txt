@@ -1,0 +1,27 @@
+Group 6
+Members: 
+
+1. What are the purposes of the following subdirectories in a ROS workspace?
+	1. src
+	2. build 
+	3. devel
+	4. log
+	5. install
+
+2. What is a ROS node?
+
+3. What is a ROS package?
+
+4. roscore is started either through the command  roscore or whenever roslaunch is called. Doing
+so will start up the following processes. Please explain what each of them do:
+	1. ROS Master
+	2. ROS Parameter Server
+	3. rosout node
+
+5. When should you use a ROS Topic? a ROS Service? a ROS Action?
+
+6. From within the bci_epxeriment_launch package find an example of each of the following:
+	1. A parameter that will be placed on the ROS Parameter Server and what type of parameter it is.
+	2. The name of a package that is used by this system other than bci_experiment_launch.
+	3. The name of a node that is specified by one of the launch files and runs when this system is
+	started.
