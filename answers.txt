@@ -24,6 +24,14 @@ so will start up the following processes. Please explain what each of them do:
 	- it's an ROS node used for subscribing, logging, and republishing of messages.
 
 5. When should you use a ROS Topic? a ROS Service? a ROS Action?
+	1. ROS Topic
+	- when you have mutliple producers writing to, or multiple consumers reading from, a topic. Also when nodes aren't aware of each other.
+
+	2. ROS Service
+	- enables direct communication between two nodes. Use it when nodes are aware of each other's existence. 
+
+	3. ROS Action
+	- 
 
 6. From within the bci_epxeriment_launch package find an example of each of the following:
 	1. A parameter that will be placed on the ROS Parameter Server and what type of parameter it is.
