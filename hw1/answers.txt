@@ -37,6 +37,10 @@ so will start up the following processes. Please explain what each of them do:
 
 6. From within the bci_epxeriment_launch package find an example of each of the following:
 	1. A parameter that will be placed on the ROS Parameter Server and what type of parameter it is.
+	/use_gui, boolean
+
 	2. The name of a package that is used by this system other than bci_experiment_launch.
-	3. The name of a node that is specified by one of the launch files and runs when this system is
-	started.
+	staubli_tx60
+
+	3. The name of a node that is specified by one of the launch files and runs when this system is started.
+	staubli_controller
