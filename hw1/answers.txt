@@ -9,8 +9,10 @@ Members: Kathleen Sungu Lee kl2926 - Seungwook Han sh3264 - Vladislav Scherbich 
 	5. install
 
 2. What is a ROS node?
+A node is an executable file within a ROS package. ROS nodes use a ROS client library to communicate with other nodes. They can publish or subscribe to a topic, and they can provide or use a service.
 
 3. What is a ROS package?
+Packages are the software organization unit of ROS code. Each package can contain libraries, executables, scripts, or other artifacts.
 
 4. roscore is started either through the command  roscore or whenever roslaunch is called. Doing
 so will start up the following processes. Please explain what each of them do:
