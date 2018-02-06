@@ -9,7 +9,7 @@ from std_msgs.msg import String
 def callback(data):
     rospy.loginfo(rospy.get_caller_id() + ' Current time is: %s', data.data)
     curTime = "%s" % data.data
-    filename = "../hw1_out.txt"
+    filename = "../../hw1_out.txt"
     result = open(filename, "a")
     result.write(curTime)
     result.write('\n')

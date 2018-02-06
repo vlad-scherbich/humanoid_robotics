@@ -10,7 +10,7 @@ def time_publisher():
     rospy.init_node('time_publisher', anonymous=True)
     rate = rospy.Rate(1) # 1hz
     while not rospy.is_shutdown():
-        curTime = "%s" % rospy.Time.now()
+        curTime = "%s" % rospy.get_time()
         rospy.loginfo(curTime)
         pub.publish(curTime)
         rate.sleep()
