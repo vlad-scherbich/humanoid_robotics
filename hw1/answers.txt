@@ -5,11 +5,7 @@ Members: Kathleen Sungu Lee kl2926 - Seungwook Han sh3264 - Vladislav Scherbich 
 	1. src - The source space (src) contains the source code of catkin packages and this is where you can extract/checkout/clone source code for the packages you want to build. 
 	2. build - The build space is where CMake is invoked to build catkin packages in the source space (src). CMake and catkin keep their cache information and other intermediate files here. 
 	3. devel - The development space (devel) is where built targets are placed prior to being installed. The targets are organized in the same layout as they are installed which provides a useful testing and development environment which does not require invoking the installation step. 
-	4. log - Log messages are string messages that convey the status of a node. There are four places a log message can go to: 
-		a) stdout - DEBUG and INFO messages arrive on stdout if they are enabled. 
-		b) stderr- WARN, ERROR and FATAL messages arrive on stderr if they are enabled. 
-		c) Node log file - everything enabled goes into the log file 
-		d) /rosout topic - Everything enabled is sent to the /rosout topic. 
+	4. log - The Node log file contains log messages which are string messages that convey the status of a node. All enabled messages (DEBUG, INFO, WARN, ERROR, and FATAL) goes into the log file. 
 	5. install - Once targets are built, they can be installed in the install space by invoking the install target, usually using the command ‘make install’. 
 
 2. What is a ROS node?
