@@ -2,11 +2,11 @@ Group 6
 Members: Kathleen Sungu Lee kl2926 - Seungwook Han sh3264 - Vladislav Scherbich vss2113
 
 1. What are the purposes of the following subdirectories in a ROS workspace?
-	1. src
-	2. build 
-	3. devel
-	4. log
-	5. install
+	1. src - The source space (src) contains the source code of catkin packages and this is where you can extract/checkout/clone source code for the packages you want to build. 
+	2. build - The build space is where CMake is invoked to build catkin packages in the source space (src). CMake and catkin keep their cache information and other intermediate files here. 
+	3. devel - The development space (devel) is where built targets are placed prior to being installed. The targets are organized in the same layout as they are installed which provides a useful testing and development environment which does not require invoking the installation step. 
+	4. log - The Node log file contains log messages, which are string messages that convey the status of a node. All enabled messages (DEBUG, INFO, WARN, ERROR, and FATAL) goes into the log file. 
+	5. install - Once targets are built, they can be installed in the install space by invoking the install target, usually using the command ‘make install’. 
 
 2. What is a ROS node?
 A node is an executable file within a ROS package. ROS nodes use a ROS client library to communicate with other nodes. They can publish or subscribe to a topic, and they can provide or use a service.
