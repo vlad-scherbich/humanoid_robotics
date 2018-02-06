@@ -10,7 +10,6 @@ Members: Kathleen Sungu Lee kl2926 - Seungwook Han sh3264 - Vladislav Scherbich 
 		b) stderr- WARN, ERROR and FATAL messages arrive on stderr if they are enabled. 
 		c) Node log file - everything enabled goes into the log file 
 		d) /rosout topic - Everything enabled is sent to the /rosout topic. 
-
 	5. install - Once targets are built, they can be installed in the install space by invoking the install target, usually using the command ‘make install’. 
 
 2. What is a ROS node?
