@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="hw1_package" name="time_publisher" type="publisher.py"/>
+    <node pkg="hw1_package" name="time_subscriber" type="subscriber.py"/>
+
+</launch>
