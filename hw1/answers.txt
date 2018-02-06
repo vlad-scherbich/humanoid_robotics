@@ -19,12 +19,12 @@ Members: Kathleen Sungu Lee kl2926 - Seungwook Han sh3264 - Vladislav Scherbich 
 
 	3. rosout node: is used for subscribing, logging, and republishing of messages.
 
-5. 
-	1. ROS Topic: when you have mutliple producers writing to, or multiple consumers reading from, a topic. Also when nodes aren't aware of each other.
+5.
+	1. ROS Topic: when you have multiple producers writing to, or multiple consumers reading from, a topic; i.e. for many-to-many one-way transport of messages. An example is continuous data stream, i.e. from sensors or input such as keystrokes.
 
-	2. ROS Service: enables direct communication between two nodes. Use it when nodes are aware of each other's existence. 
+	2. ROS Service: when you require RPC interaction, e.g. request / reply paradigm. It's best suited for calls that terminate quickly.
 
-	3. ROS Action: 
+	3. ROS Action: best used for processes that run for a long period of time, e.g. robot movements in physical space. Also useful for when one needs to keep state.
 
 6.
 	1. /use_gui, boolean
