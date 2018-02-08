@@ -1,0 +1,19 @@
+Homework 2
+Group 6
+Members: Seungwook Han sh3264 - Kathleen Lee kl2926 - Vlad Scherbich vss2113
+
+# Part 1
+1. List 5 properties of the Fetch robot you can access in rviz.
+
+Robot state, fluid pressure, effort, illuminance, temperature
+
+2. What is the difference between RViz and Gazebo? List three purposes of each with sources, and then three differences between each one with sources.
+
+
+3. How many nodes are running in the ROS network after you've run the commands under Command 1? Command 2? After RViz? Also how many ros topics are available for each of the following commands?
+
+8 nodes are running after Command 1.
+15 nodes are running after Command 2.
+
+145 ROS topics are available after Command 1.
+235 ROS topics are available after Command 2.
