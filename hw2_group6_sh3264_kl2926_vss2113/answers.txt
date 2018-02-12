@@ -21,22 +21,19 @@ Purposes of Rviz
 properties like temperature
 
 Differences:
-3. See the environment of the robot, including objects and environment
-properties like temperature
-
-Differences:
-1. Gazeo is the actual real world physics simulator where I get to set up
+1. Gazebo is the actual real world physics simulator where I get to set up
 the world and simulate my robot; however, Rviz is only a visualization
 software that allows me to view the Gazebo data or the real world data (when
 using an actual robot rather than a simulation)
-2. 
+2. Only in Gazebo you are able to add objects and change the actual environment settings of the robot model, whereas in Rviz you cannot change such environment state.
+3. Rviz has the interactive marker feature which makes selecting a certain area in 3D easy and allows one to adjust the robot's vision system manually while it is running.
 
 
 Sources: 
 1. http://gazebosim.org
 2. http://wiki.ros.org/rviz/Tutorials 
 3. https://answers.ros.org/question/200044/different-between-gazebo-and-rviz/
-4. 
+4. https://computervisionblog.wordpress.com/2012/11/18/rviz-a-good-reason-to-implement-a-vision-system-in-ros/
 
 3. How many nodes are running in the ROS network after you've run the commands under Command 1? Command 2? After RViz? Also how many ros topics are available for each of the following commands?
 
