@@ -9,6 +9,34 @@ Robot state, fluid pressure, effort, illuminance, temperature
 
 2. What is the difference between RViz and Gazebo? List three purposes of each with sources, and then three differences between each one with sources.
 
+Purposes of Gazebo:
+1. Design robots
+2. Rapidly test algorithms on robots (path planning, grasping, etc)
+3. Train AI system using realistic scenarios
+
+Purposes of Rviz
+1. See the robot state (movements, orientation, and etc) in real time
+2. Visualize ROS topics 
+3. See the environment of the robot, including objects and environment
+properties like temperature
+
+Differences:
+3. See the environment of the robot, including objects and environment
+properties like temperature
+
+Differences:
+1. Gazeo is the actual real world physics simulator where I get to set up
+the world and simulate my robot; however, Rviz is only a visualization
+software that allows me to view the Gazebo data or the real world data (when
+using an actual robot rather than a simulation)
+2. 
+
+
+Sources: 
+1. http://gazebosim.org
+2. http://wiki.ros.org/rviz/Tutorials 
+3. https://answers.ros.org/question/200044/different-between-gazebo-and-rviz/
+4. 
 
 3. How many nodes are running in the ROS network after you've run the commands under Command 1? Command 2? After RViz? Also how many ros topics are available for each of the following commands?
 
