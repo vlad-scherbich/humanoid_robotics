@@ -14,5 +14,5 @@ gc.approachToContact()
 gc.autoGrasp()
 
 #Print position 
-robot = gc.getRobot(0)
-print(robot)
+pose = gc.getRobot(0)
+print(pose)
