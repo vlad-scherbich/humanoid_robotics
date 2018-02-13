@@ -46,7 +46,7 @@ Sources:
 # Part 2 
 
 1. What is the least number of navigation goalsrequired to have 90% of the environment built?
-8 trials 
+9 trials 
 
 2. Display a PointCloud2 in RViz. Which topic displays what the robot is currently seeing using it depth camera? How many navigations are required from the beginning of the simulation to view the "FetchRobotics Logo"? Demonstrate that you can view thelogo during your demo and include a screenshot in your submission. 
 
