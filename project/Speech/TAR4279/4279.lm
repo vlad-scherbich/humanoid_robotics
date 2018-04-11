@@ -1,0 +1,113 @@
+Language model created by QuickLM on Wed Apr 11 19:24:57 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 21 sentences and 24 words
+
+\data\
+ngram 1=24
+ngram 2=43
+ngram 3=23
+
+\1-grams:
+-0.7917 </s> -0.3010
+-0.7917 <s> -0.2205
+-1.8129 BOTTLE -0.2245
+-2.1139 BOWL -0.2245
+-2.1139 BOX -0.2245
+-2.1139 CAN -0.2245
+-2.1139 CARTON -0.2245
+-2.1139 CONTAINER -0.2245
+-2.1139 CUP -0.2245
+-2.1139 DRILL -0.2245
+-2.1139 FUNNEL -0.2245
+-2.1139 GLASS -0.2245
+-2.1139 JAR -0.2245
+-2.1139 JUG -0.2245
+-2.1139 MUG -0.2245
+-2.1139 PITCHER -0.2245
+-2.1139 PLATE -0.2245
+-2.1139 SAUCER -0.2245
+-2.1139 SPORTS -0.2977
+-2.1139 TOOL -0.2245
+-2.1139 TOY -0.2245
+-2.1139 TUB -0.2245
+-2.1139 TUMBLER -0.2245
+-2.1139 WATER -0.2943
+
+\2-grams:
+-1.6232 <s> BOTTLE 0.0000
+-1.6232 <s> BOWL 0.0000
+-1.6232 <s> BOX 0.0000
+-1.6232 <s> CAN 0.0000
+-1.6232 <s> CARTON 0.0000
+-1.6232 <s> CONTAINER 0.0000
+-1.6232 <s> CUP 0.0000
+-1.6232 <s> DRILL 0.0000
+-1.6232 <s> FUNNEL 0.0000
+-1.6232 <s> GLASS 0.0000
+-1.6232 <s> JAR 0.0000
+-1.6232 <s> JUG 0.0000
+-1.6232 <s> MUG 0.0000
+-1.6232 <s> PITCHER 0.0000
+-1.6232 <s> PLATE 0.0000
+-1.6232 <s> SAUCER 0.0000
+-1.6232 <s> SPORTS 0.0000
+-1.6232 <s> TOOL 0.0000
+-1.6232 <s> TOY 0.0000
+-1.6232 <s> TUB 0.0000
+-1.6232 <s> TUMBLER 0.0000
+-0.3010 BOTTLE </s> -0.3010
+-0.3010 BOWL </s> -0.3010
+-0.3010 BOX </s> -0.3010
+-0.3010 CAN </s> -0.3010
+-0.3010 CARTON </s> -0.3010
+-0.3010 CONTAINER </s> -0.3010
+-0.3010 CUP </s> -0.3010
+-0.3010 DRILL </s> -0.3010
+-0.3010 FUNNEL </s> -0.3010
+-0.3010 GLASS </s> -0.3010
+-0.3010 JAR </s> -0.3010
+-0.3010 JUG </s> -0.3010
+-0.3010 MUG </s> -0.3010
+-0.3010 PITCHER </s> -0.3010
+-0.3010 PLATE </s> -0.3010
+-0.3010 SAUCER </s> -0.3010
+-0.3010 SPORTS WATER 0.0000
+-0.3010 TOOL </s> -0.3010
+-0.3010 TOY </s> -0.3010
+-0.3010 TUB </s> -0.3010
+-0.3010 TUMBLER </s> -0.3010
+-0.3010 WATER BOTTLE 0.0000
+
+\3-grams:
+-0.3010 <s> BOTTLE </s>
+-0.3010 <s> BOWL </s>
+-0.3010 <s> BOX </s>
+-0.3010 <s> CAN </s>
+-0.3010 <s> CARTON </s>
+-0.3010 <s> CONTAINER </s>
+-0.3010 <s> CUP </s>
+-0.3010 <s> DRILL </s>
+-0.3010 <s> FUNNEL </s>
+-0.3010 <s> GLASS </s>
+-0.3010 <s> JAR </s>
+-0.3010 <s> JUG </s>
+-0.3010 <s> MUG </s>
+-0.3010 <s> PITCHER </s>
+-0.3010 <s> PLATE </s>
+-0.3010 <s> SAUCER </s>
+-0.3010 <s> SPORTS WATER
+-0.3010 <s> TOOL </s>
+-0.3010 <s> TOY </s>
+-0.3010 <s> TUB </s>
+-0.3010 <s> TUMBLER </s>
+-0.3010 SPORTS WATER BOTTLE
+-0.3010 WATER BOTTLE </s>
+
+\end\
