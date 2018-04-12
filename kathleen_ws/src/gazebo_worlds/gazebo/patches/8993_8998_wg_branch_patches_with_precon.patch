@@ -1,0 +1,395 @@
+Index: cmake/SearchForStuff.cmake
+===================================================================
+--- cmake/SearchForStuff.cmake	(revision 8967)
++++ cmake/SearchForStuff.cmake	(working copy)
+@@ -17,6 +17,12 @@
+ set (bullet_lflags "" CACHE STRING "Bullet lflags Use this to override automatic detection.")
+ set (bullet_cflags "-DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX" CACHE STRING "Bullet Dynamics C compile flags exported by rospack.")
+ 
++set (parallel_quickstep_include_dirs "" CACHE STRING "parallel_quickstep include paths. Use this to override automatic detection.")
++set (parallel_quickstep_library_dirs "" CACHE STRING "parallel_quickstep library paths. Use this to override automatic detection.")
++set (parallel_quickstep_library "" CACHE STRING "parallel_quickstep CUDA library names. Use this to override automatic detection.")
++set (parallel_quickstep_lflags "" CACHE STRING "parallel_quickstep lflags Use this to override automatic detection.")
++set (parallel_quickstep_cflags "" CACHE STRING "parallel_quickstep cflags Use this to override automatic detection.")
++
+ set (threadpool_include_dirs "" CACHE STRING "Threadpool include paths. Use this to override automatic detection.")
+ 
+ SET (gazebo_lflags "" CACHE STRING "Linker flags such as rpath for gazebo executable.")
+@@ -380,6 +386,9 @@
+ IF (PROFILER)
+   SET (CMAKE_LINK_FLAGS_PROFILE "${CMAKE_LINK_FLAGS_PROFILE} -lprofiler" 
+        CACHE INTERNAL "Link flags for profile" FORCE)
++  SET (USE_PROFILER ON CACHE BOOL "Found profiler" FORCE)
++ELSE (PROFILER)
++  SET (USE_PROFILER OFF CACHE BOOL "Did not found profiler" FORCE)
+ ENDIF (PROFILER)
+ 
+ ########################################
+@@ -579,4 +588,46 @@
+   endif (NOT BULLET_DOUBLE_PRECISION)
+ endif (INCLUDE_BULLET)
+ 
++########################################
++# Find parallel_quickstep
++STRING(REPLACE " " ";" parallel_quickstep_include_dirs_search_path ${parallel_quickstep_include_dirs})
++find_path( parallel_quickstep_include_found
++    NAMES parallel_quickstep.h parallel_quickstep/parallel_quickstep.h
++    PATHS ${parallel_quickstep_include_dirs_search_path}
++    DOC "parallel_quickstep includes location"
++    NO_DEFAULT_PATH
++    )
++if (NOT parallel_quickstep_include_found)
++  message (STATUS "Looking for parallel_quickstep.h in ${parallel_quickstep_include_dirs_search_path} - not found ${parallel_quickstep_include_found}")
++else (NOT parallel_quickstep_include_found)
++  message (STATUS "Looking for parallel_quickstep.h - found")
++endif (NOT parallel_quickstep_include_found)
+ 
++
++STRING(REPLACE " " ";" parallel_quickstep_library_dirs_search_path ${parallel_quickstep_library_dirs})
++find_library(parallel_quickstep_library_found parallel_quickstep ${parallel_quickstep_library_dirs_search_path} )
++if (NOT parallel_quickstep_library_found)
++  message (STATUS "Looking for libparallel_quickstep.so in ${parallel_quickstep_library_dirs_search_path} - not found")
++else (NOT parallel_quickstep_library_found)
++  message (STATUS "Looking for libparallel_quickstep.so - found")
++endif (NOT parallel_quickstep_library_found)
++
++if (parallel_quickstep_library_found AND parallel_quickstep_include_found)
++  message (STATUS "building gazebo with parallel_quickstep support")
++  SET (PARALLEL_QUICKSTEP ON CACHE BOOL "Build gazebo with parallel_quickstep support" FORCE)
++else (parallel_quickstep_library_found AND parallel_quickstep_include_found)
++  message (STATUS "building gazebo without parallel_quickstep support")
++  SET (PARALLEL_QUICKSTEP OFF CACHE BOOL "Build gazebo without parallel_quickstep support" FORCE)
++  # clear out parallel_quickstep flags if not library or includes found
++  set (parallel_quickstep_include_dirs "" )
++  set (parallel_quickstep_library_dirs "" )
++  set (parallel_quickstep_library "" )
++  set (parallel_quickstep_lflags "" )
++  set (parallel_quickstep_cflags "" )
++endif (parallel_quickstep_library_found AND parallel_quickstep_include_found)
++
++STRING(REPLACE " " ";" parallel_quickstep_include_dirs_split "${parallel_quickstep_include_dirs}")
++set( CMAKE_REQUIRED_INCLUDES ${parallel_quickstep_include_dirs_split} )
++set( CMAKE_REQUIRED_LIBRARIES ${parallel_quickstep_library} )
++set( CMAKE_REQUIRED_FLAGS  ${parallel_quickstep_lflags} )
++ 
+Index: gazebo_config.h.in
+===================================================================
+--- gazebo_config.h.in	(revision 8967)
++++ gazebo_config.h.in	(working copy)
+@@ -16,5 +16,6 @@
+ #cmakedefine INCLUDE_ODE 1
+ #cmakedefine INCLUDE_ODE_JOINT_DAMPING 1
+ #cmakedefine QUICKSTEP_EXPERIMENTAL 1
++#cmakedefine PARALLEL_QUICKSTEP 1
+ #cmakedefine INCLUDE_RTSHADER 1
+ #cmakedefine ENABLE_TIMERS 1
+Index: server/physics/CMakeLists.txt
+===================================================================
+--- server/physics/CMakeLists.txt	(revision 8967)
++++ server/physics/CMakeLists.txt	(working copy)
+@@ -1,5 +1,18 @@
+ include (${gazebo_cmake_dir}/GazeboUtils.cmake)
+ 
++STRING (REPLACE " " ";" parallel_quickstep_include_dirs_split "${parallel_quickstep_include_dirs}")
++STRING (REPLACE " " ";" parallel_quickstep_library_dirs_split "${parallel_quickstep_library_dirs}")
++
++INCLUDE_DIRECTORIES(
++  ${CMAKE_SOURCE_DIR}/libgazebo 
++  ${parallel_quickstep_include_dirs_split}
++)
++
++LINK_DIRECTORIES(  
++ ${CMAKE_BINARY_DIR}/libgazebo 
++ ${parallel_quickstep_library_dirs_split} 
++)
++
+ if (INCLUDE_ODE)
+   add_subdirectory(ode)
+ endif (INCLUDE_ODE)
+@@ -55,12 +68,11 @@
+ )
+ 
+ add_library(gazebo_physics SHARED ${sources})
++target_link_libraries(gazebo_physics ${LINK_LIBS} )
+ 
+ if (CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE})
+-  set_source_files_properties(${sources} PROPERTIES LINK_FLAGS 
+-    ${CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE}})
+-  set_target_properties(gazebo_physics PROPERTIES LINK_FLAGS 
+-    ${CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE}})
++  set_source_files_properties(${sources} PROPERTIES LINK_FLAGS ${CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE}})
++  set_target_properties(gazebo_physics PROPERTIES LINK_FLAGS ${CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE}} ${parallel_quickstep_lflags})
+ endif (CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE})
+ 
+ install ( TARGETS gazebo_physics DESTINATION ${CMAKE_INSTALL_PREFIX}/lib )
+Index: server/physics/ode/ODEPhysics.hh
+===================================================================
+--- server/physics/ode/ODEPhysics.hh	(revision 8967)
++++ server/physics/ode/ODEPhysics.hh	(working copy)
+@@ -38,6 +38,10 @@
+ #include <boost/thread/thread.hpp>
+ #include <boost/thread/mutex.hpp>
+ 
++#ifdef PARALLEL_QUICKSTEP
++#include <parallel_quickstep/parallel_quickstep.h>
++#endif
++
+ namespace gazebo
+ {
+   class Entity;
+@@ -154,6 +158,8 @@
+   /// \brief access functions to set ODE parameters
+   public: void SetSORPGSIters(unsigned int iters);
+   /// \brief access functions to set ODE parameters
++  public: void SetSORPGSPreconIters(unsigned int iters);
++  /// \brief access functions to set ODE parameters
+   public: void SetSORPGSW(double w);
+   /// \brief access functions to set ODE parameters
+   public: void SetContactMaxCorrectingVel(double vel);
+@@ -195,6 +201,7 @@
+   private: ParamT<double> *globalERPP; 
+   private: ParamT<std::string> *stepTypeP; 
+   private: ParamT<unsigned int> *stepItersP; 
++  private: ParamT<unsigned int> *stepPreconItersP; 
+   private: ParamT<double> *stepWP; 
+   private: ParamT<double> *contactMaxCorrectingVelP;
+   private: ParamT<double> *contactSurfaceLayerP;
+@@ -206,6 +213,7 @@
+   ///        deprecation as we switch to nested tags
+   private: ParamT<bool>   *quickStepP;
+   private: ParamT<int>    *quickStepItersP;
++  private: ParamT<int>    *quickStepPreconItersP;
+   private: ParamT<double> *quickStepWP;
+ 
+   private: class ContactFeedback
+Index: server/physics/ode/CMakeLists.txt
+===================================================================
+--- server/physics/ode/CMakeLists.txt	(revision 8967)
++++ server/physics/ode/CMakeLists.txt	(working copy)
+@@ -1,5 +1,17 @@
+ include (${gazebo_cmake_dir}/GazeboUtils.cmake)
+ 
++STRING (REPLACE " " ";" parallel_quickstep_include_dirs_split "${parallel_quickstep_include_dirs}")
++STRING (REPLACE " " ";" parallel_quickstep_library_dirs_split "${parallel_quickstep_library_dirs}")
++
++include_directories(
++  ${parallel_quickstep_include_dirs_split}
++)
++
++link_directories(
++ ${parallel_quickstep_library_dirs_split} 
++)
++
++
+ SET (sources ODEPhysics.cc
+              ODEGeom.cc
+              ODEBody.cc
+@@ -41,6 +53,7 @@
+ 
+ LIST_TO_STRING(MY_ODE_CFLAGS "${ODE_CFLAGS}")
+ 
+-set_target_properties(gazebo_physics_ode PROPERTIES COMPILE_FLAGS "-fPIC ${MY_ODE_CFLAGS}")
+-target_link_libraries( gazebo_physics_ode ${ODE_LIBRARIES})
++add_definitions(${parallel_quickstep_cflags})
++set_target_properties( gazebo_physics_ode PROPERTIES COMPILE_FLAGS "-fPIC ${MY_ODE_CFLAGS}" )
++target_link_libraries( gazebo_physics_ode ${ODE_LIBRARIES} ${parallel_quickstep_lflags} )
+ install ( TARGETS gazebo_physics_ode DESTINATION ${CMAKE_INSTALL_PREFIX}/lib )
+Index: server/physics/ode/ODEPhysics.cc
+===================================================================
+--- server/physics/ode/ODEPhysics.cc	(revision 8967)
++++ server/physics/ode/ODEPhysics.cc	(working copy)
+@@ -54,6 +54,8 @@
+ #include "ODEHeightmapShape.hh"
+ #include "MapShape.hh"
+ 
++#include "gazebo_config.h"
++
+ #include "ODEPhysics.hh"
+ 
+ using namespace gazebo;
+@@ -102,6 +104,7 @@
+   this->globalERPP = new ParamT<double>("erp", 0.2, 0);
+   this->stepTypeP = new ParamT<std::string>("stepType", "quick", 0);
+   this->stepItersP = new ParamT<unsigned int>("stepIters", 100, 0);
++  this->stepPreconItersP = new ParamT<unsigned int>("stepPreconIters", 5, 0);
+   this->stepWP = new ParamT<double>("stepW", 1.3, 0);  /// over_relaxation value for SOR
+   this->contactMaxCorrectingVelP = new ParamT<double>("contactMaxCorrectingVel", 10.0, 0);
+   this->contactSurfaceLayerP = new ParamT<double>("contactSurfaceLayer", 0.01, 0);
+@@ -113,6 +116,7 @@
+   ///        deprecation as we switch to nested tags
+   this->quickStepP      = new ParamT<bool>  ("quickStep", false, 0, true, "replace quickStep with stepType");
+   this->quickStepItersP = new ParamT<int>   ("quickStepIters", -1, 0, true, "replace quickStepIters with stepIters");
++  this->quickStepPreconItersP = new ParamT<int>   ("quickStepPreconIters", -1, 0, true, "replace quickStepPreconIters with stepPreconIters");
+   this->quickStepWP     = new ParamT<double>("quickStepW", -1.0, 0, true, "replace quickStepW with stepW");
+ 
+   Param::End();
+@@ -148,6 +152,7 @@
+   delete this->globalERPP;
+   delete this->stepTypeP;
+   delete this->stepItersP;
++  delete this->stepPreconItersP;
+   delete this->stepWP;
+   delete this->contactMaxCorrectingVelP;
+   delete this->contactSurfaceLayerP;
+@@ -159,6 +164,7 @@
+   ///        deprecation as we switch to nested tags
+   delete this->quickStepP;
+   delete this->quickStepItersP;
++  delete this->quickStepPreconItersP;
+   delete this->quickStepWP;
+ }
+ 
+@@ -192,6 +198,7 @@
+   this->globalERPP->Load(cnode);
+   this->stepTypeP->Load(cnode);
+   this->stepItersP->Load(cnode);
++  this->stepPreconItersP->Load(cnode);
+   this->stepWP->Load(cnode);
+   this->contactMaxCorrectingVelP->Load(cnode);
+   this->contactSurfaceLayerP->Load(cnode);
+@@ -203,6 +210,7 @@
+   ///        deprecation as we switch to nested tags
+   this->quickStepP->Load(cnode);
+   this->quickStepItersP->Load(cnode);
++  this->quickStepPreconItersP->Load(cnode);
+   this->quickStepWP->Load(cnode);
+ 
+   // Help prevent "popping of deeply embedded object
+@@ -233,6 +241,7 @@
+   dWorldSetERP(this->worldId, this->globalERPP->GetValue());
+ 
+   dWorldSetQuickStepNumIterations(this->worldId, **this->stepItersP );
++  dWorldSetQuickStepPreconIterations(this->worldId, **this->stepPreconItersP );
+   dWorldSetQuickStepW(this->worldId, **this->stepWP );
+ 
+ 
+@@ -240,6 +249,8 @@
+   ///        deprecation as we switch to nested tags
+   if (this->quickStepItersP->GetValue() > 0) // only set them if specified
+     dWorldSetQuickStepNumIterations(this->worldId, **this->quickStepItersP );
++  if (this->quickStepPreconItersP->GetValue() > 0) // only set them if specified
++    dWorldSetQuickStepPreconIterations(this->worldId, **this->quickStepPreconItersP );
+   if (this->quickStepWP->GetValue() > 0) // only set them if specified
+     dWorldSetQuickStepW(this->worldId, **this->quickStepWP );
+ 
+@@ -265,6 +276,7 @@
+   stream << prefix << "  " << *(this->globalERPP) << "\n";
+   stream << prefix << "  " << *(this->stepTypeP) << "\n";
+   stream << prefix << "  " << *(this->stepItersP) << "\n";
++  stream << prefix << "  " << *(this->stepPreconItersP) << "\n";
+   stream << prefix << "  " << *(this->stepWP) << "\n";
+   stream << prefix << "  " << *(this->contactMaxCorrectingVelP) << "\n";
+   stream << prefix << "  " << *(this->contactSurfaceLayerP) << "\n";
+@@ -272,6 +284,7 @@
+   ///        deprecation as we switch to nested tags
+   stream << prefix << "  " << *(this->quickStepP) << "\n";
+   stream << prefix << "  " << *(this->quickStepItersP) << "\n";
++  stream << prefix << "  " << *(this->quickStepPreconItersP) << "\n";
+   stream << prefix << "  " << *(this->quickStepWP) << "\n";
+   stream << prefix << "</physics:ode>\n";
+ }
+@@ -445,6 +458,10 @@
+       dWorldQuickStep(this->worldId, (**this->stepTimeP).Double());
+     else if (**this->stepTypeP == "world")
+       dWorldStep( this->worldId, (**this->stepTimeP).Double() );
++#ifdef PARALLEL_QUICKSTEP
++    else if (**this->stepTypeP == "parallel_quick")
++      dWorldParallelQuickStep(this->worldId, (**this->stepTimeP).Double());  
++#endif
+     else
+       gzthrow(std::string("Invalid step type[") + **this->stepTypeP);
+ 
+@@ -568,6 +585,14 @@
+ }
+ 
+ ////////////////////////////////////////////////////////////////////////////////
++/// Set the precondition step iterations
++void ODEPhysics::SetSORPGSPreconIters(unsigned int iters)
++{
++  this->stepPreconItersP->SetValue(iters);
++  dWorldSetQuickStepNumIterations(this->worldId, **this->stepPreconItersP );
++}
++
++////////////////////////////////////////////////////////////////////////////////
+ void ODEPhysics::SetSORPGSW(double w)
+ {
+   this->stepWP->SetValue(w);
+Index: server/CMakeLists.txt
+===================================================================
+--- server/CMakeLists.txt	(revision 8967)
++++ server/CMakeLists.txt	(working copy)
+@@ -5,10 +5,12 @@
+ string (REPLACE " " ";" boost_include_dirs_split "${boost_include_dirs}")
+ string (REPLACE " " ";" assimp_include_dirs_split "${assimp_include_dirs}")
+ string (REPLACE " " ";" bullet_include_dirs_split "${bullet_include_dirs}")
++string (REPLACE " " ";" parallel_quickstep_include_dirs_split "${parallel_quickstep_include_dirs}")
+ string (REPLACE " " ";" threadpool_include_dirs_split "${threadpool_include_dirs}")
+ string (REPLACE " " ";" boost_library_dirs_split "${boost_library_dirs}")
+ string (REPLACE " " ";" assimp_library_dirs_split "${assimp_library_dirs}")
+ string (REPLACE " " ";" bullet_library_dirs_split "${bullet_library_dirs}")
++string (REPLACE " " ";" parallel_quickstep_library_dirs_split "${parallel_quickstep_library_dirs}")
+ 
+ 
+ include_directories(
+@@ -35,6 +37,7 @@
+   ${assimp_include_dirs_split}
+   ${freeimage_include_dir}
+   ${bullet_include_dirs_split}
++  ${parallel_quickstep_include_dirs_split}
+   ${threadpool_include_dirs_split}
+   ${FLTK_INCLUDE_DIR}
+ )
+@@ -46,6 +49,7 @@
+  ${boost_library_dirs_split} 
+  ${assimp_library_dirs_split} 
+  ${bullet_library_dirs_split} 
++ ${parallel_quickstep_library_dirs_split} 
+  ${freeimage_library_dir}
+  ${gazeboserver_link_dirs} 
+ )
+@@ -196,8 +200,8 @@
+ endif (INCLUDE_BULLET)
+ 
+ if (INCLUDE_ODE)
+-  target_link_libraries(gazebo_server gazebo_physics_ode ${ODE_LIBRARIES})
+-  target_link_libraries(gazebo-exec gazebo_physics_ode ${ODE_LIBRARIES})
++  target_link_libraries(gazebo_server ${parallel_quickstep_lflags} gazebo_physics_ode ${ODE_LIBRARIES})
++  target_link_libraries(gazebo-exec ${parallel_quickstep_lflags} gazebo_physics_ode ${ODE_LIBRARIES})
+   APPEND_TO_CACHED_LIST(gazeboserver_ldflags 
+                       ${gazeboserver_ldflags_desc} 
+                       -lgazebo_physics_ode)
+Index: server/rendering/OgreCamera.cc
+===================================================================
+--- server/rendering/OgreCamera.cc	(revision 8967)
++++ server/rendering/OgreCamera.cc	(working copy)
+@@ -99,6 +99,8 @@
+   this->origParentNode = NULL;
+ 
+   this->viewController = new FPSViewController(this);
++
++  this->lastRenderTime = Simulator::Instance()->GetSimTime();
+ }
+ 
+ //////////////////////////////////////////////////////////////////////////////
+@@ -438,6 +440,9 @@
+ void OgreCamera::SetFOV( float radians )
+ {
+   this->hfovP->SetValue(radians);
++
++  float vfov = radians * this->imageSizeP->GetValue().y / this->imageSizeP->GetValue().x;
++  if (this->camera) this->camera->setFOVy(Ogre::Radian(vfov));
+ }
+ 
+ 
+Index: server/rendering/OgreCamera.hh
+===================================================================
+--- server/rendering/OgreCamera.hh	(revision 8967)
++++ server/rendering/OgreCamera.hh	(working copy)
+@@ -308,6 +308,7 @@
+ 
+     private: ViewController *viewController;
+ 
++    public: Time GetLastRenderTime() {return this->lastRenderTime;};
+     protected: Time lastRenderTime;
+ 
+   };

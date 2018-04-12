@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/kathleen/catkin_ws/devel/.private/pr2_gripper_action/setup.sh

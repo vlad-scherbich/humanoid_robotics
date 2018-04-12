@@ -1,0 +1,8 @@
+prefix=/home/kathleen/catkin_ws/devel/.private/pr2_position_scripts
+
+Name: pr2_position_scripts
+Description: Description of pr2_position_scripts
+Version: 0.6.0
+Cflags: 
+Libs: -L/home/kathleen/catkin_ws/devel/.private/pr2_position_scripts/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_tuck_arms_action/lib/pkgconfig/pr2_tuck_arms_action.pc

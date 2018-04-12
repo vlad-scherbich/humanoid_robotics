@@ -1,0 +1,8 @@
+prefix=/home/kathleen/catkin_ws/install
+
+Name: pr2_tilt_laser_interface
+Description: Description of pr2_tilt_laser_interface
+Version: 0.0.10
+Cflags: -I/home/kathleen/catkin_ws/install/include
+Libs: -L/home/kathleen/catkin_ws/install/lib 
+Requires: actionlib_msgs pr2_msgs sensor_msgs message_runtime

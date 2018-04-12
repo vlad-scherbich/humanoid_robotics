@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<robot name="pendulum_2dof">
+
+  <joint name="joint1" type="continuous">
+    <parent link="world"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0.4" rpy="1.5708 0 0" />
+    <axis xyz="0 0 1" /> <!-- Shouldn't this be the z axis? -->
+  </joint>
+  <link name="link1">
+    <inertial>
+      <origin xyz="0 0.05 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="100"  ixy="0"  ixz="0" iyy="100" iyz="0" izz="100" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0.05 0" rpy="-1.5708 0 0" />
+      <geometry>
+        <cylinder radius="0.01" length="0.1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0.05 0" rpy="-1.5708 0 0" />
+      <geometry>
+        <cylinder radius="0.01" length="0.1" />
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="link1">
+    <material>Gazebo/Red</material>
+    <turnGravityOff>false</turnGravityOff>
+  </gazebo>
+
+  <joint name="joint2" type="continuous">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0 0.1 0" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <link name="link2">
+    <inertial>
+      <origin xyz="0 0.05 0" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="100"  ixy="0"  ixz="0" iyy="100" iyz="0" izz="100" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0.05 0" rpy="-1.5708 0 0" />
+      <geometry>
+        <cylinder radius="0.01" length="0.1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0.05 0" rpy="-1.5708 0 0" />
+      <geometry>
+        <cylinder radius="0.01" length="0.1" />
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="link2">
+    <material>Gazebo/Blue</material>
+    <turnGravityOff>false</turnGravityOff>
+  </gazebo>
+
+</robot>

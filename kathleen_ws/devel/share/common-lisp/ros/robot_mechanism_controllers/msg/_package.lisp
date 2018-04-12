@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/robot_mechanism_controllers/share/common-lisp/ros/robot_mechanism_controllers/msg/_package.lisp

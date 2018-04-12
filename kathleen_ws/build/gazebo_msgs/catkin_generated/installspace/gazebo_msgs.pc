@@ -1,0 +1,8 @@
+prefix=/home/kathleen/catkin_ws/install
+
+Name: gazebo_msgs
+Description: Description of gazebo_msgs
+Version: 2.5.15
+Cflags: -I/home/kathleen/catkin_ws/install/include
+Libs: -L/home/kathleen/catkin_ws/install/lib 
+Requires: message_runtime std_msgs trajectory_msgs geometry_msgs sensor_msgs std_srvs

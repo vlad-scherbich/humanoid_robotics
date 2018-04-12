@@ -1,0 +1,9 @@
+/**
+@mainpage
+
+@htmlinclude manifest.html
+
+The gazebo_tools package contains:
+ \li URDF to Gazebo XML converter urdf2gazebo::URDF2Gazebo
+ \li Command-line model spawner/converter gazebo_model.cpp
+**/

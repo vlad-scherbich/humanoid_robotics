@@ -1,0 +1,10 @@
+(cl:in-package pr2_mechanism_controllers-msg)
+(cl:export '(VELOCITY-VAL
+          VELOCITY
+          WHEEL_LINK_NAMES-VAL
+          WHEEL_LINK_NAMES
+          DRIVE_CONSTRAINT_ERRORS-VAL
+          DRIVE_CONSTRAINT_ERRORS
+          LONGITUDINAL_SLIP_CONSTRAINT_ERRORS-VAL
+          LONGITUDINAL_SLIP_CONSTRAINT_ERRORS
+))

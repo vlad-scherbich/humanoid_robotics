@@ -1,0 +1,69 @@
+Index: CMakeLists.txt
+===================================================================
+--- CMakeLists.txt	(revision 8861)
++++ CMakeLists.txt	(working copy)
+@@ -10,7 +10,7 @@
+ 
+ set (GAZEBO_MAJOR_VERSION 0)
+ set (GAZEBO_MINOR_VERSION 10)
+-set (GAZEBO_PATCH_VERSION 0)
++set (GAZEBO_PATCH_VERSION 0) # change to 1 for ode damping
+ 
+ set (GAZEBO_VERSION ${GAZEBO_MAJOR_VERSION}.${GAZEBO_MINOR_VERSION}.${GAZEBO_PATCH_VERSION})
+ 
+@@ -101,8 +101,8 @@
+   
+   ########################################
+   # Make the gazebo rc file
+-  configure_file(${CMAKE_SOURCE_DIR}/cmake/gazeborc.cmake ${PROJECT_BINARY_DIR}/.gazeborc @ONLY)
+-  install(FILES ${CMAKE_CURRENT_BINARY_DIR}/.gazeborc DESTINATION $ENV{HOME}/)
++  # configure_file(${CMAKE_SOURCE_DIR}/cmake/gazeborc.cmake ${PROJECT_BINARY_DIR}/.gazeborc @ONLY)
++  # install(FILES ${CMAKE_CURRENT_BINARY_DIR}/.gazeborc DESTINATION $ENV{HOME}/)
+  
+   include_directories(${PROJECT_SOURCE_DIR} ${PROJECT_BINARY_DIR})
+   
+Index: server/GazeboConfig.cc
+===================================================================
+--- server/GazeboConfig.cc	(revision 8861)
++++ server/GazeboConfig.cc	(working copy)
+@@ -51,8 +51,12 @@
+ {
+   std::ifstream cfgFile;
+ 
+-  std::string rcFilename = getenv("HOME");
+-  rcFilename += "/.gazeborc";
++  std::string rcFilename = getenv("GAZEBORC");
++  if (rcFilename.empty())
++  {
++    std::string rcFilename = getenv("HOME");
++    rcFilename += "/.gazeborc";
++  }
+ 
+   cfgFile.open(rcFilename.c_str(), std::ios::in);
+ 
+@@ -104,16 +108,20 @@
+   }
+   else
+   {
+-    gzmsg(0) << "Unable to find the file ~/.gazeborc. Using default paths. This may cause OGRE to fail.\n";
+-
+-    if (!gazebo_resource_path )
++    if (this->gazeboPaths.empty())
+     {
+-      this->gazeboPaths.push_back("/usr/local/share/gazebo");
++      gzmsg(0) << "Unable to find the file ~/.gazeborc. Using default gazebo media paths..\n";
++      this->AddGazeboPaths("/usr/local/share/gazebo");
++    }
++    if (this->pluginPaths.empty())
++    {
++      gzmsg(0) << "Unable to find the file ~/.gazeborc. Using default plugin paths..\n";
+       this->AddPluginPaths("/usr/local/share/gazebo/plugins");
+     }
+ 
+-    if (!ogre_resource_path )
++    if (this->ogrePaths.empty())
+     {
++      gzmsg(0) << "Unable to find the file ~/.gazeborc. Using default ogre paths. This may cause OGRE to fail.\n";
+       this->ogrePaths.push_back("/usr/local/lib/OGRE");
+       this->ogrePaths.push_back("/usr/lib/OGRE");
+     }

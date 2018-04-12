@@ -1,0 +1,51 @@
+Index: cmake/FindOde.cmake
+===================================================================
+--- cmake/FindOde.cmake	(revision 8676)
++++ cmake/FindOde.cmake	(working copy)
+@@ -29,6 +29,7 @@
+       STRING(REGEX REPLACE "[\r\n]" " " ${ODE_LDFLAGS} "${${ODE_LDFLAGS}}")
+         
+       SET(ODE_FOUND ${DETECTED_ODE_VERSION})
++
+     ELSE(NOT ${REQUIRED_ODE_VERSION} VERSION_LESS ${DETECTED_ODE_VERSION} )
+       MESSAGE(STATUS "ode-config reports wrong version (${DETECTED_ODE_VERSION} < ${REQUIRED_ODE_VERSION})")
+     ENDIF(NOT ${REQUIRED_ODE_VERSION} VERSION_LESS ${DETECTED_ODE_VERSION} )
+@@ -63,3 +64,17 @@
+                         ${gazeboserver_ldflags_desc} 
+                         ${ODE_LDFLAGS})
+ ENDIF (NOT ODE_FOUND)
++
++
++# check for ode version with joint damping enabled
++IF (PKG_CONFIG_FOUND)
++  pkg_check_modules(ODE_JOINT_DAMPING ode>=${ODE_JOINT_DAMPING_VERSION})
++ENDIF (PKG_CONFIG_FOUND)
++IF(NOT ODE_JOINT_DAMPING_FOUND)
++    MESSAGE(STATUS "  disabling joint damping in ODE")
++    SET (INCLUDE_ODE_JOINT_DAMPING FALSE CACHE BOOL "support for ODE with joint damping not found")
++ELSE(NOT ODE_JOINT_DAMPING_FOUND)
++    MESSAGE(STATUS "  enabling joint damping in ODE")
++    SET (INCLUDE_ODE_JOINT_DAMPING TRUE CACHE BOOL "Include support for ODE with joint damping")
++ENDIF(NOT ODE_JOINT_DAMPING_FOUND)
++
+Index: config.h.in
+===================================================================
+--- config.h.in	(revision 8676)
++++ config.h.in	(working copy)
+@@ -14,3 +14,4 @@
+ #cmakedefine ENABLE_SHADOWS 1
+ #cmakedefine INCLUDE_BULLET 1
+ #cmakedefine INCLUDE_ODE 1
++#cmakedefine INCLUDE_ODE_JOINT_DAMPING 0
+Index: CMakeLists.txt
+===================================================================
+--- CMakeLists.txt	(revision 8676)
++++ CMakeLists.txt	(working copy)
+@@ -48,6 +48,7 @@
+ set (FREEIMAGE_MINOR_VERSION 9 CACHE INTERNAL "FreeImage minor version requirement" FORCE)
+ set (FREEIMAGE_VERSION ${FREEIMAGE_MAJOR_VERSION}.${FREEIMAGE_MINOR_VERSION}.0 CACHE INTERNAL "FreeImage version requirement" FORCE)
+ set (ODE_VERSION 0.10.1 CACHE INTERNAL "ODE version requirement" FORCE)
++set (ODE_JOINT_DAMPING_VERSION 0.11.1.1 CACHE INTERNAL "ODE version with joint damping" FORCE)
+ set (MIN_BOOST_VERSION 1.35.0 CACHE INTERNAL "Boost min version requirement" FORCE)
+ 
+ set (ENABLE_BINDINGS OFF CACHE BOOL "Enable libgazebo bindings")

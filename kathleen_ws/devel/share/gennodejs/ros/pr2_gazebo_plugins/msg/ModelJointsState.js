@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_gazebo_plugins/share/gennodejs/ros/pr2_gazebo_plugins/msg/ModelJointsState.js

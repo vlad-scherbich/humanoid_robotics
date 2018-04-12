@@ -1,0 +1,34 @@
+Index: include/gazebo_plugins/gazebo_ros_projector.h
+===================================================================
+--- include/gazebo_plugins/gazebo_ros_projector.h	(revision 36327)
++++ include/gazebo_plugins/gazebo_ros_projector.h	(working copy)
+@@ -107,7 +107,7 @@
+ 	//private: Entity *myParent;	
+ 
+   /// \brief A pointer to the body entity
+-  private: Body *myBody;
++  private: Geom *myBody;
+ 	
+   /// \brief A pointer to the ROS node.  A node will be instantiated if it does not exist.
+   private: ros::NodeHandle* rosnode_;
+Index: src/gazebo_ros_projector.cpp
+===================================================================
+--- src/gazebo_ros_projector.cpp	(revision 36327)
++++ src/gazebo_ros_projector.cpp	(working copy)
+@@ -15,6 +15,7 @@
+ 
+ #include <gazebo_plugins/gazebo_ros_projector.h>
+ 
++#include <gazebo/Geom.hh>
+ #include <gazebo/OgreAdaptor.hh>
+ #include <gazebo/OgreVisual.hh>
+ #include <gazebo/Sensor.hh>
+@@ -127,7 +128,7 @@
+   this->farClipDist = this->farClipDistP->GetValue();  
+ 
+   // Verify that the body by bodyName exists
+-  this->myBody = dynamic_cast<Body*>(this->myParent->GetBody(this->bodyName));
++  this->myBody = dynamic_cast<Geom*>(this->myParent->GetGeom(this->bodyName));
+   if (this->myBody == NULL)
+   {
+     ROS_WARN("gazebo_ros_projector plugin error: bodyName: %s does not exist\n",this->bodyName.c_str());

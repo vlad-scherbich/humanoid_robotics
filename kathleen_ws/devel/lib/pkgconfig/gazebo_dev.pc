@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/gazebo_dev/lib/pkgconfig/gazebo_dev.pc

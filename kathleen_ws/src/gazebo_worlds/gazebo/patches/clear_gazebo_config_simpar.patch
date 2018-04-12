@@ -1,0 +1,92 @@
+Index: server/GazeboConfig.cc
+===================================================================
+--- server/GazeboConfig.cc	(revision 8742)
++++ server/GazeboConfig.cc	(working copy)
+@@ -59,15 +59,15 @@
+   std::string delim(":");
+ 
+   char *ogre_resource_path = getenv("OGRE_RESOURCE_PATH");
+-  if(ogre_resource_path) 
++  if(ogrePaths.empty() && ogre_resource_path) 
+     this->AddOgrePaths(std::string(ogre_resource_path));
+ 
+   char *gazebo_resource_path = getenv("GAZEBO_RESOURCE_PATH");
+-  if(gazebo_resource_path) 
++  if(gazeboPaths.empty() && gazebo_resource_path) 
+     this->AddGazeboPaths(std::string(gazebo_resource_path));
+ 
+   char *gazebo_plugin_path = getenv("GAZEBO_PLUGIN_PATH");
+-  if(gazebo_plugin_path) 
++  if(pluginPaths.empty() && gazebo_plugin_path) 
+     this->AddPluginPaths(std::string(gazebo_plugin_path));
+ 
+   if (cfgFile.is_open())
+@@ -77,7 +77,7 @@
+     rc.Load(rcFilename);
+ 
+     // if gazebo path is set, skip reading from .gazeborc
+-    if(!gazebo_resource_path)
++    if(gazeboPaths.empty() && !gazebo_resource_path)
+     {
+       node = rc.GetRootNode()->GetChild("gazeboPath");
+       while (node)
+@@ -90,7 +90,7 @@
+     }
+ 
+     // if ogre path is set, skip reading from .gazeborc
+-    if(!ogre_resource_path)
++    if(ogrePaths.empty() && !ogre_resource_path)
+     {
+       node = rc.GetRootNode()->GetChild("ogrePath");
+       while (node)
+@@ -106,13 +106,13 @@
+   {
+     gzmsg(0) << "Unable to find the file ~/.gazeborc. Using default paths. This may cause OGRE to fail.\n";
+ 
+-    if ( !gazebo_resource_path )
++    if (gazeboPaths.empty() &&  !gazebo_resource_path )
+     {
+       this->gazeboPaths.push_back("/usr/local/share/gazebo");
+       this->AddPluginPaths("/usr/local/share/gazebo/plugins");
+     }
+ 
+-    if ( !ogre_resource_path )
++    if (ogrePaths.empty() &&  !ogre_resource_path )
+     {
+       this->ogrePaths.push_back("/usr/local/lib/OGRE");
+       this->ogrePaths.push_back("/usr/lib/OGRE");
+@@ -136,6 +136,19 @@
+   return this->pluginPaths;
+ }
+ 
++void GazeboConfig::ClearGazeboPaths()
++{
++  this->gazeboPaths.clear();
++}
++void GazeboConfig::ClearOgrePaths()
++{
++  this->ogrePaths.clear();
++}
++void GazeboConfig::ClearPluginPaths()
++{
++  this->pluginPaths.clear();
++}
++
+ void GazeboConfig::AddGazeboPaths(std::string gazebo_resource_path)
+ {
+   std::string delim(":");
+Index: server/GazeboConfig.hh
+===================================================================
+--- server/GazeboConfig.hh	(revision 8742)
++++ server/GazeboConfig.hh	(working copy)
+@@ -65,6 +65,10 @@
+     /// \brief Add colon delimited paths to plugins
+     public: void AddPluginPaths(std::string path);
+  
++    public: void ClearGazeboPaths();
++    public: void ClearOgrePaths();
++    public: void ClearPluginPaths();
++
+     /// Paths gazebo install
+     private: std::list<std::string> gazeboPaths;
+     

@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_gazebo_plugins/lib/pkgconfig/pr2_gazebo_plugins.pc

@@ -1,0 +1,60 @@
+In file included from [01m[K/usr/include/gazebo-7/gazebo/physics/Entity.hh:30:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Model.hh:34[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Actor.hh:24[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/physics.hh:2[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ft_sensor.h:30[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_ft_sensor.cpp:23[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/msgs/msgs.hh:24:37:[m[K [01;31m[Kfatal error: [m[Kignition/math/Inertial.hh: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/gazebo_ros_ft_sensor.dir/src/gazebo_ros_ft_sensor.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gazebo_ros_ft_sensor.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/usr/include/gazebo-7/gazebo/physics/Entity.hh:30:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Model.hh:34[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Actor.hh:24[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/physics.hh:2[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_template.h:28[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_template.cpp:41[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/msgs/msgs.hh:24:37:[m[K [01;31m[Kfatal error: [m[Kignition/math/Inertial.hh: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/gazebo_ros_template.dir/src/gazebo_ros_template.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gazebo_ros_template.dir/all] Error 2
+In file included from [01m[K/usr/include/gazebo-7/gazebo/physics/Entity.hh:30:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Model.hh:34[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Actor.hh:24[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/physics.hh:2[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_vacuum_gripper.h:38[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_vacuum_gripper.cpp:28[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/msgs/msgs.hh:24:37:[m[K [01;31m[Kfatal error: [m[Kignition/math/Inertial.hh: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/gazebo_ros_vacuum_gripper.dir/src/gazebo_ros_vacuum_gripper.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gazebo_ros_vacuum_gripper.dir/all] Error 2
+In file included from [01m[K/usr/include/gazebo-7/gazebo/physics/Entity.hh:30:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Model.hh:34[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Actor.hh:24[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/physics.hh:2[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_utils.h:40[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_utils.cpp:35[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/msgs/msgs.hh:24:37:[m[K [01;31m[Kfatal error: [m[Kignition/math/Inertial.hh: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/gazebo_ros_utils.dir/src/gazebo_ros_utils.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gazebo_ros_utils.dir/all] Error 2
+In file included from [01m[K/usr/include/gazebo-7/gazebo/physics/Entity.hh:30:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Model.hh:34[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/Actor.hh:24[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/physics/physics.hh:2[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_planar_move.h:33[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_planar_move.cpp:25[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/msgs/msgs.hh:24:37:[m[K [01;31m[Kfatal error: [m[Kignition/math/Inertial.hh: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/gazebo_ros_planar_move.dir/src/gazebo_ros_planar_move.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gazebo_ros_planar_move.dir/all] Error 2
+In file included from [01m[K/usr/include/gazebo-7/gazebo/rendering/Camera.hh:36:0[m[K,
+                 from [01m[K/usr/include/gazebo-7/gazebo/rendering/rendering.hh:5[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/gazebo_plugins/gazebo_ros_video.h:39[m[K,
+                 from [01m[K/home/kathleen/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/src/gazebo_ros_video.cpp:24[m[K:
+[01m[K/usr/include/gazebo-7/gazebo/msgs/msgs.hh:24:37:[m[K [01;31m[Kfatal error: [m[Kignition/math/Inertial.hh: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/gazebo_ros_video.dir/src/gazebo_ros_video.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gazebo_ros_video.dir/all] Error 2
+make: *** [all] Error 2

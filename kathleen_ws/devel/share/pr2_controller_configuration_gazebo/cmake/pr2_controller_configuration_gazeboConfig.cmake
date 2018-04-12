@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_controller_configuration_gazebo/share/pr2_controller_configuration_gazebo/cmake/pr2_controller_configuration_gazeboConfig.cmake

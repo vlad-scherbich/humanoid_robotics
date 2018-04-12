@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_tuckarm/share/pr2_tuckarm/cmake/pr2_tuckarmConfig.cmake

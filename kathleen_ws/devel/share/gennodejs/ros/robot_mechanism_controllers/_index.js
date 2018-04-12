@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/robot_mechanism_controllers/share/gennodejs/ros/robot_mechanism_controllers/_index.js

@@ -1,0 +1,8 @@
+prefix=/home/kathleen/catkin_ws/install
+
+Name: pr2_controllers_msgs
+Description: Description of pr2_controllers_msgs
+Version: 1.10.14
+Cflags: -I/home/kathleen/catkin_ws/install/include
+Libs: -L/home/kathleen/catkin_ws/install/lib 
+Requires: actionlib_msgs trajectory_msgs geometry_msgs message_runtime

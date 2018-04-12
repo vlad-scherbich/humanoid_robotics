@@ -1,0 +1,6 @@
+Symlinking /home/kathleen/catkin_ws/devel/share/pr2_teleop_general/cmake/pr2_teleop_generalConfig.cmake
+Symlinking /home/kathleen/catkin_ws/devel/share/pr2_teleop_general/cmake/pr2_teleop_generalConfig-version.cmake
+Symlinking /home/kathleen/catkin_ws/devel/lib/libpr2_teleop_general_commander.so
+Symlinking /home/kathleen/catkin_ws/devel/lib/pkgconfig/pr2_teleop_general.pc
+Symlinking /home/kathleen/catkin_ws/devel/lib/pr2_teleop_general/pr2_teleop_general_joystick
+Symlinking /home/kathleen/catkin_ws/devel/lib/pr2_teleop_general/pr2_teleop_general_keyboard

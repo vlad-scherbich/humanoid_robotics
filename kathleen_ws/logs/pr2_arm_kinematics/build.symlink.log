@@ -1,0 +1,5 @@
+Symlinking /home/kathleen/catkin_ws/devel/share/pr2_arm_kinematics/cmake/pr2_arm_kinematicsConfig-version.cmake
+Symlinking /home/kathleen/catkin_ws/devel/share/pr2_arm_kinematics/cmake/pr2_arm_kinematicsConfig.cmake
+Symlinking /home/kathleen/catkin_ws/devel/lib/libpr2_arm_kinematics_lib.so
+Symlinking /home/kathleen/catkin_ws/devel/lib/pr2_arm_kinematics/pr2_arm_kinematics_node
+Symlinking /home/kathleen/catkin_ws/devel/lib/pkgconfig/pr2_arm_kinematics.pc

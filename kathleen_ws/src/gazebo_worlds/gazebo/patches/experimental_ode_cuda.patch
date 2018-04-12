@@ -1,0 +1,179 @@
+Index: libgazebo/gz.h
+===================================================================
+--- libgazebo/gz.h	(revision 8854)
++++ libgazebo/gz.h	(working copy)
+@@ -1290,7 +1290,7 @@
+   public: GazeboData head;
+ 
+   /// String describing the model to be initiated
+-  public: uint8_t newModel[409600];
++  public: uint8_t newModel[40960000];
+ 
+   /// Delete an entity by name
+   public: uint8_t deleteEntity[512];
+Index: cmake/SearchForStuff.cmake
+===================================================================
+--- cmake/SearchForStuff.cmake	(revision 8824)
++++ cmake/SearchForStuff.cmake	(working copy)
+@@ -20,6 +20,11 @@
+ set (bullet_lflags "" CACHE STRING "Bullet lflags Use this to override automatic detection.")
+ set (bullet_cflags "-DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX" CACHE STRING "Bullet Dynamics C compile flags exported by rospack.")
+ 
++set (cuda_include_dirs "" CACHE STRING "CUDA include paths. Use this to override automatic detection.")
++set (cuda_library_dirs "" CACHE STRING "CUDA library paths. Use this to override automatic detection.")
++set (cuda_lflags "" CACHE STRING "CUDA lflags Use this to override automatic detection.")
++set (cuda_cflags "" CACHE STRING "CUDA cflags Use this to override automatic detection.")
++
+ set (threadpool_include_dirs "" CACHE STRING "Threadpool include paths. Use this to override automatic detection.")
+ 
+ SET (gazebo_lflags "" CACHE STRING "Linker flags such as rpath for gazebo executable.")
+@@ -571,4 +576,9 @@
+   endif (NOT BULLET_DOUBLE_PRECISION)
+ endif (INCLUDE_BULLET)
+ 
+-
++STRING(REPLACE " " ";" cuda_include_dirs_split "${cuda_include_dirs}")
++STRING(REPLACE " " ";" cuda_library_dirs_split "${cuda_library_dirs}")
++set( CMAKE_REQUIRED_INCLUDES ${cuda_include_dirs_split} )
++set( CMAKE_REQUIRED_LIBRARIES parallel_quickstep )
++set( CMAKE_REQUIRED_FLAGS  ${cuda_lflags} )
++ 
+\ No newline at end of file
+Index: server/physics/ode/ODEPhysics.hh
+===================================================================
+--- server/physics/ode/ODEPhysics.hh	(revision 8824)
++++ server/physics/ode/ODEPhysics.hh	(working copy)
+@@ -28,6 +28,7 @@
+ #define ODEPHYSICS_HH
+ 
+ #include <ode/ode.h>
++#include <parallel_quickstep/parallel_quickstep.h>
+ 
+ #include "Param.hh"
+ #include "PhysicsEngine.hh"
+Index: server/physics/ode/CMakeLists.txt
+===================================================================
+--- server/physics/ode/CMakeLists.txt	(revision 8824)
++++ server/physics/ode/CMakeLists.txt	(working copy)
+@@ -1,5 +1,14 @@
+ include (${gazebo_cmake_dir}/GazeboUtils.cmake)
+ 
++include_directories(
++  ${cuda_include_dirs_split}
++)
++
++link_directories(
++ ${cuda_library_dirs_split} 
++)
++
++
+ SET (sources ODEPhysics.cc
+              ODEGeom.cc
+              ODEBody.cc
+@@ -41,6 +50,7 @@
+ 
+ LIST_TO_STRING(MY_ODE_CFLAGS "${ODE_CFLAGS}")
+ 
+-set_target_properties(gazebo_physics_ode PROPERTIES COMPILE_FLAGS "-fPIC ${MY_ODE_CFLAGS}")
+-target_link_libraries( gazebo_physics_ode ${ODE_LIBRARIES})
++add_definitions(${cuda_cflags})
++set_target_properties( gazebo_physics_ode PROPERTIES COMPILE_FLAGS "-fPIC ${MY_ODE_CFLAGS}" )
++target_link_libraries( gazebo_physics_ode ${ODE_LIBRARIES} ${cuda_lflags} )
+ install ( TARGETS gazebo_physics_ode DESTINATION ${CMAKE_INSTALL_PREFIX}/lib )
+Index: server/physics/ode/ODEPhysics.cc
+===================================================================
+--- server/physics/ode/ODEPhysics.cc	(revision 8824)
++++ server/physics/ode/ODEPhysics.cc	(working copy)
+@@ -362,6 +362,8 @@
+     dWorldQuickStep(this->worldId, (**this->stepTimeP).Double());
+   else if (**this->stepTypeP == "world")
+     dWorldStep( this->worldId, (**this->stepTimeP).Double() );
++  else if (**this->stepTypeP == "parallel_quick")
++    dWorldParallelQuickStep(this->worldId, (**this->stepTimeP).Double());  
+   else
+     gzthrow(std::string("Invalid step type[") + **this->stepTypeP);
+ 
+Index: server/CMakeLists.txt
+===================================================================
+--- server/CMakeLists.txt	(revision 8824)
++++ server/CMakeLists.txt	(working copy)
+@@ -5,10 +5,12 @@
+ string (REPLACE " " ";" boost_include_dirs_split "${boost_include_dirs}")
+ string (REPLACE " " ";" assimp_include_dirs_split "${assimp_include_dirs}")
+ string (REPLACE " " ";" bullet_include_dirs_split "${bullet_include_dirs}")
++string (REPLACE " " ";" cuda_include_dirs_split "${cuda_include_dirs}")
+ string (REPLACE " " ";" threadpool_include_dirs_split "${threadpool_include_dirs}")
+ string (REPLACE " " ";" boost_library_dirs_split "${boost_library_dirs}")
+ string (REPLACE " " ";" assimp_library_dirs_split "${assimp_library_dirs}")
+ string (REPLACE " " ";" bullet_library_dirs_split "${bullet_library_dirs}")
++string (REPLACE " " ";" cuda_library_dirs_split "${cuda_library_dirs}")
+ 
+ 
+ include_directories(
+@@ -35,6 +37,7 @@
+   ${assimp_include_dirs_split}
+   ${freeimage_include_dir}
+   ${bullet_include_dirs_split}
++  ${cuda_include_dirs_split}
+   ${threadpool_include_dirs_split}
+   ${FLTK_INCLUDE_DIR}
+ )
+@@ -46,6 +49,7 @@
+  ${boost_library_dirs_split} 
+  ${assimp_library_dirs_split} 
+  ${bullet_library_dirs_split} 
++ ${cuda_library_dirs_split} 
+  ${freeimage_library_dir}
+  ${gazeboserver_link_dirs} 
+ )
+@@ -196,8 +200,8 @@
+ endif (INCLUDE_BULLET)
+ 
+ if (INCLUDE_ODE)
+-  target_link_libraries(gazebo_server gazebo_physics_ode ${ODE_LIBRARIES})
+-  target_link_libraries(gazebo-exec gazebo_physics_ode ${ODE_LIBRARIES})
++  target_link_libraries(gazebo_server ${cuda_lflags} gazebo_physics_ode ${ODE_LIBRARIES})
++  target_link_libraries(gazebo-exec ${cuda_lflags} gazebo_physics_ode ${ODE_LIBRARIES})
+   APPEND_TO_CACHED_LIST(gazeboserver_ldflags 
+                       ${gazeboserver_ldflags_desc} 
+                       -lgazebo_physics_ode)
+Index: server/physics/CMakeLists.txt
+===================================================================
+--- server/physics/CMakeLists.txt	(revision 8824)
++++ server/physics/CMakeLists.txt	(working copy)
+@@ -1,5 +1,19 @@
+ include (${gazebo_cmake_dir}/GazeboUtils.cmake)
+ 
++
++STRING (REPLACE " " ";" cuda_include_dirs_split "${cuda_include_dirs}")
++STRING (REPLACE " " ";" cuda_library_dirs_split "${cuda_library_dirs}")
++
++INCLUDE_DIRECTORIES(
++  ${CMAKE_SOURCE_DIR}/libgazebo 
++  ${cuda_include_dirs_split}
++)
++
++LINK_DIRECTORIES(  
++ ${CMAKE_BINARY_DIR}/libgazebo 
++ ${cuda_library_dirs_split} 
++)
++
+ if (INCLUDE_ODE)
+   add_subdirectory(ode)
+ endif (INCLUDE_ODE)
+@@ -55,12 +69,11 @@
+ )
+ 
+ add_library(gazebo_physics SHARED ${sources})
++target_link_libraries(gazebo_physics parallel_quickstep ${LINK_LIBS} )
+ 
+ if (CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE})
+-  set_source_files_properties(${sources} PROPERTIES LINK_FLAGS 
+-    ${CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE}})
+-  set_target_properties(gazebo_physics PROPERTIES LINK_FLAGS 
+-    ${CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE}})
++  set_source_files_properties(${sources} PROPERTIES LINK_FLAGS ${CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE}})
++  set_target_properties(gazebo_physics PROPERTIES LINK_FLAGS ${CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE}} ${cuda_lflags})
+ endif (CMAKE_LINK_FLAGS_${CMAKE_BUILD_TYPE})
+ 
+ install ( TARGETS gazebo_physics DESTINATION ${CMAKE_INSTALL_PREFIX}/lib )

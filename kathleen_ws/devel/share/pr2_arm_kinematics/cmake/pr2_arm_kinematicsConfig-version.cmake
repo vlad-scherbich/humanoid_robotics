@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_arm_kinematics/share/pr2_arm_kinematics/cmake/pr2_arm_kinematicsConfig-version.cmake

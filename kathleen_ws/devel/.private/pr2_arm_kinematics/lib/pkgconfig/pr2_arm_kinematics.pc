@@ -1,0 +1,8 @@
+prefix=/home/kathleen/catkin_ws/devel/.private/pr2_arm_kinematics
+
+Name: pr2_arm_kinematics
+Description: Description of pr2_arm_kinematics
+Version: 1.0.9
+Cflags: -I/home/kathleen/catkin_ws/src/pr2_kinematics/pr2_arm_kinematics/include
+Libs: -L/home/kathleen/catkin_ws/devel/.private/pr2_arm_kinematics/lib -lpr2_arm_kinematics_lib
+Requires: roscpp angles tf_conversions urdf geometry_msgs kdl_parser moveit_msgs pluginlib moveit_core

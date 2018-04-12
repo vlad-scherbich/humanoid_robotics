@@ -1,0 +1,82 @@
+Index: server/physics/ode/ODEPhysics.cc
+===================================================================
+--- server/physics/ode/ODEPhysics.cc	(revision 8861)
++++ server/physics/ode/ODEPhysics.cc	(working copy)
+@@ -88,6 +88,14 @@
+   dWorldSetAutoDisableSteps(this->worldId, 50);
+ 
+   Param::Begin(&this->parameters);
++
++  /// experimental ode stuff
++  this->islandThreadsP = new ParamT<int>("islandThreads",0,0); // number of thread pool threads for islands
++  this->quickstepThreadsP = new ParamT<int>("quickstepThreads",0,0); // number of thread pool threads for quickstep
++  this->quickstepChunksP = new ParamT<int>("quickstepChunks",1,0); // number of thread pool threads for islands
++  this->quickstepOverlapP = new ParamT<int>("quickstepOverlap",0,0); // number of thread pool threads for islands
++  this->quickstepToleranceP = new ParamT<double>("quickstepTolerance",0,0); // number of thread pool threads for islands
++
+   this->globalCFMP = new ParamT<double>("cfm", 10e-5, 0);
+   this->globalERPP = new ParamT<double>("erp", 0.2, 0);
+   this->stepTypeP = new ParamT<std::string>("stepType", "quick", 0);
+@@ -118,6 +133,13 @@
+   this->spaceId = NULL;
+   this->worldId = NULL;
+ 
++  /// experimental ode stuff
++  delete this->islandThreadsP;
++  delete this->quickstepThreadsP;
++  delete this->quickstepChunksP;
++  delete this->quickstepOverlapP;
++  delete this->quickstepToleranceP;
++
+   delete this->globalCFMP;
+   delete this->globalERPP;
+   delete this->stepTypeP;
+@@ -139,6 +167,18 @@
+   if (node)
+     cnode = node->GetChild("ode", "physics");
+ 
++  /// experimental ode stuff
++  this->islandThreadsP->Load(cnode);
++  this->quickstepThreadsP->Load(cnode);
++  this->quickstepChunksP->Load(cnode);
++  this->quickstepOverlapP->Load(cnode);
++  this->quickstepToleranceP->Load(cnode);
++  dWorldSetIslandThreads(this->worldId, this->islandThreadsP->GetValue() );
++  dWorldSetQuickstepThreads(this->worldId, this->quickstepThreadsP->GetValue() );
++  dWorldSetQuickStepNumChunks(this->worldId, this->quickstepChunksP->GetValue() );
++  dWorldSetQuickStepNumOverlap(this->worldId, this->quickstepOverlapP->GetValue() );
++  dWorldSetQuickStepTolerance(this->worldId, this->quickstepToleranceP->GetValue() );
++ 
+   this->gravityP->Load(cnode);
+   this->stepTimeP->Load(cnode);
+   this->updateRateP->Load(cnode);
+@@ -189,6 +244,10 @@
+ void ODEPhysics::Save(std::string &prefix, std::ostream &stream)
+ {
+   stream << prefix << "<physics:ode>\n";
++  stream << prefix << "  " << *(this->quickstepThreadsP) << "\n";
++  stream << prefix << "  " << *(this->quickstepChunksP) << "\n";
++  stream << prefix << "  " << *(this->quickstepOverlapP) << "\n";
++  stream << prefix << "  " << *(this->quickstepToleranceP) << "\n";
+   stream << prefix << "  " << *(this->stepTimeP) << "\n";
+   stream << prefix << "  " << *(this->gravityP) << "\n";
+   stream << prefix << "  " << *(this->updateRateP) << "\n";
+Index: server/physics/ode/ODEPhysics.hh
+===================================================================
+--- server/physics/ode/ODEPhysics.hh	(revision 8861)
++++ server/physics/ode/ODEPhysics.hh	(working copy)
+@@ -212,6 +218,14 @@
+   private: std::map<std::string, dSpaceID> spaces;
+ 
+   private: std::vector<dContactGeom> contactGeoms;
++
++  /// experimental ode stuff
++  private: ParamT<int>    *islandThreadsP; // number of thread pool threads for islands
++  private: ParamT<int>    *quickstepThreadsP; // number of thread pool threads for quickstep
++  private: ParamT<int>    *quickstepChunksP; // number of thread pool threads for islands
++  private: ParamT<int>    *quickstepOverlapP; // number of thread pool threads for islands
++  private: ParamT<double> *quickstepToleranceP; // number of thread pool threads for islands
++
+ };
+ 
+ /** \}*/

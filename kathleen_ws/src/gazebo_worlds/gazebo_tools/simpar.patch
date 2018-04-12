@@ -1,0 +1,52 @@
+Index: src/spawn_gazebo_model.cpp
+===================================================================
+--- src/spawn_gazebo_model.cpp	(revision 29596)
++++ src/spawn_gazebo_model.cpp	(working copy)
+@@ -62,8 +62,8 @@
+ {
+ 
+   // connect to gazebo
+-  gazebo::Client *client = new gazebo::Client();
+-  gazebo::FactoryIface *factoryIface = new gazebo::FactoryIface();
++  libgazebo::Client *client = new libgazebo::Client();
++  libgazebo::FactoryIface *factoryIface = new libgazebo::FactoryIface();
+ 
+   int serverId = 0;
+ 
+@@ -114,8 +114,8 @@
+ void spawn_model(TiXmlDocument gazebo_model_xml)
+ {
+   //  Connect to Gazebo Iface Server and upload to Factory Iface
+-  gazebo::Client *client = new gazebo::Client();
+-  gazebo::FactoryIface *factoryIface = new gazebo::FactoryIface();
++  libgazebo::Client *client = new libgazebo::Client();
++  libgazebo::FactoryIface *factoryIface = new libgazebo::FactoryIface();
+ 
+   int serverId = 0;
+ 
+Index: src/gazebo_model.cpp
+===================================================================
+--- src/gazebo_model.cpp	(revision 29596)
++++ src/gazebo_model.cpp	(working copy)
+@@ -62,8 +62,8 @@
+ {
+ 
+   // connect to gazebo
+-  gazebo::Client *client = new gazebo::Client();
+-  gazebo::FactoryIface *factoryIface = new gazebo::FactoryIface();
++  libgazebo::Client *client = new libgazebo::Client();
++  libgazebo::FactoryIface *factoryIface = new libgazebo::FactoryIface();
+ 
+   int serverId = 0;
+ 
+@@ -114,8 +114,8 @@
+ void spawn_model(TiXmlDocument gazebo_model_xml)
+ {
+   //  Connect to Gazebo Iface Server and upload to Factory Iface
+-  gazebo::Client *client = new gazebo::Client();
+-  gazebo::FactoryIface *factoryIface = new gazebo::FactoryIface();
++  libgazebo::Client *client = new libgazebo::Client();
++  libgazebo::FactoryIface *factoryIface = new libgazebo::FactoryIface();
+ 
+   int serverId = 0;
+ 

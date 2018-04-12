@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/ethercat_trigger_controllers/share/roseus/ros/ethercat_trigger_controllers/srv/SetWaveform.l

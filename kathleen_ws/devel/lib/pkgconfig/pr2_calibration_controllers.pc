@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_calibration_controllers/lib/pkgconfig/pr2_calibration_controllers.pc

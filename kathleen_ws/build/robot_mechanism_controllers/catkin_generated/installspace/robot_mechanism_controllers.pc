@@ -1,0 +1,8 @@
+prefix=/home/kathleen/catkin_ws/install
+
+Name: robot_mechanism_controllers
+Description: Description of robot_mechanism_controllers
+Version: 1.10.14
+Cflags: -I/home/kathleen/catkin_ws/install/include
+Libs: -L/home/kathleen/catkin_ws/install/lib -lrobot_mechanism_controllers
+Requires: roscpp angles filters tf tf_conversions eigen_conversions pluginlib actionlib std_msgs geometry_msgs diagnostic_msgs trajectory_msgs pr2_controllers_msgs pr2_controller_interface pr2_controller_manager kdl_parser pr2_mechanism_model control_toolbox realtime_tools message_filters control_msgs message_runtime

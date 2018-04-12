@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target pr2_gripper_action[0m
+[35m[1mScanning dependencies of target pr2_gripper_action_xacro_generated_to_devel_space_[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pr2_gripper_action.dir/src/pr2_gripper_action.cpp.o[0m
+[ 50%] Built target pr2_gripper_action_xacro_generated_to_devel_space_
+[100%] [32m[1mLinking CXX executable /home/kathleen/catkin_ws/devel/.private/pr2_gripper_action/lib/pr2_gripper_action/pr2_gripper_action[0m
+[100%] Built target pr2_gripper_action

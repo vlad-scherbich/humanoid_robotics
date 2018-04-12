@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_app_manager/share/pr2_app_manager/cmake/pr2_app_managerConfig-version.cmake

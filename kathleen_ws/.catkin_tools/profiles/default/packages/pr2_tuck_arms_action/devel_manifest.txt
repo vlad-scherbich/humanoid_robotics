@@ -1,0 +1,6 @@
+pr2_common_actions/pr2_tuck_arms_action
+/home/kathleen/catkin_ws/devel/.private/pr2_tuck_arms_action/share/pr2_tuck_arms_action/cmake/pr2_tuck_arms_actionConfig-version.cmake /home/kathleen/catkin_ws/devel/share/pr2_tuck_arms_action/cmake/pr2_tuck_arms_actionConfig-version.cmake
+/home/kathleen/catkin_ws/devel/.private/pr2_tuck_arms_action/share/pr2_tuck_arms_action/cmake/pr2_tuck_arms_actionConfig.cmake /home/kathleen/catkin_ws/devel/share/pr2_tuck_arms_action/cmake/pr2_tuck_arms_actionConfig.cmake
+/home/kathleen/catkin_ws/devel/.private/pr2_tuck_arms_action/lib/pkgconfig/pr2_tuck_arms_action.pc /home/kathleen/catkin_ws/devel/lib/pkgconfig/pr2_tuck_arms_action.pc
+/home/kathleen/catkin_ws/devel/.private/pr2_tuck_arms_action/lib/python2.7/dist-packages/pr2_tuck_arms_action/__init__.py /home/kathleen/catkin_ws/devel/lib/python2.7/dist-packages/pr2_tuck_arms_action/__init__.py
+/home/kathleen/catkin_ws/devel/.private/pr2_tuck_arms_action/bin/tuck_arms.py /home/kathleen/catkin_ws/devel/bin/tuck_arms.py

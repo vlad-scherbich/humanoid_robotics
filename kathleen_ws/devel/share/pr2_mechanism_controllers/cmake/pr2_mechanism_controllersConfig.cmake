@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_mechanism_controllers/share/pr2_mechanism_controllers/cmake/pr2_mechanism_controllersConfig.cmake

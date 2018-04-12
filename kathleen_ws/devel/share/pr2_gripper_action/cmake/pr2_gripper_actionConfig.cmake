@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_gripper_action/share/pr2_gripper_action/cmake/pr2_gripper_actionConfig.cmake

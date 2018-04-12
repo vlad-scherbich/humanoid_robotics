@@ -1,0 +1,6 @@
+set(pr2_tuck_arms_action_SETUP_PY_VERSION "0.0.10")
+set(pr2_tuck_arms_action_SETUP_PY_SCRIPTS "scripts/tuck_arms.py")
+set(pr2_tuck_arms_action_SETUP_PY_PACKAGES "pr2_tuck_arms_action")
+set(pr2_tuck_arms_action_SETUP_PY_PACKAGE_DIRS "src/pr2_tuck_arms_action")
+set(pr2_tuck_arms_action_SETUP_PY_MODULES "")
+set(pr2_tuck_arms_action_SETUP_PY_MODULE_DIRS "")

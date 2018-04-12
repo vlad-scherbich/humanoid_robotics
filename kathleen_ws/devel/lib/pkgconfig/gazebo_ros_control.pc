@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/gazebo_ros_control/lib/pkgconfig/gazebo_ros_control.pc

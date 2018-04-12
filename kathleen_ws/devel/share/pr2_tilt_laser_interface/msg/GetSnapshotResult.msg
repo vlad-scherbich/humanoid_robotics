@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/pr2_tilt_laser_interface/share/pr2_tilt_laser_interface/msg/GetSnapshotResult.msg

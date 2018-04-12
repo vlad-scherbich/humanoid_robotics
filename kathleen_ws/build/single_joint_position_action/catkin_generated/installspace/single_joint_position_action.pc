@@ -1,0 +1,8 @@
+prefix=/home/kathleen/catkin_ws/install
+
+Name: single_joint_position_action
+Description: Description of single_joint_position_action
+Version: 1.10.14
+Cflags: 
+Libs: -L/home/kathleen/catkin_ws/install/lib 
+Requires: 

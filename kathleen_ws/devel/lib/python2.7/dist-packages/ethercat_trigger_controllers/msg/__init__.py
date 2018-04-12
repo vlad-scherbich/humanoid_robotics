@@ -1,0 +1,1 @@
+/home/kathleen/catkin_ws/devel/.private/ethercat_trigger_controllers/lib/python2.7/dist-packages/ethercat_trigger_controllers/msg/__init__.py
