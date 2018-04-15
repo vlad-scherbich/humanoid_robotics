@@ -1,1 +1,0 @@
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig.cmake

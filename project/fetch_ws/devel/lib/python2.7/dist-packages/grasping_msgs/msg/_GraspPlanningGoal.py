@@ -1,1 +1,0 @@
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/lib/python2.7/dist-packages/grasping_msgs/msg/_GraspPlanningGoal.py
