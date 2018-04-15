@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target fetch_arm_moveit_ikfast_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fetch_arm_moveit_ikfast_plugin.dir/src/fetch_arm_ikfast_moveit_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/kathleen/fetch_ws/devel/.private/fetch_ikfast_plugin/lib/libfetch_arm_moveit_ikfast_plugin.so[0m
+[100%] Built target fetch_arm_moveit_ikfast_plugin

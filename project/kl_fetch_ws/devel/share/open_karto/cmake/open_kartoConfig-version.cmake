@@ -1,0 +1,1 @@
+/home/kathleen/fetch_ws/devel/.private/open_karto/share/open_karto/cmake/open_kartoConfig-version.cmake

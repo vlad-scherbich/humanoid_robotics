@@ -1,0 +1,8 @@
+# generated from catkin/cmake/template/pkg.context.pc.in
+CATKIN_PACKAGE_PREFIX = ""
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/include;/usr/include".split(';') if "/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/include;/usr/include" != "" else []
+PROJECT_CATKIN_DEPENDS = "actionlib;pluginlib;roscpp;robot_controllers_msgs".replace(';', ' ')
+PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lrobot_controllers_interface;/usr/lib/x86_64-linux-gnu/libboost_system.so".split(';') if "-lrobot_controllers_interface;/usr/lib/x86_64-linux-gnu/libboost_system.so" != "" else []
+PROJECT_NAME = "robot_controllers_interface"
+PROJECT_SPACE_DIR = "/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface"
+PROJECT_VERSION = "0.5.3"

@@ -1,0 +1,4 @@
+Symlinking /home/kathleen/fetch_ws/devel/share/robot_controllers_interface/cmake/robot_controllers_interfaceConfig-version.cmake
+Symlinking /home/kathleen/fetch_ws/devel/share/robot_controllers_interface/cmake/robot_controllers_interfaceConfig.cmake
+Symlinking /home/kathleen/fetch_ws/devel/lib/librobot_controllers_interface.so
+Symlinking /home/kathleen/fetch_ws/devel/lib/pkgconfig/robot_controllers_interface.pc

@@ -1,0 +1,8 @@
+prefix=/home/kathleen/fetch_ws/devel/.private/chomp_motion_planner
+
+Name: chomp_motion_planner
+Description: Description of chomp_motion_planner
+Version: 0.9.11
+Cflags: -I/home/kathleen/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/include
+Libs: -L/home/kathleen/fetch_ws/devel/.private/chomp_motion_planner/lib -lchomp_motion_planner
+Requires: 
