@@ -3,3 +3,8 @@
 .*~
 .txt~
 .*.*.swp
+setup.bash
+build/*
+devel/*
+logs/*
+

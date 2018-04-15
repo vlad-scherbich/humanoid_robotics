@@ -1,1 +1,0 @@
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/share/robot_controllers_msgs/msg/QueryControllerStatesFeedback.msg

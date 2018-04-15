@@ -1,1 +1,0 @@
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/share/gennodejs/ros/robot_controllers_msgs/_index.js

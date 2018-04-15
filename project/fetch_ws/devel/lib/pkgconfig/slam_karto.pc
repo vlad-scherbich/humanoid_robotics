@@ -1,1 +1,0 @@
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/pkgconfig/slam_karto.pc
