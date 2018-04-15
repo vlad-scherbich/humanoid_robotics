@@ -1,0 +1,4 @@
+Symlinking /home/kathleen/fetch_ws/devel/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig.cmake
+Symlinking /home/kathleen/fetch_ws/devel/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig-version.cmake
+Symlinking /home/kathleen/fetch_ws/devel/lib/libsba.so
+Symlinking /home/kathleen/fetch_ws/devel/lib/pkgconfig/sparse_bundle_adjustment.pc

@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target slam_karto[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto[0m
+[100%] Built target slam_karto

@@ -1,0 +1,4 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library /home/kathleen/fetch_ws/devel/.private/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so[0m
+[100%] Built target moveit_robot_interaction

@@ -1,0 +1,1 @@
+/home/kathleen/fetch_ws/devel/.private/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig.cmake

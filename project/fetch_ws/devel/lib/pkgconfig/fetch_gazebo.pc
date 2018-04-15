@@ -1,0 +1,1 @@
+/home/kathleen/fetch_ws/devel/.private/fetch_gazebo/lib/pkgconfig/fetch_gazebo.pc

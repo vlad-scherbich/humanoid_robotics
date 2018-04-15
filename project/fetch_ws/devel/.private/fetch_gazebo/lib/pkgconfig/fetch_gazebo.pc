@@ -1,0 +1,8 @@
+prefix=/home/kathleen/fetch_ws/devel/.private/fetch_gazebo
+
+Name: fetch_gazebo
+Description: Description of fetch_gazebo
+Version: 0.7.1
+Cflags: -I/home/kathleen/fetch_ws/src/fetch_gazebo/fetch_gazebo/include
+Libs: -L/home/kathleen/fetch_ws/devel/.private/fetch_gazebo/lib -lfetch_gazebo_plugin
+Requires: control_toolbox gazebo_ros robot_controllers robot_controllers_interface
