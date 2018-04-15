@@ -1,8 +1,0 @@
-prefix=/home/kathleen/fetch_ws/devel/.private/fetch_moveit_config
-
-Name: fetch_moveit_config
-Description: Description of fetch_moveit_config
-Version: 0.7.13
-Cflags: 
-Libs: -L/home/kathleen/fetch_ws/devel/.private/fetch_moveit_config/lib 
-Requires: 

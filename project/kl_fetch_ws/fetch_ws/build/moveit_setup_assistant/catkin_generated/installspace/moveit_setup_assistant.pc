@@ -1,8 +1,0 @@
-prefix=/home/kathleen/fetch_ws/install
-
-Name: moveit_setup_assistant
-Description: Description of moveit_setup_assistant
-Version: 0.9.11
-Cflags: -I/home/kathleen/fetch_ws/install/include
-Libs: -L/home/kathleen/fetch_ws/install/lib -lmoveit_setup_assistant_tools
-Requires: moveit_ros_planning moveit_ros_visualization

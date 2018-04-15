@@ -1,8 +1,0 @@
-prefix=/home/kathleen/catkin_ws/install
-
-Name: pr2_mechanism_controllers
-Description: Description of pr2_mechanism_controllers
-Version: 1.10.14
-Cflags: -I/home/kathleen/catkin_ws/install/include -I/usr/include/eigen3
-Libs: -L/home/kathleen/catkin_ws/install/lib -lpr2_mechanism_controllers
-Requires: std_msgs geometry_msgs pr2_mechanism_msgs nav_msgs pr2_msgs visualization_msgs diagnostic_msgs pr2_controller_interface roscpp pr2_controllers_msgs pr2_mechanism_model realtime_tools robot_mechanism_controllers pluginlib rosconsole tf angles control_toolbox filters diagnostic_updater message_runtime

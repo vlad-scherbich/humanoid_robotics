@@ -1,8 +1,0 @@
-prefix=/home/kathleen/catkin_ws/devel/.private/pr2_teleop_general
-
-Name: pr2_teleop_general
-Description: Description of pr2_teleop_general
-Version: 0.6.0
-Cflags: -I/home/kathleen/catkin_ws/src/pr2_apps/pr2_teleop_general/include
-Libs: -L/home/kathleen/catkin_ws/devel/.private/pr2_teleop_general/lib -lpr2_teleop_general_commander
-Requires: roscpp actionlib actionlib_msgs geometry_msgs sensor_msgs pr2_msgs pr2_controllers_msgs pr2_controller_manager pr2_mechanism_msgs angles urdf ps3joy pr2_common_action_msgs polled_camera moveit_msgs tf

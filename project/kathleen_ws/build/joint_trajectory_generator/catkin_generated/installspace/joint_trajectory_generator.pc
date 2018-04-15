@@ -1,8 +1,0 @@
-prefix=/home/kathleen/catkin_ws/install
-
-Name: joint_trajectory_generator
-Description: Description of joint_trajectory_generator
-Version: 0.0.10
-Cflags: -I/home/kathleen/catkin_ws/install/include -I/usr/include -I/usr/include/eigen3 -I/opt/ros/kinetic/include
-Libs: -L/home/kathleen/catkin_ws/install/lib -ljoint_trajectory_generation /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libpthread.so /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-Requires: roscpp urdf angles actionlib joint_trajectory_action pr2_controllers_msgs

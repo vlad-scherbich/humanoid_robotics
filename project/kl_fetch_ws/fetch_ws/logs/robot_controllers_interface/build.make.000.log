@@ -1,7 +1,0 @@
-[35m[1mScanning dependencies of target robot_controllers_msgs_generate_messages_cpp[0m
-[  0%] Built target robot_controllers_msgs_generate_messages_cpp
-[35m[1mScanning dependencies of target robot_controllers_interface[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so[0m
-[100%] Built target robot_controllers_interface

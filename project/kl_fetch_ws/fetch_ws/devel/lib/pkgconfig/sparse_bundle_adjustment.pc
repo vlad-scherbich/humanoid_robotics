@@ -1,1 +1,0 @@
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/pkgconfig/sparse_bundle_adjustment.pc

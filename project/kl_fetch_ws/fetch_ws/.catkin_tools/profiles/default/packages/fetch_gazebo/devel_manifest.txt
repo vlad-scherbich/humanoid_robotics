@@ -1,5 +1,0 @@
-fetch_gazebo/fetch_gazebo
-/home/kathleen/fetch_ws/devel/.private/fetch_gazebo/share/fetch_gazebo/cmake/fetch_gazeboConfig-version.cmake /home/kathleen/fetch_ws/devel/share/fetch_gazebo/cmake/fetch_gazeboConfig-version.cmake
-/home/kathleen/fetch_ws/devel/.private/fetch_gazebo/share/fetch_gazebo/cmake/fetch_gazeboConfig.cmake /home/kathleen/fetch_ws/devel/share/fetch_gazebo/cmake/fetch_gazeboConfig.cmake
-/home/kathleen/fetch_ws/devel/.private/fetch_gazebo/lib/libfetch_gazebo_plugin.so /home/kathleen/fetch_ws/devel/lib/libfetch_gazebo_plugin.so
-/home/kathleen/fetch_ws/devel/.private/fetch_gazebo/lib/pkgconfig/fetch_gazebo.pc /home/kathleen/fetch_ws/devel/lib/pkgconfig/fetch_gazebo.pc

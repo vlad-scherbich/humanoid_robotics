@@ -1,8 +1,0 @@
-prefix=/home/kathleen/catkin_ws/install
-
-Name: pr2_tuck_arms_action
-Description: Description of pr2_tuck_arms_action
-Version: 0.0.10
-Cflags: 
-Libs: -L/home/kathleen/catkin_ws/install/lib 
-Requires: actionlib_msgs pr2_common_action_msgs pr2_controllers_msgs trajectory_msgs

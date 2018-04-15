@@ -1,6 +1,0 @@
-repo: 4251f2f8f4af22a4207a580baf0750bc8ad35955
-node: 595f9360af4fa9e9fb4262623314ce947495c4db
-branch: default
-latesttag: groovy
-latesttagdistance: 2
-changessincelatesttag: 2

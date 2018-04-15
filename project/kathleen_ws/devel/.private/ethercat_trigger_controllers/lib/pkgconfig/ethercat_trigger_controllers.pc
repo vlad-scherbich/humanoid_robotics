@@ -1,8 +1,0 @@
-prefix=/home/kathleen/catkin_ws/devel/.private/ethercat_trigger_controllers
-
-Name: ethercat_trigger_controllers
-Description: Description of ethercat_trigger_controllers
-Version: 1.10.14
-Cflags: -I/home/kathleen/catkin_ws/devel/.private/ethercat_trigger_controllers/include -I/home/kathleen/catkin_ws/src/pr2_controllers/ethercat_trigger_controllers/include
-Libs: -L/home/kathleen/catkin_ws/devel/.private/ethercat_trigger_controllers/lib -lethercat_trigger_controllers
-Requires: pr2_controller_interface realtime_tools roscpp diagnostic_msgs pluginlib message_runtime std_msgs

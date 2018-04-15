@@ -1,1 +1,0 @@
-/home/kathleen/catkin_ws/devel/.private/pr2_mannequin_mode/lib/pkgconfig/pr2_mannequin_mode.pc

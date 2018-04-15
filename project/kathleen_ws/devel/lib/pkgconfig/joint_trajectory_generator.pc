@@ -1,1 +1,0 @@
-/home/kathleen/catkin_ws/devel/.private/joint_trajectory_generator/lib/pkgconfig/joint_trajectory_generator.pc

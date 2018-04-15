@@ -1,1 +1,0 @@
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsActionResult.msg

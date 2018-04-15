@@ -1,1 +1,0 @@
-/home/kathleen/catkin_ws/devel/.private/pr2_mechanism_controllers/share/roseus/ros/pr2_mechanism_controllers/manifest.l

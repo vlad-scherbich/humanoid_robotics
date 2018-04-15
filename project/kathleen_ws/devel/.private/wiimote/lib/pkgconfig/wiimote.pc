@@ -1,8 +1,0 @@
-prefix=/home/kathleen/catkin_ws/devel/.private/wiimote
-
-Name: wiimote
-Description: Description of wiimote
-Version: 1.11.0
-Cflags: -I/home/kathleen/catkin_ws/devel/.private/wiimote/include -I/home/kathleen/catkin_ws/src/joystick_drivers/wiimote/include
-Libs: -L/home/kathleen/catkin_ws/devel/.private/wiimote/lib 
-Requires: geometry_msgs sensor_msgs std_msgs std_srvs rospy roscpp roslib genmsg

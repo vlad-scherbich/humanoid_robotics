@@ -1,5 +1,0 @@
-pr2_controllers/pr2_head_action
-/home/kathleen/catkin_ws/devel/.private/pr2_head_action/share/pr2_head_action/cmake/pr2_head_actionConfig.cmake /home/kathleen/catkin_ws/devel/share/pr2_head_action/cmake/pr2_head_actionConfig.cmake
-/home/kathleen/catkin_ws/devel/.private/pr2_head_action/share/pr2_head_action/cmake/pr2_head_actionConfig-version.cmake /home/kathleen/catkin_ws/devel/share/pr2_head_action/cmake/pr2_head_actionConfig-version.cmake
-/home/kathleen/catkin_ws/devel/.private/pr2_head_action/lib/pkgconfig/pr2_head_action.pc /home/kathleen/catkin_ws/devel/lib/pkgconfig/pr2_head_action.pc
-/home/kathleen/catkin_ws/devel/.private/pr2_head_action/lib/pr2_head_action/pr2_head_action /home/kathleen/catkin_ws/devel/lib/pr2_head_action/pr2_head_action

@@ -1,2 +1,0 @@
-set(ethercat_trigger_controllers_MESSAGE_FILES "/home/kathleen/catkin_ws/src/pr2_controllers/ethercat_trigger_controllers/msg/MultiWaveform.msg;/home/kathleen/catkin_ws/src/pr2_controllers/ethercat_trigger_controllers/msg/MultiWaveformTransition.msg")
-set(ethercat_trigger_controllers_SERVICE_FILES "/home/kathleen/catkin_ws/src/pr2_controllers/ethercat_trigger_controllers/srv/SetMultiWaveform.srv;/home/kathleen/catkin_ws/src/pr2_controllers/ethercat_trigger_controllers/srv/SetWaveform.srv")

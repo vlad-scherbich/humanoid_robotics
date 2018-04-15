@@ -1,1 +1,0 @@
-/home/kathleen/catkin_ws/devel/.private/robot_mechanism_controllers/share/roseus/ros/robot_mechanism_controllers/manifest.l

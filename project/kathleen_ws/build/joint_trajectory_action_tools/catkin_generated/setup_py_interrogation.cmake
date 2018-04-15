@@ -1,6 +1,0 @@
-set(joint_trajectory_action_tools_SETUP_PY_VERSION "0.0.10")
-set(joint_trajectory_action_tools_SETUP_PY_SCRIPTS "")
-set(joint_trajectory_action_tools_SETUP_PY_PACKAGES "joint_trajectory_action_tools")
-set(joint_trajectory_action_tools_SETUP_PY_PACKAGE_DIRS "src/joint_trajectory_action_tools")
-set(joint_trajectory_action_tools_SETUP_PY_MODULES "")
-set(joint_trajectory_action_tools_SETUP_PY_MODULE_DIRS "")

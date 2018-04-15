@@ -1,4 +1,0 @@
-fetch_ros/fetch_maps
-/home/kathleen/fetch_ws/devel/.private/fetch_maps/share/fetch_maps/cmake/fetch_mapsConfig-version.cmake /home/kathleen/fetch_ws/devel/share/fetch_maps/cmake/fetch_mapsConfig-version.cmake
-/home/kathleen/fetch_ws/devel/.private/fetch_maps/share/fetch_maps/cmake/fetch_mapsConfig.cmake /home/kathleen/fetch_ws/devel/share/fetch_maps/cmake/fetch_mapsConfig.cmake
-/home/kathleen/fetch_ws/devel/.private/fetch_maps/lib/pkgconfig/fetch_maps.pc /home/kathleen/fetch_ws/devel/lib/pkgconfig/fetch_maps.pc

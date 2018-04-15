@@ -1,8 +1,0 @@
-prefix=/home/kathleen/catkin_ws/devel/.private/joint_trajectory_action
-
-Name: joint_trajectory_action
-Description: Description of joint_trajectory_action
-Version: 1.10.14
-Cflags: 
-Libs: -L/home/kathleen/catkin_ws/devel/.private/joint_trajectory_action/lib 
-Requires: 

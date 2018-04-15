@@ -1,8 +1,0 @@
-prefix=/home/kathleen/catkin_ws/devel/.private/pr2_mannequin_mode
-
-Name: pr2_mannequin_mode
-Description: Description of pr2_mannequin_mode
-Version: 0.6.0
-Cflags: 
-Libs: -L/home/kathleen/catkin_ws/devel/.private/pr2_mannequin_mode/lib 
-Requires: trajectory_msgs pr2_controllers_msgs

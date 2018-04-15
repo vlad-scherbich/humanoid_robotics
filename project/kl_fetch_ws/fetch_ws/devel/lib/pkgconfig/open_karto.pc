@@ -1,1 +1,0 @@
-/home/kathleen/fetch_ws/devel/.private/open_karto/lib/pkgconfig/open_karto.pc

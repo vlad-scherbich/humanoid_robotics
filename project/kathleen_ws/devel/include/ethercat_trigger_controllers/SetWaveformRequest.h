@@ -1,1 +1,0 @@
-/home/kathleen/catkin_ws/devel/.private/ethercat_trigger_controllers/include/ethercat_trigger_controllers/SetWaveformRequest.h

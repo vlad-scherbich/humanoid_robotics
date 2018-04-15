@@ -1,5 +1,0 @@
-[01m[K/home/kathleen/catkin_ws/src/joystick_drivers/spacenav_node/src/spacenav_node.cpp:38:19:[m[K [01;31m[Kfatal error: [m[Kspnav.h: No such file or directory
-compilation terminated.
-make[2]: *** [CMakeFiles/spacenav_node.dir/src/spacenav_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/spacenav_node.dir/all] Error 2
-make: *** [all] Error 2

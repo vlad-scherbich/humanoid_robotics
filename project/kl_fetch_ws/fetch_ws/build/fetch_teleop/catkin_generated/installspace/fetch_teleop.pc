@@ -1,8 +1,0 @@
-prefix=/home/kathleen/fetch_ws/install
-
-Name: fetch_teleop
-Description: Description of fetch_teleop
-Version: 0.7.13
-Cflags: 
-Libs: -L/home/kathleen/fetch_ws/install/lib 
-Requires: 
