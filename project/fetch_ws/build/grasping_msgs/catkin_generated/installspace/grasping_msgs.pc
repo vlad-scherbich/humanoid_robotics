@@ -1,8 +1,0 @@
-prefix=/home/kathleen/fetch_ws/install
-
-Name: grasping_msgs
-Description: Description of grasping_msgs
-Version: 0.3.1
-Cflags: -I/home/kathleen/fetch_ws/install/include
-Libs: -L/home/kathleen/fetch_ws/install/lib 
-Requires: geometry_msgs moveit_msgs sensor_msgs shape_msgs

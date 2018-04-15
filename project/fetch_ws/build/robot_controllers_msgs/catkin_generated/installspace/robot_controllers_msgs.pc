@@ -1,8 +1,0 @@
-prefix=/home/kathleen/fetch_ws/install
-
-Name: robot_controllers_msgs
-Description: Description of robot_controllers_msgs
-Version: 0.5.3
-Cflags: -I/home/kathleen/fetch_ws/install/include
-Libs: -L/home/kathleen/fetch_ws/install/lib 
-Requires: actionlib_msgs message_runtime std_msgs
