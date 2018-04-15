@@ -1,0 +1,8 @@
+prefix=/home/kathleen/fetch_ws/install
+
+Name: moveit_commander
+Description: Description of moveit_commander
+Version: 0.9.11
+Cflags: 
+Libs: -L/home/kathleen/fetch_ws/install/lib 
+Requires: 

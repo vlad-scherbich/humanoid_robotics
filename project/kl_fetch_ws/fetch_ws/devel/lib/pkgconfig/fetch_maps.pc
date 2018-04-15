@@ -1,0 +1,1 @@
+/home/kathleen/fetch_ws/devel/.private/fetch_maps/lib/pkgconfig/fetch_maps.pc

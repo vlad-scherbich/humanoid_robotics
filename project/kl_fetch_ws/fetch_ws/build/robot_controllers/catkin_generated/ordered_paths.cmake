@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib;/opt/ros/kinetic/lib")

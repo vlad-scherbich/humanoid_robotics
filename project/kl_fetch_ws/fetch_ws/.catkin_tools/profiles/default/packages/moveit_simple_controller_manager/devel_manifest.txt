@@ -1,0 +1,6 @@
+moveit/moveit_plugins/moveit_simple_controller_manager
+/home/kathleen/fetch_ws/devel/.private/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig-version.cmake /home/kathleen/fetch_ws/devel/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig-version.cmake
+/home/kathleen/fetch_ws/devel/.private/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig.cmake /home/kathleen/fetch_ws/devel/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig.cmake
+/home/kathleen/fetch_ws/devel/.private/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.0.9.11 /home/kathleen/fetch_ws/devel/lib/libmoveit_simple_controller_manager.so.0.9.11
+/home/kathleen/fetch_ws/devel/.private/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so /home/kathleen/fetch_ws/devel/lib/libmoveit_simple_controller_manager.so
+/home/kathleen/fetch_ws/devel/.private/moveit_simple_controller_manager/lib/pkgconfig/moveit_simple_controller_manager.pc /home/kathleen/fetch_ws/devel/lib/pkgconfig/moveit_simple_controller_manager.pc

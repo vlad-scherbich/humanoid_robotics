@@ -1,0 +1,4 @@
+[  0%] Built target grasping_msgs_generate_messages_cpp
+[ 55%] Built target simple_grasping
+[ 77%] Built target grasp_planner_node
+[100%] Built target basic_grasping_perception

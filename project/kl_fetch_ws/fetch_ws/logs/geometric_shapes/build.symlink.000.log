@@ -1,0 +1,4 @@
+Symlinking /home/kathleen/fetch_ws/devel/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake
+Symlinking /home/kathleen/fetch_ws/devel/share/geometric_shapes/cmake/geometric_shapesConfig.cmake
+Symlinking /home/kathleen/fetch_ws/devel/lib/libgeometric_shapes.so
+Symlinking /home/kathleen/fetch_ws/devel/lib/pkgconfig/geometric_shapes.pc

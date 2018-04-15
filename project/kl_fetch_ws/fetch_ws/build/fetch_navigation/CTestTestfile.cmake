@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation
+# Build directory: /home/kathleen/fetch_ws/build/fetch_navigation
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_fetch_navigation_roslaunch-check_launch_fetch_nav.launch "/home/kathleen/fetch_ws/build/fetch_navigation/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation/roslaunch-check_launch_fetch_nav.launch.xml" "--return-code" "/usr/bin/cmake -E make_directory /home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation" "/opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation/roslaunch-check_launch_fetch_nav.launch.xml' '/home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation/launch/fetch_nav.launch' ")
+add_test(_ctest_fetch_navigation_roslaunch-check_launch_freight_nav.launch "/home/kathleen/fetch_ws/build/fetch_navigation/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/kinetic/share/catkin/cmake/test/run_tests.py" "/home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation/roslaunch-check_launch_freight_nav.launch.xml" "--return-code" "/usr/bin/cmake -E make_directory /home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation" "/opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check -o '/home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation/roslaunch-check_launch_freight_nav.launch.xml' '/home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation/launch/freight_nav.launch' ")
+subdirs(gtest)

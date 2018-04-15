@@ -1,0 +1,1 @@
+/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/share/roseus/ros/robot_controllers_msgs/msg/QueryControllerStatesActionGoal.l

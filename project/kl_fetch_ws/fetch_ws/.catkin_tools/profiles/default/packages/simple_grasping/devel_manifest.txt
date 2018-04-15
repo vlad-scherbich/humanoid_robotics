@@ -1,0 +1,7 @@
+simple_grasping
+/home/kathleen/fetch_ws/devel/.private/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig.cmake /home/kathleen/fetch_ws/devel/share/simple_grasping/cmake/simple_graspingConfig.cmake
+/home/kathleen/fetch_ws/devel/.private/simple_grasping/share/simple_grasping/cmake/simple_graspingConfig-version.cmake /home/kathleen/fetch_ws/devel/share/simple_grasping/cmake/simple_graspingConfig-version.cmake
+/home/kathleen/fetch_ws/devel/.private/simple_grasping/lib/libsimple_grasping.so /home/kathleen/fetch_ws/devel/lib/libsimple_grasping.so
+/home/kathleen/fetch_ws/devel/.private/simple_grasping/lib/simple_grasping/basic_grasping_perception /home/kathleen/fetch_ws/devel/lib/simple_grasping/basic_grasping_perception
+/home/kathleen/fetch_ws/devel/.private/simple_grasping/lib/simple_grasping/grasp_planner_node /home/kathleen/fetch_ws/devel/lib/simple_grasping/grasp_planner_node
+/home/kathleen/fetch_ws/devel/.private/simple_grasping/lib/pkgconfig/simple_grasping.pc /home/kathleen/fetch_ws/devel/lib/pkgconfig/simple_grasping.pc

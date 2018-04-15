@@ -1,0 +1,4 @@
+Symlinking /home/kathleen/fetch_ws/devel/share/open_karto/cmake/open_kartoConfig-version.cmake
+Symlinking /home/kathleen/fetch_ws/devel/share/open_karto/cmake/open_kartoConfig.cmake
+Symlinking /home/kathleen/fetch_ws/devel/lib/libkarto.so
+Symlinking /home/kathleen/fetch_ws/devel/lib/pkgconfig/open_karto.pc

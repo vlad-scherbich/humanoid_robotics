@@ -1,0 +1,4 @@
+Symlinking /home/kathleen/fetch_ws/devel/share/fetch_teleop/cmake/fetch_teleopConfig.cmake
+Symlinking /home/kathleen/fetch_ws/devel/share/fetch_teleop/cmake/fetch_teleopConfig-version.cmake
+Symlinking /home/kathleen/fetch_ws/devel/lib/pkgconfig/fetch_teleop.pc
+Symlinking /home/kathleen/fetch_ws/devel/lib/fetch_teleop/joystick_teleop

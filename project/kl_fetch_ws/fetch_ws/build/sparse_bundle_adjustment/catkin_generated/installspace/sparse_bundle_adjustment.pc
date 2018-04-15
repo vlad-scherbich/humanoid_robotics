@@ -1,0 +1,8 @@
+prefix=/home/kathleen/fetch_ws/install
+
+Name: sparse_bundle_adjustment
+Description: Description of sparse_bundle_adjustment
+Version: 0.3.2
+Cflags: -I/home/kathleen/fetch_ws/install/include
+Libs: -L/home/kathleen/fetch_ws/install/lib -lsba
+Requires: 

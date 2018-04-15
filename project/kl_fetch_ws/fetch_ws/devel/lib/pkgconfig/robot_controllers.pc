@@ -1,0 +1,1 @@
+/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/pkgconfig/robot_controllers.pc

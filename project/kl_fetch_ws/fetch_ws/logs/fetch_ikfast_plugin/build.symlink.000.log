@@ -1,0 +1,4 @@
+Symlinking /home/kathleen/fetch_ws/devel/share/fetch_ikfast_plugin/cmake/fetch_ikfast_pluginConfig-version.cmake
+Symlinking /home/kathleen/fetch_ws/devel/share/fetch_ikfast_plugin/cmake/fetch_ikfast_pluginConfig.cmake
+Symlinking /home/kathleen/fetch_ws/devel/lib/libfetch_arm_moveit_ikfast_plugin.so
+Symlinking /home/kathleen/fetch_ws/devel/lib/pkgconfig/fetch_ikfast_plugin.pc

@@ -1,0 +1,1 @@
+/home/kathleen/fetch_ws/devel/.private/moveit_kinematics/lib/pkgconfig/moveit_kinematics.pc

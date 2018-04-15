@@ -1,0 +1,8 @@
+prefix=/home/kathleen/fetch_ws/install
+
+Name: moveit_python
+Description: Description of moveit_python
+Version: 0.2.17
+Cflags: 
+Libs: -L/home/kathleen/fetch_ws/install/lib 
+Requires: 

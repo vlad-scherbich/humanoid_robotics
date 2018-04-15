@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target robot_controllers[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/pid.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/point_head.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so[0m
+[100%] Built target robot_controllers

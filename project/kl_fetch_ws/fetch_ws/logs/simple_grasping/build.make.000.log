@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target grasping_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target simple_grasping[0m
+[  0%] Built target grasping_msgs_generate_messages_cpp
+[ 11%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/cloud_tools.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/object_support_segmentation.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_extraction.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/simple_grasping.dir/src/shape_grasp_planner.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library /home/kathleen/fetch_ws/devel/.private/simple_grasping/lib/libsimple_grasping.so[0m
+[ 55%] Built target simple_grasping
+[35m[1mScanning dependencies of target basic_grasping_perception[0m
+[35m[1mScanning dependencies of target grasp_planner_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/grasp_planner_node.dir/src/grasp_planner_node.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/basic_grasping_perception.dir/src/basic_grasping_perception.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable /home/kathleen/fetch_ws/devel/.private/simple_grasping/lib/simple_grasping/grasp_planner_node[0m
+[ 88%] Built target grasp_planner_node
+[100%] [32m[1mLinking CXX executable /home/kathleen/fetch_ws/devel/.private/simple_grasping/lib/simple_grasping/basic_grasping_perception[0m
+[100%] Built target basic_grasping_perception
