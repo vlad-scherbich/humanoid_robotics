@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/pcl/io/tools/ply/plyheader.cpp
+fstream
+-
+iostream
+-
+string.h
+-
+string
+-
+stdlib.h
+-
+

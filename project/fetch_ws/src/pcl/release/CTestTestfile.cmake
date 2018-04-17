@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/kathleen/humanoid_robotics/project/fetch_ws/src/pcl
+# Build directory: /home/kathleen/humanoid_robotics/project/fetch_ws/src/pcl/release
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(test)
+subdirs(common)
+subdirs(octree)
+subdirs(io)
+subdirs(kdtree)
+subdirs(geometry)
+subdirs(search)
+subdirs(visualization)
+subdirs(sample_consensus)
+subdirs(filters)
+subdirs(2d)
+subdirs(features)
+subdirs(ml)
+subdirs(segmentation)
+subdirs(people)
+subdirs(gpu)
+subdirs(tracking)
+subdirs(stereo)
+subdirs(surface)
+subdirs(registration)
+subdirs(recognition)
+subdirs(keypoints)
+subdirs(tools)
+subdirs(simulation)
+subdirs(apps)
+subdirs(cuda)
+subdirs(outofcore)
+subdirs(examples)
+subdirs(doc)
