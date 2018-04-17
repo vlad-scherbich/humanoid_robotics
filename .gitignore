@@ -4,7 +4,9 @@
 .txt~
 .*.*.swp
 setup.bash
-build/*
-devel/*
-logs/*
+project/fetch_ws/build/*
+project/fetch_ws/devel/*
+project/fetch_ws/logs/*
+.private/*
+
 
