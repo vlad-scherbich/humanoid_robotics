@@ -1,7 +1,7 @@
 <launch>
 
   <include file="$(find fetch_navigation)/launch/fetch_nav.launch" >
-    <arg name="map_file" value="$(find fetch_maps)/maps/one_table_maps.yaml" />
+    <arg name="map_file" value="$(find fetch_maps)/maps/one_table_map.yaml" />
   </include>
 
 </launch>
