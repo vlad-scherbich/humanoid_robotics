@@ -67,14 +67,14 @@ set(sparse_bundle_adjustment_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(sparse_bundle_adjustment_SOURCE_PREFIX /home/kathleen/fetch_ws/src/sparse_bundle_adjustment)
-  set(sparse_bundle_adjustment_DEVEL_PREFIX /home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment)
+  set(sparse_bundle_adjustment_SOURCE_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment)
+  set(sparse_bundle_adjustment_DEVEL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment)
   set(sparse_bundle_adjustment_INSTALL_PREFIX "")
   set(sparse_bundle_adjustment_PREFIX ${sparse_bundle_adjustment_DEVEL_PREFIX})
 else()
   set(sparse_bundle_adjustment_SOURCE_PREFIX "")
   set(sparse_bundle_adjustment_DEVEL_PREFIX "")
-  set(sparse_bundle_adjustment_INSTALL_PREFIX /home/kathleen/fetch_ws/install)
+  set(sparse_bundle_adjustment_INSTALL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/install)
   set(sparse_bundle_adjustment_PREFIX ${sparse_bundle_adjustment_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(sparse_bundle_adjustment_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include " STREQUAL " ")
+if(NOT "/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include " STREQUAL " ")
   set(sparse_bundle_adjustment_INCLUDE_DIRS "")
-  set(_include_dirs "/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include")
+  set(_include_dirs "/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include " STREQUAL 
         message(FATAL_ERROR "Project 'sparse_bundle_adjustment' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'sparse_bundle_adjustment' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'sparse_bundle_adjustment' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/${idir}'.  ${_report}")
     endif()
     _list_append_unique(sparse_bundle_adjustment_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib;/home/kathleen/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib;/home/kathleen/humanoid_robotics/project/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

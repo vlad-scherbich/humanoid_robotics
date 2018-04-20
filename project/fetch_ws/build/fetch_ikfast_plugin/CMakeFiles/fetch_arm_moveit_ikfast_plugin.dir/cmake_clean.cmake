@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fetch_arm_moveit_ikfast_plugin.dir/src/fetch_arm_ikfast_moveit_plugin.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/fetch_ikfast_plugin/lib/libfetch_arm_moveit_ikfast_plugin.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/fetch_ikfast_plugin/lib/libfetch_arm_moveit_ikfast_plugin.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/fetch_ikfast_plugin/lib/libfetch_arm_moveit_ikfast_plugin.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/fetch_ikfast_plugin/lib/libfetch_arm_moveit_ikfast_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

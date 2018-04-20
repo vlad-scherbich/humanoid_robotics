@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/fetch_ros/fetch_teleop
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_teleop
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/fetch_teleop
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_teleop
 
 # Utility rule file for trajectory_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/depend:
-	cd /home/kathleen/fetch_ws/build/fetch_teleop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/fetch_ros/fetch_teleop /home/kathleen/fetch_ws/src/fetch_ros/fetch_teleop /home/kathleen/fetch_ws/build/fetch_teleop /home/kathleen/fetch_ws/build/fetch_teleop /home/kathleen/fetch_ws/build/fetch_teleop/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_teleop && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_teleop /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_teleop /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_teleop /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_teleop /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_teleop/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/fetch_navigation
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation
 
 # Utility rule file for clean_test_results_fetch_navigation.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/fetch_navigation
 include CMakeFiles/clean_test_results_fetch_navigation.dir/progress.make
 
 CMakeFiles/clean_test_results_fetch_navigation:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation/test_results/fetch_navigation
 
 clean_test_results_fetch_navigation: CMakeFiles/clean_test_results_fetch_navigation
 clean_test_results_fetch_navigation: CMakeFiles/clean_test_results_fetch_navigation.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_fetch_navigation.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_fetch_navigation.dir/clean
 
 CMakeFiles/clean_test_results_fetch_navigation.dir/depend:
-	cd /home/kathleen/fetch_ws/build/fetch_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/fetch_ws/build/fetch_navigation /home/kathleen/fetch_ws/build/fetch_navigation /home/kathleen/fetch_ws/build/fetch_navigation/CMakeFiles/clean_test_results_fetch_navigation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation/CMakeFiles/clean_test_results_fetch_navigation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_fetch_navigation.dir/depend
 

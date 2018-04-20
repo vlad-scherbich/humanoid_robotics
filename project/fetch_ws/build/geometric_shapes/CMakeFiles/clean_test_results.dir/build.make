@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/geometric_shapes
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/geometric_shapes
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/geometric_shapes
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/kathleen/fetch_ws/build/geometric_shapes/test_results
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/kathleen/fetch_ws/build/geometric_shapes && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/geometric_shapes /home/kathleen/fetch_ws/src/geometric_shapes /home/kathleen/fetch_ws/build/geometric_shapes /home/kathleen/fetch_ws/build/geometric_shapes /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes /home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

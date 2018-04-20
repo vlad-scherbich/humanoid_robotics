@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/geometric_shapes
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/geometric_shapes
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes
 
 #=============================================================================
 # Target rules for target CMakeFiles/geometric_shapes.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/geometric_shapes
 CMakeFiles/geometric_shapes.dir/all:
 	$(MAKE) -f CMakeFiles/geometric_shapes.dir/build.make CMakeFiles/geometric_shapes.dir/depend
 	$(MAKE) -f CMakeFiles/geometric_shapes.dir/build.make CMakeFiles/geometric_shapes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target geometric_shapes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target geometric_shapes"
 .PHONY : CMakeFiles/geometric_shapes.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/geometric_shapes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometric_shapes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometric_shapes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/geometric_shapes.dir/rule
 
 # Convenience name for target.
@@ -103,14 +103,14 @@ clean: CMakeFiles/geometric_shapes.dir/clean
 CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -135,14 +135,14 @@ clean: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make CMakeFiles/visualization_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -167,14 +167,14 @@ clean: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/shape_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_cpp.dir/build.make CMakeFiles/shape_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_cpp.dir/build.make CMakeFiles/shape_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/shape_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -199,14 +199,14 @@ clean: CMakeFiles/shape_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -231,14 +231,14 @@ clean: CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -266,14 +266,14 @@ CMakeFiles/tests.dir/all: test/CMakeFiles/test_create_mesh.dir/all
 CMakeFiles/tests.dir/all: test/CMakeFiles/test_loaded_meshes.dir/all
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -298,14 +298,14 @@ clean: CMakeFiles/tests.dir/clean
 CMakeFiles/shape_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/shape_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/shape_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/shape_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shape_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/shape_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -330,14 +330,14 @@ clean: CMakeFiles/shape_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/shape_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_lisp.dir/build.make CMakeFiles/shape_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_lisp.dir/build.make CMakeFiles/shape_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/shape_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shape_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/shape_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -362,14 +362,14 @@ clean: CMakeFiles/shape_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -394,14 +394,14 @@ clean: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -426,14 +426,14 @@ clean: CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/shape_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_eus.dir/build.make CMakeFiles/shape_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_eus.dir/build.make CMakeFiles/shape_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/shape_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shape_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shape_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/shape_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -458,14 +458,14 @@ clean: CMakeFiles/shape_msgs_generate_messages_eus.dir/clean
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -490,14 +490,14 @@ clean: CMakeFiles/doxygen.dir/clean
 CMakeFiles/run_tests.dir/all: test/CMakeFiles/_run_tests_geometric_shapes.dir/all
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -522,14 +522,14 @@ clean: CMakeFiles/run_tests.dir/clean
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -554,14 +554,14 @@ clean: CMakeFiles/download_extra_data.dir/clean
 CMakeFiles/visualization_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make CMakeFiles/visualization_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -586,14 +586,14 @@ clean: CMakeFiles/visualization_msgs_generate_messages_eus.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -618,14 +618,14 @@ clean: CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 CMakeFiles/std_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -650,14 +650,14 @@ clean: CMakeFiles/std_msgs_generate_messages_py.dir/clean
 CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -682,14 +682,14 @@ clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -714,14 +714,14 @@ clean: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make CMakeFiles/visualization_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -746,14 +746,14 @@ clean: CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
 CMakeFiles/visualization_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make CMakeFiles/visualization_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make CMakeFiles/visualization_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target visualization_msgs_generate_messages_py"
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/visualization_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/visualization_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -778,14 +778,14 @@ clean: CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
 CMakeFiles/shape_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_py.dir/build.make CMakeFiles/shape_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/shape_msgs_generate_messages_py.dir/build.make CMakeFiles/shape_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target shape_msgs_generate_messages_py"
 .PHONY : CMakeFiles/shape_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shape_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shape_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/shape_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -810,14 +810,14 @@ clean: CMakeFiles/shape_msgs_generate_messages_py.dir/clean
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -842,14 +842,14 @@ clean: CMakeFiles/clean_test_results.dir/clean
 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -874,14 +874,14 @@ clean: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 CMakeFiles/std_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -926,14 +926,14 @@ gtest/preinstall: gtest/gtest/preinstall
 gtest/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=9,10,11 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=9,10,11 "Built target gmock"
 .PHONY : gtest/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -958,14 +958,14 @@ clean: gtest/CMakeFiles/gmock.dir/clean
 gtest/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=12,13,14,15 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=12,13,14,15 "Built target gmock_main"
 .PHONY : gtest/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -1009,14 +1009,14 @@ gtest/gtest/preinstall:
 gtest/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=16,17 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=16,17 "Built target gtest"
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -1041,14 +1041,14 @@ clean: gtest/gtest/CMakeFiles/gtest.dir/clean
 gtest/gtest/CMakeFiles/gtest_main.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=18,19 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=18,19 "Built target gtest_main"
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -1107,14 +1107,14 @@ test/preinstall:
 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/all: test/CMakeFiles/test_bounding_sphere.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest_test_bounding_sphere"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest_test_bounding_sphere"
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/rule
 
 # Convenience name for target.
@@ -1140,14 +1140,14 @@ test/CMakeFiles/test_bounding_sphere.dir/all: CMakeFiles/geometric_shapes.dir/al
 test/CMakeFiles/test_bounding_sphere.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/test_bounding_sphere.dir/build.make test/CMakeFiles/test_bounding_sphere.dir/depend
 	$(MAKE) -f test/CMakeFiles/test_bounding_sphere.dir/build.make test/CMakeFiles/test_bounding_sphere.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=20,21 "Built target test_bounding_sphere"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=20,21 "Built target test_bounding_sphere"
 .PHONY : test/CMakeFiles/test_bounding_sphere.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test_bounding_sphere.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test_bounding_sphere.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/test_bounding_sphere.dir/rule
 
 # Convenience name for target.
@@ -1175,14 +1175,14 @@ test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/all: test/CMakeFiles/run_te
 test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/all: test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest"
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/rule
 
 # Convenience name for target.
@@ -1209,14 +1209,14 @@ test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/all: te
 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/all: test/CMakeFiles/test_loaded_meshes.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest_test_loaded_meshes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest_test_loaded_meshes"
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/rule
 
 # Convenience name for target.
@@ -1241,14 +1241,14 @@ clean: test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/
 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_point_inclusion.dir/all: test/CMakeFiles/test_point_inclusion.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest_test_point_inclusion.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest_test_point_inclusion.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest_test_point_inclusion.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest_test_point_inclusion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest_test_point_inclusion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest_test_point_inclusion"
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest_test_point_inclusion.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_point_inclusion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_point_inclusion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest_test_point_inclusion.dir/rule
 
 # Convenience name for target.
@@ -1276,14 +1276,14 @@ test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/all: test/CMakeFiles/_run_
 test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/all: test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest"
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/rule
 
 # Convenience name for target.
@@ -1309,14 +1309,14 @@ test/CMakeFiles/test_point_inclusion.dir/all: CMakeFiles/geometric_shapes.dir/al
 test/CMakeFiles/test_point_inclusion.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/test_point_inclusion.dir/build.make test/CMakeFiles/test_point_inclusion.dir/depend
 	$(MAKE) -f test/CMakeFiles/test_point_inclusion.dir/build.make test/CMakeFiles/test_point_inclusion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=26,27 "Built target test_point_inclusion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=26,27 "Built target test_point_inclusion"
 .PHONY : test/CMakeFiles/test_point_inclusion.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test_point_inclusion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test_point_inclusion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/test_point_inclusion.dir/rule
 
 # Convenience name for target.
@@ -1342,14 +1342,14 @@ test/CMakeFiles/test_create_mesh.dir/all: CMakeFiles/geometric_shapes.dir/all
 test/CMakeFiles/test_create_mesh.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/test_create_mesh.dir/build.make test/CMakeFiles/test_create_mesh.dir/depend
 	$(MAKE) -f test/CMakeFiles/test_create_mesh.dir/build.make test/CMakeFiles/test_create_mesh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=22,23 "Built target test_create_mesh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=22,23 "Built target test_create_mesh"
 .PHONY : test/CMakeFiles/test_create_mesh.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test_create_mesh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test_create_mesh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/test_create_mesh.dir/rule
 
 # Convenience name for target.
@@ -1374,14 +1374,14 @@ clean: test/CMakeFiles/test_create_mesh.dir/clean
 test/CMakeFiles/clean_test_results_geometric_shapes.dir/all:
 	$(MAKE) -f test/CMakeFiles/clean_test_results_geometric_shapes.dir/build.make test/CMakeFiles/clean_test_results_geometric_shapes.dir/depend
 	$(MAKE) -f test/CMakeFiles/clean_test_results_geometric_shapes.dir/build.make test/CMakeFiles/clean_test_results_geometric_shapes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target clean_test_results_geometric_shapes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target clean_test_results_geometric_shapes"
 .PHONY : test/CMakeFiles/clean_test_results_geometric_shapes.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/clean_test_results_geometric_shapes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_geometric_shapes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/clean_test_results_geometric_shapes.dir/rule
 
 # Convenience name for target.
@@ -1406,14 +1406,14 @@ clean: test/CMakeFiles/clean_test_results_geometric_shapes.dir/clean
 test/CMakeFiles/run_tests_geometric_shapes.dir/all: test/CMakeFiles/run_tests_geometric_shapes_gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes.dir/build.make test/CMakeFiles/run_tests_geometric_shapes.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes.dir/build.make test/CMakeFiles/run_tests_geometric_shapes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes"
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_geometric_shapes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_geometric_shapes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes.dir/rule
 
 # Convenience name for target.
@@ -1438,14 +1438,14 @@ clean: test/CMakeFiles/run_tests_geometric_shapes.dir/clean
 test/CMakeFiles/_run_tests_geometric_shapes.dir/all: test/CMakeFiles/_run_tests_geometric_shapes_gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes"
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_geometric_shapes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_geometric_shapes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes.dir/rule
 
 # Convenience name for target.
@@ -1472,14 +1472,14 @@ test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/all: 
 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/all: test/CMakeFiles/clean_test_results_geometric_shapes.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest_test_bounding_sphere"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest_test_bounding_sphere"
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_bounding_sphere.dir/rule
 
 # Convenience name for target.
@@ -1506,14 +1506,14 @@ test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/all: test
 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/all: test/CMakeFiles/clean_test_results_geometric_shapes.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest_test_create_mesh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest_test_create_mesh"
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_create_mesh.dir/rule
 
 # Convenience name for target.
@@ -1540,14 +1540,14 @@ test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/all: 
 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/all: test/CMakeFiles/clean_test_results_geometric_shapes.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/build.make test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest_test_point_inclusion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target _run_tests_geometric_shapes_gtest_test_point_inclusion"
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_point_inclusion.dir/rule
 
 # Convenience name for target.
@@ -1573,14 +1573,14 @@ test/CMakeFiles/test_loaded_meshes.dir/all: CMakeFiles/geometric_shapes.dir/all
 test/CMakeFiles/test_loaded_meshes.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/test_loaded_meshes.dir/build.make test/CMakeFiles/test_loaded_meshes.dir/depend
 	$(MAKE) -f test/CMakeFiles/test_loaded_meshes.dir/build.make test/CMakeFiles/test_loaded_meshes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=24,25 "Built target test_loaded_meshes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num=24,25 "Built target test_loaded_meshes"
 .PHONY : test/CMakeFiles/test_loaded_meshes.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test_loaded_meshes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test_loaded_meshes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/test_loaded_meshes.dir/rule
 
 # Convenience name for target.
@@ -1605,14 +1605,14 @@ clean: test/CMakeFiles/test_loaded_meshes.dir/clean
 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/all: test/CMakeFiles/test_loaded_meshes.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest_test_loaded_meshes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest_test_loaded_meshes"
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/rule
 
 # Convenience name for target.
@@ -1637,14 +1637,14 @@ clean: test/CMakeFiles/run_tests_geometric_shapes_gtest_test_loaded_meshes.dir/c
 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/all: test/CMakeFiles/test_create_mesh.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/build.make test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest_test_create_mesh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles --progress-num= "Built target run_tests_geometric_shapes_gtest_test_create_mesh"
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_geometric_shapes_gtest_test_create_mesh.dir/rule
 
 # Convenience name for target.

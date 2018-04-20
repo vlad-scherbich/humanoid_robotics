@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_state_space.dir/test/test_state_space.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_planners_ompl/lib/moveit_planners_ompl/test_state_space.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_planners_ompl/lib/moveit_planners_ompl/test_state_space"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_planners_ompl/lib/moveit_planners_ompl/test_state_space.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_planners_ompl/lib/moveit_planners_ompl/test_state_space"
 )
 
 # Per-language clean rules from dependency scanning.

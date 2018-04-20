@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexcepti
 
 CXX_DEFINES = -DBOOST_MATH_DISABLE_FLOAT128 -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS
 
-CXX_INCLUDES = -I/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/include -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest 
+CXX_INCLUDES = -I/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/include -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest 
 

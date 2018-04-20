@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/sparse_bundle_adjustment
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/sparse_bundle_adjustment
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sba.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/sba.dir/progress.make
 include CMakeFiles/sba.dir/flags.make
 
 CMakeFiles/sba.dir/src/sba.cpp.o: CMakeFiles/sba.dir/flags.make
-CMakeFiles/sba.dir/src/sba.cpp.o: /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sba.dir/src/sba.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/sba.cpp.o -c /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp
+CMakeFiles/sba.dir/src/sba.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sba.dir/src/sba.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/sba.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp
 
 CMakeFiles/sba.dir/src/sba.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sba.dir/src/sba.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp > CMakeFiles/sba.dir/src/sba.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp > CMakeFiles/sba.dir/src/sba.cpp.i
 
 CMakeFiles/sba.dir/src/sba.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sba.dir/src/sba.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp -o CMakeFiles/sba.dir/src/sba.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp -o CMakeFiles/sba.dir/src/sba.cpp.s
 
 CMakeFiles/sba.dir/src/sba.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/sba.dir/src/sba.cpp.o.provides.build: CMakeFiles/sba.dir/src/sba.cpp.
 
 
 CMakeFiles/sba.dir/src/spa.cpp.o: CMakeFiles/sba.dir/flags.make
-CMakeFiles/sba.dir/src/spa.cpp.o: /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sba.dir/src/spa.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/spa.cpp.o -c /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp
+CMakeFiles/sba.dir/src/spa.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sba.dir/src/spa.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/spa.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp
 
 CMakeFiles/sba.dir/src/spa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sba.dir/src/spa.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp > CMakeFiles/sba.dir/src/spa.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp > CMakeFiles/sba.dir/src/spa.cpp.i
 
 CMakeFiles/sba.dir/src/spa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sba.dir/src/spa.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp -o CMakeFiles/sba.dir/src/spa.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp -o CMakeFiles/sba.dir/src/spa.cpp.s
 
 CMakeFiles/sba.dir/src/spa.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/sba.dir/src/spa.cpp.o.provides.build: CMakeFiles/sba.dir/src/spa.cpp.
 
 
 CMakeFiles/sba.dir/src/spa2d.cpp.o: CMakeFiles/sba.dir/flags.make
-CMakeFiles/sba.dir/src/spa2d.cpp.o: /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sba.dir/src/spa2d.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/spa2d.cpp.o -c /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp
+CMakeFiles/sba.dir/src/spa2d.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sba.dir/src/spa2d.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/spa2d.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp
 
 CMakeFiles/sba.dir/src/spa2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sba.dir/src/spa2d.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp > CMakeFiles/sba.dir/src/spa2d.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp > CMakeFiles/sba.dir/src/spa2d.cpp.i
 
 CMakeFiles/sba.dir/src/spa2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sba.dir/src/spa2d.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp -o CMakeFiles/sba.dir/src/spa2d.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp -o CMakeFiles/sba.dir/src/spa2d.cpp.s
 
 CMakeFiles/sba.dir/src/spa2d.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/sba.dir/src/spa2d.cpp.o.provides.build: CMakeFiles/sba.dir/src/spa2d.
 
 
 CMakeFiles/sba.dir/src/csparse.cpp.o: CMakeFiles/sba.dir/flags.make
-CMakeFiles/sba.dir/src/csparse.cpp.o: /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sba.dir/src/csparse.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/csparse.cpp.o -c /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp
+CMakeFiles/sba.dir/src/csparse.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sba.dir/src/csparse.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/csparse.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp
 
 CMakeFiles/sba.dir/src/csparse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sba.dir/src/csparse.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp > CMakeFiles/sba.dir/src/csparse.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp > CMakeFiles/sba.dir/src/csparse.cpp.i
 
 CMakeFiles/sba.dir/src/csparse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sba.dir/src/csparse.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp -o CMakeFiles/sba.dir/src/csparse.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp -o CMakeFiles/sba.dir/src/csparse.cpp.s
 
 CMakeFiles/sba.dir/src/csparse.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/sba.dir/src/csparse.cpp.o.provides.build: CMakeFiles/sba.dir/src/cspa
 
 
 CMakeFiles/sba.dir/src/proj.cpp.o: CMakeFiles/sba.dir/flags.make
-CMakeFiles/sba.dir/src/proj.cpp.o: /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sba.dir/src/proj.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/proj.cpp.o -c /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp
+CMakeFiles/sba.dir/src/proj.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sba.dir/src/proj.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/proj.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp
 
 CMakeFiles/sba.dir/src/proj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sba.dir/src/proj.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp > CMakeFiles/sba.dir/src/proj.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp > CMakeFiles/sba.dir/src/proj.cpp.i
 
 CMakeFiles/sba.dir/src/proj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sba.dir/src/proj.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp -o CMakeFiles/sba.dir/src/proj.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp -o CMakeFiles/sba.dir/src/proj.cpp.s
 
 CMakeFiles/sba.dir/src/proj.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/sba.dir/src/proj.cpp.o.provides.build: CMakeFiles/sba.dir/src/proj.cp
 
 
 CMakeFiles/sba.dir/src/node.cpp.o: CMakeFiles/sba.dir/flags.make
-CMakeFiles/sba.dir/src/node.cpp.o: /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sba.dir/src/node.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/node.cpp.o -c /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp
+CMakeFiles/sba.dir/src/node.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sba.dir/src/node.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/node.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp
 
 CMakeFiles/sba.dir/src/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sba.dir/src/node.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp > CMakeFiles/sba.dir/src/node.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp > CMakeFiles/sba.dir/src/node.cpp.i
 
 CMakeFiles/sba.dir/src/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sba.dir/src/node.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp -o CMakeFiles/sba.dir/src/node.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp -o CMakeFiles/sba.dir/src/node.cpp.s
 
 CMakeFiles/sba.dir/src/node.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/sba.dir/src/node.cpp.o.provides.build: CMakeFiles/sba.dir/src/node.cp
 
 
 CMakeFiles/sba.dir/src/sba_file_io.cpp.o: CMakeFiles/sba.dir/flags.make
-CMakeFiles/sba.dir/src/sba_file_io.cpp.o: /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sba.dir/src/sba_file_io.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/sba_file_io.cpp.o -c /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp
+CMakeFiles/sba.dir/src/sba_file_io.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sba.dir/src/sba_file_io.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sba.dir/src/sba_file_io.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp
 
 CMakeFiles/sba.dir/src/sba_file_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sba.dir/src/sba_file_io.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp > CMakeFiles/sba.dir/src/sba_file_io.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp > CMakeFiles/sba.dir/src/sba_file_io.cpp.i
 
 CMakeFiles/sba.dir/src/sba_file_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sba.dir/src/sba_file_io.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp -o CMakeFiles/sba.dir/src/sba_file_io.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp -o CMakeFiles/sba.dir/src/sba_file_io.cpp.s
 
 CMakeFiles/sba.dir/src/sba_file_io.cpp.o.requires:
 
@@ -238,20 +238,20 @@ sba_OBJECTS = \
 # External object files for target sba
 sba_EXTERNAL_OBJECTS =
 
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/sba.cpp.o
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/spa.cpp.o
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/spa2d.cpp.o
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/csparse.cpp.o
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/proj.cpp.o
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/node.cpp.o
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/sba_file_io.cpp.o
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/build.make
-/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library /home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so"
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/sba.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/spa.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/spa2d.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/csparse.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/proj.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/node.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/src/sba_file_io.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/build.make
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so: CMakeFiles/sba.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sba.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/sba.dir/build: /home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so
+CMakeFiles/sba.dir/build: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so
 
 .PHONY : CMakeFiles/sba.dir/build
 
@@ -270,6 +270,6 @@ CMakeFiles/sba.dir/clean:
 .PHONY : CMakeFiles/sba.dir/clean
 
 CMakeFiles/sba.dir/depend:
-	cd /home/kathleen/fetch_ws/build/sparse_bundle_adjustment && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/sparse_bundle_adjustment /home/kathleen/fetch_ws/src/sparse_bundle_adjustment /home/kathleen/fetch_ws/build/sparse_bundle_adjustment /home/kathleen/fetch_ws/build/sparse_bundle_adjustment /home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles/sba.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles/sba.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sba.dir/depend
 

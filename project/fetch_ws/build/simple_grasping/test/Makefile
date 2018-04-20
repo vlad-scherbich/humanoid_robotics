@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/simple_grasping
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/simple_grasping
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/simple_grasping/CMakeFiles /home/kathleen/fetch_ws/build/simple_grasping/test/CMakeFiles/progress.marks
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/simple_grasping/CMakeFiles 0
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/CMakeFiles /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test/CMakeFiles/progress.marks
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_simple_grasping.dir/rule:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_simple_grasping.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_simple_grasping.dir/rule
 .PHONY : test/CMakeFiles/run_tests_simple_grasping.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ run_tests_simple_grasping: test/CMakeFiles/run_tests_simple_grasping.dir/rule
 
 # fast build rule for target.
 run_tests_simple_grasping/fast:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/run_tests_simple_grasping.dir/build.make test/CMakeFiles/run_tests_simple_grasping.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/run_tests_simple_grasping.dir/build.make test/CMakeFiles/run_tests_simple_grasping.dir/build
 .PHONY : run_tests_simple_grasping/fast
 
 # Convenience name for target.
 test/CMakeFiles/simple_grasping_test_shape_extraction.dir/rule:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/simple_grasping_test_shape_extraction.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/simple_grasping_test_shape_extraction.dir/rule
 .PHONY : test/CMakeFiles/simple_grasping_test_shape_extraction.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ simple_grasping_test_shape_extraction: test/CMakeFiles/simple_grasping_test_shap
 
 # fast build rule for target.
 simple_grasping_test_shape_extraction/fast:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build
 .PHONY : simple_grasping_test_shape_extraction/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_simple_grasping.dir/rule:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_simple_grasping.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_simple_grasping.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_simple_grasping.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _run_tests_simple_grasping: test/CMakeFiles/_run_tests_simple_grasping.dir/rule
 
 # fast build rule for target.
 _run_tests_simple_grasping/fast:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/_run_tests_simple_grasping.dir/build.make test/CMakeFiles/_run_tests_simple_grasping.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/_run_tests_simple_grasping.dir/build.make test/CMakeFiles/_run_tests_simple_grasping.dir/build
 .PHONY : _run_tests_simple_grasping/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/rule:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ _run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction: test/CMa
 
 # fast build rule for target.
 _run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction/fast:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/_run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/_run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/_run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/_run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build
 .PHONY : _run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction/fast
 
 # Convenience name for target.
 test/CMakeFiles/clean_test_results_simple_grasping.dir/rule:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_simple_grasping.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_simple_grasping.dir/rule
 .PHONY : test/CMakeFiles/clean_test_results_simple_grasping.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ clean_test_results_simple_grasping: test/CMakeFiles/clean_test_results_simple_gr
 
 # fast build rule for target.
 clean_test_results_simple_grasping/fast:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/clean_test_results_simple_grasping.dir/build.make test/CMakeFiles/clean_test_results_simple_grasping.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/clean_test_results_simple_grasping.dir/build.make test/CMakeFiles/clean_test_results_simple_grasping.dir/build
 .PHONY : clean_test_results_simple_grasping/fast
 
 # Convenience name for target.
 test/CMakeFiles/_run_tests_simple_grasping_gtest.dir/rule:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_simple_grasping_gtest.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_simple_grasping_gtest.dir/rule
 .PHONY : test/CMakeFiles/_run_tests_simple_grasping_gtest.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ _run_tests_simple_grasping_gtest: test/CMakeFiles/_run_tests_simple_grasping_gte
 
 # fast build rule for target.
 _run_tests_simple_grasping_gtest/fast:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/_run_tests_simple_grasping_gtest.dir/build.make test/CMakeFiles/_run_tests_simple_grasping_gtest.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/_run_tests_simple_grasping_gtest.dir/build.make test/CMakeFiles/_run_tests_simple_grasping_gtest.dir/build
 .PHONY : _run_tests_simple_grasping_gtest/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_simple_grasping_gtest.dir/rule:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_simple_grasping_gtest.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_simple_grasping_gtest.dir/rule
 .PHONY : test/CMakeFiles/run_tests_simple_grasping_gtest.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ run_tests_simple_grasping_gtest: test/CMakeFiles/run_tests_simple_grasping_gtest
 
 # fast build rule for target.
 run_tests_simple_grasping_gtest/fast:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/run_tests_simple_grasping_gtest.dir/build.make test/CMakeFiles/run_tests_simple_grasping_gtest.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/run_tests_simple_grasping_gtest.dir/build.make test/CMakeFiles/run_tests_simple_grasping_gtest.dir/build
 .PHONY : run_tests_simple_grasping_gtest/fast
 
 # Convenience name for target.
 test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/rule:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/rule
 .PHONY : test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/rule
 
 # Convenience name for target.
@@ -282,7 +282,7 @@ run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction: test/CMak
 
 # fast build rule for target.
 run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction/fast:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build
 .PHONY : run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction/fast
 
 __/src/shape_extraction.o: __/src/shape_extraction.cpp.o
@@ -291,7 +291,7 @@ __/src/shape_extraction.o: __/src/shape_extraction.cpp.o
 
 # target to build an object file
 __/src/shape_extraction.cpp.o:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/__/src/shape_extraction.cpp.o
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/__/src/shape_extraction.cpp.o
 .PHONY : __/src/shape_extraction.cpp.o
 
 __/src/shape_extraction.i: __/src/shape_extraction.cpp.i
@@ -300,7 +300,7 @@ __/src/shape_extraction.i: __/src/shape_extraction.cpp.i
 
 # target to preprocess a source file
 __/src/shape_extraction.cpp.i:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/__/src/shape_extraction.cpp.i
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/__/src/shape_extraction.cpp.i
 .PHONY : __/src/shape_extraction.cpp.i
 
 __/src/shape_extraction.s: __/src/shape_extraction.cpp.s
@@ -309,7 +309,7 @@ __/src/shape_extraction.s: __/src/shape_extraction.cpp.s
 
 # target to generate assembly for a file
 __/src/shape_extraction.cpp.s:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/__/src/shape_extraction.cpp.s
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/__/src/shape_extraction.cpp.s
 .PHONY : __/src/shape_extraction.cpp.s
 
 test_shape_extraction.o: test_shape_extraction.cpp.o
@@ -318,7 +318,7 @@ test_shape_extraction.o: test_shape_extraction.cpp.o
 
 # target to build an object file
 test_shape_extraction.cpp.o:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/test_shape_extraction.cpp.o
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/test_shape_extraction.cpp.o
 .PHONY : test_shape_extraction.cpp.o
 
 test_shape_extraction.i: test_shape_extraction.cpp.i
@@ -327,7 +327,7 @@ test_shape_extraction.i: test_shape_extraction.cpp.i
 
 # target to preprocess a source file
 test_shape_extraction.cpp.i:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/test_shape_extraction.cpp.i
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/test_shape_extraction.cpp.i
 .PHONY : test_shape_extraction.cpp.i
 
 test_shape_extraction.s: test_shape_extraction.cpp.s
@@ -336,7 +336,7 @@ test_shape_extraction.s: test_shape_extraction.cpp.s
 
 # target to generate assembly for a file
 test_shape_extraction.cpp.s:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/test_shape_extraction.cpp.s
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(MAKE) -f test/CMakeFiles/simple_grasping_test_shape_extraction.dir/build.make test/CMakeFiles/simple_grasping_test_shape_extraction.dir/test_shape_extraction.cpp.s
 .PHONY : test_shape_extraction.cpp.s
 
 # Help Target
@@ -377,6 +377,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

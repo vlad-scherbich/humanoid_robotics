@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/include/moveit/py_bindings_tools/py_conversions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/include/moveit/py_bindings_tools/py_conversions.h
 boost/python.hpp
 -
 boost/python/stl_iterator.hpp
@@ -18,17 +18,17 @@ vector
 map
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/include/moveit/py_bindings_tools/roscpp_initializer.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/include/moveit/py_bindings_tools/roscpp_initializer.h
 boost/python.hpp
 -
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/src/roscpp_initializer.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/src/roscpp_initializer.cpp
 moveit/py_bindings_tools/roscpp_initializer.h
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/src/moveit/py_bindings_tools/roscpp_initializer.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/src/moveit/py_bindings_tools/roscpp_initializer.h
 moveit/py_bindings_tools/py_conversions.h
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/src/moveit/py_bindings_tools/py_conversions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/src/moveit/py_bindings_tools/py_conversions.h
 boost/thread.hpp
 -
 ros/ros.h

@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sba.dir/src/proj.cpp.o"
   "CMakeFiles/sba.dir/src/node.cpp.o"
   "CMakeFiles/sba.dir/src/sba_file_io.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so"
 )
 
 # Per-language clean rules from dependency scanning.

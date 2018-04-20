@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_ros_visualization
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization /home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization /home/kathleen/fetch_ws/build/moveit_ros_visualization /home/kathleen/fetch_ws/build/moveit_ros_visualization /home/kathleen/fetch_ws/build/moveit_ros_visualization/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 

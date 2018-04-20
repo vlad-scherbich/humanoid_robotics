@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
 cstdlib
 -
 vector
@@ -18,15 +18,15 @@ memory
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map.h
 octomap/octomap.h
 -
 boost/thread/shared_mutex.hpp
@@ -36,7 +36,7 @@ boost/function.hpp
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
 vector
 -
 string
@@ -60,7 +60,7 @@ boost/thread/mutex.hpp
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
 moveit/macros/class_forward.h
 -
 moveit/occupancy_map_monitor/occupancy_map.h
@@ -74,7 +74,7 @@ Eigen/Core
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/src/occupancy_map_monitor.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/src/occupancy_map_monitor.cpp
 ros/ros.h
 -
 moveit_msgs/SaveMap.h
@@ -88,7 +88,7 @@ moveit/occupancy_map_monitor/occupancy_map_monitor.h
 XmlRpcException.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/src/occupancy_map_updater.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/src/occupancy_map_updater.cpp
 moveit/occupancy_map_monitor/occupancy_map_monitor.h
 -
 moveit/occupancy_map_monitor/occupancy_map_updater.h

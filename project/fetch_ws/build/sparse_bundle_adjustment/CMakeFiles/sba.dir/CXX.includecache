@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/bpcg/bpcg.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/bpcg/bpcg.h
 vector
 -
 map
@@ -20,7 +20,7 @@ Eigen/LU
 Eigen/StdVector
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/csparse.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/csparse.h
 stdio.h
 -
 iostream
@@ -34,25 +34,25 @@ Eigen/LU
 Eigen/StdVector
 -
 suitesparse/cs.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/suitesparse/cs.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/suitesparse/cs.h
 vector
 -
 map
 -
 suitesparse/cholmod.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/suitesparse/cholmod.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/suitesparse/cholmod.h
 SparseLib/compcol_double.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/compcol_double.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/compcol_double.h
 SparseLib/mvblasd.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/mvblasd.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/mvblasd.h
 SparseLib/icpre_double.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/icpre_double.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/icpre_double.h
 SparseLib/cg.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/cg.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/cg.h
 sparse_bundle_adjustment/bpcg/bpcg.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sparse_bundle_adjustment/bpcg/bpcg.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sparse_bundle_adjustment/bpcg/bpcg.h
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/node.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/node.h
 stdio.h
 -
 iostream
@@ -62,7 +62,7 @@ Eigen/Core
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/proj.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/proj.h
 Eigen/Core
 -
 Eigen/Geometry
@@ -76,7 +76,7 @@ map
 sparse_bundle_adjustment/node.h
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sba.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sba.h
 stdio.h
 -
 iostream
@@ -104,7 +104,7 @@ sparse_bundle_adjustment/csparse.h
 sparse_bundle_adjustment/bpcg/bpcg.h
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sba_file_io.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sba_file_io.h
 Eigen/Eigen
 -
 vector
@@ -116,9 +116,9 @@ fstream
 iomanip
 -
 sparse_bundle_adjustment/sba.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sparse_bundle_adjustment/sba.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sparse_bundle_adjustment/sba.h
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/spa2d.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/spa2d.h
 stdio.h
 -
 iostream
@@ -138,11 +138,11 @@ sparse_bundle_adjustment/csparse.h
 sparse_bundle_adjustment/bpcg/bpcg.h
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/csparse.cpp
 stdio.h
 -
 sparse_bundle_adjustment/csparse.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/csparse.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/csparse.h
 iostream
 -
 iomanip
@@ -154,31 +154,31 @@ sys/time.h
 algorithm
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/node.cpp
 sparse_bundle_adjustment/node.h
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/proj.cpp
 sparse_bundle_adjustment/proj.h
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba.cpp
 sparse_bundle_adjustment/sba.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/sba.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/sba.h
 sys/time.h
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sba_file_io.cpp
 sparse_bundle_adjustment/sba_file_io.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/sba_file_io.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/sba_file_io.h
 map
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa.cpp
 stdio.h
 -
 sparse_bundle_adjustment/sba.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/sba.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/sba.h
 Eigen/Cholesky
 -
 iostream
@@ -190,11 +190,11 @@ fstream
 sys/time.h
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/spa2d.cpp
 stdio.h
 -
 sparse_bundle_adjustment/spa2d.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/spa2d.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/src/sparse_bundle_adjustment/spa2d.h
 Eigen/Cholesky
 -
 iostream

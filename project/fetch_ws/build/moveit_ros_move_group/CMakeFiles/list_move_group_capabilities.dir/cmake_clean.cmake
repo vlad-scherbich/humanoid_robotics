@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/list_move_group_capabilities.dir/src/list_capabilities.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities"
 )
 
 # Per-language clean rules from dependency scanning.

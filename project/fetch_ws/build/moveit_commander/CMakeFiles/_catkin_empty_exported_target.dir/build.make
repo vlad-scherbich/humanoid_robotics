@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_commander
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_commander
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_commander
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_commander
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_commander && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_commander /home/kathleen/fetch_ws/src/moveit/moveit_commander /home/kathleen/fetch_ws/build/moveit_commander /home/kathleen/fetch_ws/build/moveit_commander /home/kathleen/fetch_ws/build/moveit_commander/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_commander && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_commander /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_commander /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_commander /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_commander /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_commander/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

@@ -16,9 +16,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_sampler.cpp.o"
   "CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_valid_state_sampler.cpp.o"
   "CMakeFiles/moveit_ompl_interface.dir/src/detail/constrained_goal_sampler.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_planners_ompl/lib/libmoveit_ompl_interface.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_planners_ompl/lib/libmoveit_ompl_interface.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_planners_ompl/lib/libmoveit_ompl_interface.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_planners_ompl/lib/libmoveit_ompl_interface.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_planners_ompl/lib/libmoveit_ompl_interface.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_planners_ompl/lib/libmoveit_ompl_interface.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

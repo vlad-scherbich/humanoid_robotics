@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DSBA_CHOLMOD -Dsba_EXPORTS
 
-CXX_INCLUDES = -I/usr/include/eigen3 -I/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include 
+CXX_INCLUDES = -I/usr/include/eigen3 -I/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include 
 

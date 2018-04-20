@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/ControllerState.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/ControllerState.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesAction.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesAction.h
 string
 -
 vector
@@ -44,7 +44,7 @@ robot_controllers_msgs/QueryControllerStatesActionResult.h
 robot_controllers_msgs/QueryControllerStatesActionFeedback.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesActionFeedback.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesActionFeedback.h
 string
 -
 vector
@@ -66,7 +66,7 @@ actionlib_msgs/GoalStatus.h
 robot_controllers_msgs/QueryControllerStatesFeedback.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesActionGoal.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesActionGoal.h
 string
 -
 vector
@@ -88,7 +88,7 @@ actionlib_msgs/GoalID.h
 robot_controllers_msgs/QueryControllerStatesGoal.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesActionResult.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesActionResult.h
 string
 -
 vector
@@ -110,7 +110,7 @@ actionlib_msgs/GoalStatus.h
 robot_controllers_msgs/QueryControllerStatesResult.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesFeedback.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesFeedback.h
 string
 -
 vector
@@ -128,7 +128,7 @@ ros/message_operations.h
 robot_controllers_msgs/ControllerState.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesGoal.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesGoal.h
 string
 -
 vector
@@ -146,7 +146,7 @@ ros/message_operations.h
 robot_controllers_msgs/ControllerState.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesResult.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_msgs/include/robot_controllers_msgs/QueryControllerStatesResult.h
 string
 -
 vector
@@ -164,7 +164,7 @@ ros/message_operations.h
 robot_controllers_msgs/ControllerState.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/cartesian_pose.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/cartesian_pose.h
 string
 -
 vector
@@ -198,7 +198,7 @@ tf/transform_datatypes.h
 tf/transform_listener.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/cartesian_twist.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/cartesian_twist.h
 string
 -
 vector
@@ -234,7 +234,7 @@ tf/transform_listener.h
 robot_controllers/trajectory_spline_sampler.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/cartesian_wrench.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/cartesian_wrench.h
 string
 -
 vector
@@ -262,7 +262,7 @@ tf/transform_datatypes.h
 tf/transform_listener.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/diff_drive_base.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/diff_drive_base.h
 string
 -
 boost/shared_ptr.hpp
@@ -286,7 +286,7 @@ nav_msgs/Odometry.h
 sensor_msgs/LaserScan.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/follow_joint_trajectory.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/follow_joint_trajectory.h
 string
 -
 vector
@@ -314,7 +314,7 @@ robot_controllers/trajectory.h
 robot_controllers/trajectory_spline_sampler.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/gravity_compensation.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/gravity_compensation.h
 string
 -
 vector
@@ -344,7 +344,7 @@ kdl/jntarrayvel.hpp
 kdl/chaindynparam.hpp
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/parallel_gripper.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/parallel_gripper.h
 string
 -
 vector
@@ -364,11 +364,11 @@ control_msgs/GripperCommandAction.h
 actionlib/server/simple_action_server.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/pid.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/pid.h
 ros/ros.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/point_head.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/point_head.h
 string
 -
 vector
@@ -394,7 +394,7 @@ robot_controllers/trajectory_spline_sampler.h
 kdl/tree.hpp
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/scaled_mimic.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/scaled_mimic.h
 string
 -
 vector
@@ -412,7 +412,7 @@ control_msgs/GripperCommandAction.h
 actionlib/server/simple_action_server.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/trajectory.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/trajectory.h
 ros/ros.h
 -
 angles/angles.h
@@ -420,11 +420,11 @@ angles/angles.h
 trajectory_msgs/JointTrajectory.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/trajectory_spline_sampler.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include/robot_controllers/trajectory_spline_sampler.h
 robot_controllers/trajectory.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp
 pluginlib/class_list_macros.h
 -
 robot_controllers/cartesian_pose.h
@@ -436,7 +436,7 @@ kdl_parser/kdl_parser.hpp
 tf_conversions/tf_kdl.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp
 pluginlib/class_list_macros.h
 -
 robot_controllers/cartesian_twist.h
@@ -448,7 +448,7 @@ kdl_parser/kdl_parser.hpp
 tf_conversions/tf_kdl.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp
 pluginlib/class_list_macros.h
 -
 robot_controllers/cartesian_wrench.h
@@ -458,7 +458,7 @@ urdf/model.h
 kdl_parser/kdl_parser.hpp
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp
 angles/angles.h
 -
 pluginlib/class_list_macros.h
@@ -466,31 +466,31 @@ pluginlib/class_list_macros.h
 robot_controllers/diff_drive_base.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp
 pluginlib/class_list_macros.h
 -
 robot_controllers/follow_joint_trajectory.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp
 pluginlib/class_list_macros.h
 -
 robot_controllers/gravity_compensation.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp
 pluginlib/class_list_macros.h
 -
 robot_controllers/parallel_gripper.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp
 robot_controllers/pid.h
 -
 cmath
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp
 pluginlib/class_list_macros.h
 -
 robot_controllers/point_head.h
@@ -500,13 +500,13 @@ urdf/model.h
 kdl_parser/kdl_parser.hpp
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp
 pluginlib/class_list_macros.h
 -
 robot_controllers/scaled_mimic.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller.h
 string
 -
 vector
@@ -518,7 +518,7 @@ ros/ros.h
 robot_controllers_interface/handle.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller_loader.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller_loader.h
 string
 -
 ros/ros.h
@@ -528,7 +528,7 @@ pluginlib/class_loader.h
 robot_controllers_interface/controller.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller_manager.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller_manager.h
 string
 -
 ros/ros.h
@@ -544,13 +544,13 @@ robot_controllers_interface/controller.h
 robot_controllers_interface/controller_loader.h
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/handle.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/handle.h
 string
 -
 boost/shared_ptr.hpp
 -
 
-/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/joint_handle.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/joint_handle.h
 robot_controllers_interface/handle.h
 -
 

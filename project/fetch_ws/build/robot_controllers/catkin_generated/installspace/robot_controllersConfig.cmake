@@ -67,14 +67,14 @@ set(robot_controllers_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robot_controllers_SOURCE_PREFIX /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers)
-  set(robot_controllers_DEVEL_PREFIX /home/kathleen/fetch_ws/devel/.private/robot_controllers)
+  set(robot_controllers_SOURCE_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers)
+  set(robot_controllers_DEVEL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers)
   set(robot_controllers_INSTALL_PREFIX "")
   set(robot_controllers_PREFIX ${robot_controllers_DEVEL_PREFIX})
 else()
   set(robot_controllers_SOURCE_PREFIX "")
   set(robot_controllers_DEVEL_PREFIX "")
-  set(robot_controllers_INSTALL_PREFIX /home/kathleen/fetch_ws/install)
+  set(robot_controllers_INSTALL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/install)
   set(robot_controllers_PREFIX ${robot_controllers_INSTALL_PREFIX})
 endif()
 
@@ -110,7 +110,7 @@ if(NOT "include;/usr/include;/usr/include/eigen3;/opt/ros/kinetic/include " STRE
         message(FATAL_ERROR "Project 'robot_controllers' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'robot_controllers' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/fetch_ws/install/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'robot_controllers' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/humanoid_robotics/project/fetch_ws/install/${idir}'.  ${_report}")
     endif()
     _list_append_unique(robot_controllers_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/kathleen/fetch_ws/install/lib;/home/kathleen/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/kathleen/humanoid_robotics/project/fetch_ws/install/lib;/home/kathleen/humanoid_robotics/project/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

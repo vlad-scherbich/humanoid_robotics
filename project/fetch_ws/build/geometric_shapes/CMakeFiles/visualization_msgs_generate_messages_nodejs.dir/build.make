@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/geometric_shapes
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/geometric_shapes
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes
 
 # Utility rule file for visualization_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/kathleen/fetch_ws/build/geometric_shapes && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/geometric_shapes /home/kathleen/fetch_ws/src/geometric_shapes /home/kathleen/fetch_ws/build/geometric_shapes /home/kathleen/fetch_ws/build/geometric_shapes /home/kathleen/fetch_ws/build/geometric_shapes/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes /home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes /home/kathleen/humanoid_robotics/project/fetch_ws/build/geometric_shapes/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/depend
 

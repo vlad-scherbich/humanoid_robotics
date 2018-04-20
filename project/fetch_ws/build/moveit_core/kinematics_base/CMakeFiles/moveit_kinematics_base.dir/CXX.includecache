@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
 geometry_msgs/PoseStamped.h
 -
 moveit_msgs/MoveItErrorCodes.h
@@ -22,21 +22,21 @@ boost/function.hpp
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/kinematics_base/src/kinematics_base.cpp
 moveit/kinematics_base/kinematics_base.h
 -
 moveit/robot_model/joint_model_group.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
 string
 -
 vector
@@ -52,7 +52,7 @@ random_numbers/random_numbers.h
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
 moveit/robot_model/joint_model.h
 -
 moveit/robot_model/link_model.h
@@ -66,7 +66,7 @@ boost/function.hpp
 set
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
 string
 -
 vector

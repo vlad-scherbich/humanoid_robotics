@@ -2,9 +2,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/moveit_distance_field.dir/src/distance_field.cpp.o"
   "CMakeFiles/moveit_distance_field.dir/src/find_internal_points.cpp.o"
   "CMakeFiles/moveit_distance_field.dir/src/propagation_distance_field.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_distance_field.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_distance_field.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_distance_field.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_distance_field.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_distance_field.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_distance_field.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

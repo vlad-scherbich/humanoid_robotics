@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/python".split(";")
+__extended_path = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/python".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

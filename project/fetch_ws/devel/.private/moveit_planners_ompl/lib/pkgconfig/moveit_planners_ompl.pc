@@ -1,8 +1,8 @@
-prefix=/home/kathleen/fetch_ws/devel/.private/moveit_planners_ompl
+prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_planners_ompl
 
 Name: moveit_planners_ompl
 Description: Description of moveit_planners_ompl
 Version: 0.9.11
-Cflags: -I/home/kathleen/fetch_ws/devel/.private/moveit_planners_ompl/include -I/home/kathleen/fetch_ws/src/moveit/moveit_planners/ompl/ompl_interface/include -I/opt/ros/kinetic/include
-Libs: -L/home/kathleen/fetch_ws/devel/.private/moveit_planners_ompl/lib -lmoveit_ompl_interface /opt/ros/kinetic/lib/x86_64-linux-gnu/libompl.so
+Cflags: -I/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_planners_ompl/include -I/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_planners/ompl/ompl_interface/include -I/opt/ros/kinetic/include
+Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_planners_ompl/lib -lmoveit_ompl_interface /opt/ros/kinetic/lib/x86_64-linux-gnu/libompl.so
 Requires: moveit_core

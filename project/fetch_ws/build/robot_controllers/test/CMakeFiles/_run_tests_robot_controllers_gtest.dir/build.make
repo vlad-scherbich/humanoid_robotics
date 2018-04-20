@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/robot_controllers
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers
 
 # Utility rule file for _run_tests_robot_controllers_gtest.
 
@@ -63,10 +63,10 @@ test/CMakeFiles/_run_tests_robot_controllers_gtest.dir/build: _run_tests_robot_c
 .PHONY : test/CMakeFiles/_run_tests_robot_controllers_gtest.dir/build
 
 test/CMakeFiles/_run_tests_robot_controllers_gtest.dir/clean:
-	cd /home/kathleen/fetch_ws/build/robot_controllers/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_robot_controllers_gtest.dir/cmake_clean.cmake
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_robot_controllers_gtest.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/_run_tests_robot_controllers_gtest.dir/clean
 
 test/CMakeFiles/_run_tests_robot_controllers_gtest.dir/depend:
-	cd /home/kathleen/fetch_ws/build/robot_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/test /home/kathleen/fetch_ws/build/robot_controllers /home/kathleen/fetch_ws/build/robot_controllers/test /home/kathleen/fetch_ws/build/robot_controllers/test/CMakeFiles/_run_tests_robot_controllers_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/test /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/test /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/test/CMakeFiles/_run_tests_robot_controllers_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/_run_tests_robot_controllers_gtest.dir/depend
 

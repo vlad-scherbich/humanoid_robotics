@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/dynamics_solver/include/moveit/dynamics_solver/dynamics_solver.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/dynamics_solver/include/moveit/dynamics_solver/dynamics_solver.h
 kdl/chain.hpp
 -
 kdl/chainidsolver_recursive_newton_euler.hpp
@@ -20,7 +20,7 @@ geometry_msgs/Wrench.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/dynamics_solver/src/dynamics_solver.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/dynamics_solver/src/dynamics_solver.cpp
 moveit/dynamics_solver/dynamics_solver.h
 -
 kdl/jntarray.hpp
@@ -38,11 +38,11 @@ kdl/chainjnttojacsolver.hpp
 kdl/tree.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
 stdexcept
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
 geometry_msgs/PoseStamped.h
 -
 moveit_msgs/MoveItErrorCodes.h
@@ -58,25 +58,25 @@ boost/function.hpp
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/fixed_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/fixed_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/floating_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/floating_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
 string
 -
 vector
@@ -92,7 +92,7 @@ random_numbers/random_numbers.h
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
 moveit/robot_model/joint_model.h
 -
 moveit/robot_model/link_model.h
@@ -106,7 +106,7 @@ boost/function.hpp
 set
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
 string
 -
 vector
@@ -122,19 +122,19 @@ eigen_stl_containers/eigen_stl_vector_container.h
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/planar_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/planar_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/revolute_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/revolute_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h
 moveit/macros/class_forward.h
 -
 moveit/exceptions/exceptions.h
@@ -162,7 +162,7 @@ Eigen/Geometry
 iostream
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/attached_body.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/attached_body.h
 moveit/robot_model/link_model.h
 -
 eigen_stl_containers/eigen_stl_containers.h
@@ -174,7 +174,7 @@ trajectory_msgs/JointTrajectory.h
 set
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h
 moveit/robot_model/robot_model.h
 -
 moveit/robot_state/attached_body.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_kinematics
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_kinematics
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_kinematics
 
 # Utility rule file for shape_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/shape_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/shape_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/shape_msgs_generate_messages_eus.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_kinematics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_kinematics /home/kathleen/fetch_ws/src/moveit/moveit_kinematics /home/kathleen/fetch_ws/build/moveit_kinematics /home/kathleen/fetch_ws/build/moveit_kinematics /home/kathleen/fetch_ws/build/moveit_kinematics/CMakeFiles/shape_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_kinematics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_kinematics /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_kinematics /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_kinematics/CMakeFiles/shape_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/shape_msgs_generate_messages_eus.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/kathleen/fetch_ws/src/grasping_msgs
+# Install script for directory: /home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kathleen/fetch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kathleen/humanoid_robotics/project/fetch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,165 +44,165 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kathleen/fetch_ws/install/_setup_util.py")
+   "/home/kathleen/humanoid_robotics/project/fetch_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/kathleen/fetch_ws/install" TYPE PROGRAM FILES "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/kathleen/humanoid_robotics/project/fetch_ws/install" TYPE PROGRAM FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kathleen/fetch_ws/install/env.sh")
+   "/home/kathleen/humanoid_robotics/project/fetch_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/kathleen/fetch_ws/install" TYPE PROGRAM FILES "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/kathleen/humanoid_robotics/project/fetch_ws/install" TYPE PROGRAM FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kathleen/fetch_ws/install/setup.bash")
+   "/home/kathleen/humanoid_robotics/project/fetch_ws/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/kathleen/fetch_ws/install" TYPE FILE FILES "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/kathleen/humanoid_robotics/project/fetch_ws/install" TYPE FILE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kathleen/fetch_ws/install/setup.sh")
+   "/home/kathleen/humanoid_robotics/project/fetch_ws/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/kathleen/fetch_ws/install" TYPE FILE FILES "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/kathleen/humanoid_robotics/project/fetch_ws/install" TYPE FILE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kathleen/fetch_ws/install/setup.zsh")
+   "/home/kathleen/humanoid_robotics/project/fetch_ws/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/kathleen/fetch_ws/install" TYPE FILE FILES "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/kathleen/humanoid_robotics/project/fetch_ws/install" TYPE FILE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kathleen/fetch_ws/install/.rosinstall")
+   "/home/kathleen/humanoid_robotics/project/fetch_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/kathleen/fetch_ws/install" TYPE FILE FILES "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/kathleen/humanoid_robotics/project/fetch_ws/install" TYPE FILE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs/action" TYPE FILE FILES
-    "/home/kathleen/fetch_ws/src/grasping_msgs/action/FindGraspableObjects.action"
-    "/home/kathleen/fetch_ws/src/grasping_msgs/action/GraspPlanning.action"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs/action/FindGraspableObjects.action"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs/action/GraspPlanning.action"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs/msg" TYPE FILE FILES
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsAction.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsActionGoal.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsActionResult.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsActionFeedback.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsGoal.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsResult.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsFeedback.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsAction.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsActionGoal.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsActionResult.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsActionFeedback.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsGoal.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsResult.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/FindGraspableObjectsFeedback.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs/msg" TYPE FILE FILES
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningAction.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningActionGoal.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningActionResult.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningActionFeedback.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningGoal.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningResult.msg"
-    "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningFeedback.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningAction.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningActionGoal.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningActionResult.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningActionFeedback.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningGoal.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningResult.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/grasping_msgs/msg/GraspPlanningFeedback.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs/msg" TYPE FILE FILES
-    "/home/kathleen/fetch_ws/src/grasping_msgs/msg/GraspableObject.msg"
-    "/home/kathleen/fetch_ws/src/grasping_msgs/msg/Object.msg"
-    "/home/kathleen/fetch_ws/src/grasping_msgs/msg/ObjectProperty.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs/msg/GraspableObject.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs/msg/Object.msg"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs/msg/ObjectProperty.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs/cmake" TYPE FILE FILES "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs/cmake" TYPE FILE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgs-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/roseus/ros/grasping_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/roseus/ros/grasping_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/common-lisp/ros/grasping_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/common-lisp/ros/grasping_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/share/gennodejs/ros/grasping_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/share/gennodejs/ros/grasping_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/lib/python2.7/dist-packages/grasping_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/lib/python2.7/dist-packages/grasping_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/lib/python2.7/dist-packages/grasping_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/lib/python2.7/dist-packages/grasping_msgs")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgs.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs/cmake" TYPE FILE FILES "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs/cmake" TYPE FILE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgs-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs/cmake" TYPE FILE FILES
-    "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgsConfig.cmake"
-    "/home/kathleen/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgsConfig-version.cmake"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgsConfig.cmake"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/catkin_generated/installspace/grasping_msgsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs" TYPE FILE FILES "/home/kathleen/fetch_ws/src/grasping_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grasping_msgs" TYPE FILE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kathleen/fetch_ws/build/grasping_msgs/gtest/cmake_install.cmake")
+  include("/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/gtest/cmake_install.cmake")
 
 endif()
 
@@ -214,5 +214,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kathleen/fetch_ws/build/grasping_msgs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_evaluate_collision_checking_speed.dir/src/evaluate_collision_checking_speed.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed"
 )
 
 # Per-language clean rules from dependency scanning.

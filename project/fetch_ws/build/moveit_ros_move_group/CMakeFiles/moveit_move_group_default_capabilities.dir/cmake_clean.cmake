@@ -10,9 +10,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/get_planning_scene_service_capability.cpp.o"
   "CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/apply_planning_scene_service_capability.cpp.o"
   "CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/clear_octomap_service_capability.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

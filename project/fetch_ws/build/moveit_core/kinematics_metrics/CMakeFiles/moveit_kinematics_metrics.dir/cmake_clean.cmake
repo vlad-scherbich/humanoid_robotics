@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_kinematics_metrics.dir/src/kinematics_metrics.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_kinematics_metrics.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_kinematics_metrics.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_kinematics_metrics.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_kinematics_metrics.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_kinematics_metrics.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_kinematics_metrics.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

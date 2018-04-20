@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h
 vector
 -
 string
@@ -16,21 +16,21 @@ moveit_msgs/RobotTrajectory.h
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/test/test_moveit_controller_manager.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/test/test_moveit_controller_manager.h
 moveit/controller_manager/controller_manager.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/test/test_moveit_controller_manager_plugin.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/test/test_moveit_controller_manager_plugin.cpp
 test_moveit_controller_manager.h
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/test/test_moveit_controller_manager.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/test/test_moveit_controller_manager.h
 pluginlib/class_list_macros.h
 -
 

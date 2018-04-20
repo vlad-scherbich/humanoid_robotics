@@ -1,8 +1,8 @@
-prefix=/home/kathleen/fetch_ws/install
+prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/install
 
 Name: moveit_simple_controller_manager
 Description: Description of moveit_simple_controller_manager
 Version: 0.9.11
-Cflags: -I/home/kathleen/fetch_ws/install/include
-Libs: -L/home/kathleen/fetch_ws/install/lib 
+Cflags: -I/home/kathleen/humanoid_robotics/project/fetch_ws/install/include
+Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/install/lib 
 Requires: moveit_core actionlib control_msgs

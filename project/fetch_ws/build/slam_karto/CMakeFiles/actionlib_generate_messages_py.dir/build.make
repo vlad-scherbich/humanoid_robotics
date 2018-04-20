@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/slam_karto
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/slam_karto
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto
 
 # Utility rule file for actionlib_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/actionlib_generate_messages_py.dir/clean
 
 CMakeFiles/actionlib_generate_messages_py.dir/depend:
-	cd /home/kathleen/fetch_ws/build/slam_karto && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/slam_karto /home/kathleen/fetch_ws/src/slam_karto /home/kathleen/fetch_ws/build/slam_karto /home/kathleen/fetch_ws/build/slam_karto /home/kathleen/fetch_ws/build/slam_karto/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto/CMakeFiles/actionlib_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_generate_messages_py.dir/depend
 

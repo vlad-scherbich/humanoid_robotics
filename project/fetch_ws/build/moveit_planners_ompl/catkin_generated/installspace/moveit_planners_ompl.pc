@@ -1,8 +1,8 @@
-prefix=/home/kathleen/fetch_ws/install
+prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/install
 
 Name: moveit_planners_ompl
 Description: Description of moveit_planners_ompl
 Version: 0.9.11
-Cflags: -I/home/kathleen/fetch_ws/install/include -I/opt/ros/kinetic/include
-Libs: -L/home/kathleen/fetch_ws/install/lib -lmoveit_ompl_interface /opt/ros/kinetic/lib/x86_64-linux-gnu/libompl.so
+Cflags: -I/home/kathleen/humanoid_robotics/project/fetch_ws/install/include -I/opt/ros/kinetic/include
+Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/install/lib -lmoveit_ompl_interface /opt/ros/kinetic/lib/x86_64-linux-gnu/libompl.so
 Requires: moveit_core

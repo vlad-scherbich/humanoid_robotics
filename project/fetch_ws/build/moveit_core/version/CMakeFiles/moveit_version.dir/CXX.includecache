@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/devel/.private/moveit_core/include/moveit/version.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/include/moveit/version.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/version/version.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/version/version.cpp
 moveit/version.h
 -
 cstdio

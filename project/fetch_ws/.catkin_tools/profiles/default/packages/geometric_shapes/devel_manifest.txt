@@ -1,5 +1,5 @@
 geometric_shapes
-/home/kathleen/fetch_ws/devel/.private/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake /home/kathleen/fetch_ws/devel/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake
-/home/kathleen/fetch_ws/devel/.private/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig.cmake /home/kathleen/fetch_ws/devel/share/geometric_shapes/cmake/geometric_shapesConfig.cmake
-/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib/libgeometric_shapes.so /home/kathleen/fetch_ws/devel/lib/libgeometric_shapes.so
-/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib/pkgconfig/geometric_shapes.pc /home/kathleen/fetch_ws/devel/lib/pkgconfig/geometric_shapes.pc
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake /home/kathleen/humanoid_robotics/project/fetch_ws/devel/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig.cmake /home/kathleen/humanoid_robotics/project/fetch_ws/devel/share/geometric_shapes/cmake/geometric_shapesConfig.cmake
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib/libgeometric_shapes.so /home/kathleen/humanoid_robotics/project/fetch_ws/devel/lib/libgeometric_shapes.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib/pkgconfig/geometric_shapes.pc /home/kathleen/humanoid_robotics/project/fetch_ws/devel/lib/pkgconfig/geometric_shapes.pc

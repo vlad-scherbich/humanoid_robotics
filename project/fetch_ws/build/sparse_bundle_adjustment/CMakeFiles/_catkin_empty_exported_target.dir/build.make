@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/sparse_bundle_adjustment
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/sparse_bundle_adjustment
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/kathleen/fetch_ws/build/sparse_bundle_adjustment && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/sparse_bundle_adjustment /home/kathleen/fetch_ws/src/sparse_bundle_adjustment /home/kathleen/fetch_ws/build/sparse_bundle_adjustment /home/kathleen/fetch_ws/build/sparse_bundle_adjustment /home/kathleen/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment /home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment /home/kathleen/humanoid_robotics/project/fetch_ws/build/sparse_bundle_adjustment/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

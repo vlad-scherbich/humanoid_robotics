@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/fetch_ros/fetch_depth_layer
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_depth_layer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/fetch_depth_layer
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_depth_layer
 
 # Utility rule file for visualization_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/visualization_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/visualization_msgs_generate_messages_py.dir/depend:
-	cd /home/kathleen/fetch_ws/build/fetch_depth_layer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/fetch_ros/fetch_depth_layer /home/kathleen/fetch_ws/src/fetch_ros/fetch_depth_layer /home/kathleen/fetch_ws/build/fetch_depth_layer /home/kathleen/fetch_ws/build/fetch_depth_layer /home/kathleen/fetch_ws/build/fetch_depth_layer/CMakeFiles/visualization_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_depth_layer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_depth_layer /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_depth_layer /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_depth_layer /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_depth_layer /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_depth_layer/CMakeFiles/visualization_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_py.dir/depend
 

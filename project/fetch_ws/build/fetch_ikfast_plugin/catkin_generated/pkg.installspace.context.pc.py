@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "moveit_core;pluginlib;roscpp;tf_conversions".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "fetch_ikfast_plugin"
-PROJECT_SPACE_DIR = "/home/kathleen/fetch_ws/install"
+PROJECT_SPACE_DIR = "/home/kathleen/humanoid_robotics/project/fetch_ws/install"
 PROJECT_VERSION = "0.7.13"

@@ -3,9 +3,9 @@ file(REMOVE_RECURSE
   "moveit_planning_scene_rviz_plugin_automoc.cpp"
   "CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/src/planning_scene_display.cpp.o"
   "CMakeFiles/moveit_planning_scene_rviz_plugin_core.dir/moveit_planning_scene_rviz_plugin_core_automoc.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

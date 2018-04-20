@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_plugins/moveit_fake_controller_manager
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_plugins/moveit_fake_controller_manager
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_fake_controller_manager
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_fake_controller_manager
 
 # Utility rule file for shape_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/shape_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/shape_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/shape_msgs_generate_messages_py.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_fake_controller_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_plugins/moveit_fake_controller_manager /home/kathleen/fetch_ws/src/moveit/moveit_plugins/moveit_fake_controller_manager /home/kathleen/fetch_ws/build/moveit_fake_controller_manager /home/kathleen/fetch_ws/build/moveit_fake_controller_manager /home/kathleen/fetch_ws/build/moveit_fake_controller_manager/CMakeFiles/shape_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_fake_controller_manager && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_plugins/moveit_fake_controller_manager /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_plugins/moveit_fake_controller_manager /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_fake_controller_manager /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_fake_controller_manager /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_fake_controller_manager/CMakeFiles/shape_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/shape_msgs_generate_messages_py.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/test
+# Install script for directory: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kathleen/fetch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kathleen/humanoid_robotics/project/fetch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

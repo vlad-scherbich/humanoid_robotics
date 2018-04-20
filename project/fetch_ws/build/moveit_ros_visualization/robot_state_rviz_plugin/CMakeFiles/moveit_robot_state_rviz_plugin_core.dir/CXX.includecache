@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/moc_robot_state_display.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/moc_robot_state_display.cpp
 ../../../src/moveit/moveit_ros/visualization/robot_state_rviz_plugin/include/moveit/robot_state_rviz_plugin/robot_state_display.h
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization/robot_state_rviz_plugin/include/moveit/robot_state_rviz_plugin/robot_state_display.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization/robot_state_rviz_plugin/include/moveit/robot_state_rviz_plugin/robot_state_display.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/moveit_robot_state_rviz_plugin_core_automoc.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/moveit_robot_state_rviz_plugin_core_automoc.cpp
 moc_robot_state_display.cpp
-/home/kathleen/fetch_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/moc_robot_state_display.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/moc_robot_state_display.cpp
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
 stdexcept
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
 geometry_msgs/PoseStamped.h
 -
 moveit_msgs/MoveItErrorCodes.h
@@ -38,25 +38,25 @@ boost/function.hpp
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/fixed_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/fixed_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/floating_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/floating_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
 string
 -
 vector
@@ -72,7 +72,7 @@ random_numbers/random_numbers.h
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
 moveit/robot_model/joint_model.h
 -
 moveit/robot_model/link_model.h
@@ -86,7 +86,7 @@ boost/function.hpp
 set
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
 string
 -
 vector
@@ -102,19 +102,19 @@ eigen_stl_containers/eigen_stl_vector_container.h
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/planar_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/planar_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/revolute_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/revolute_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h
 moveit/macros/class_forward.h
 -
 moveit/exceptions/exceptions.h
@@ -142,7 +142,7 @@ Eigen/Geometry
 iostream
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/attached_body.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/attached_body.h
 moveit/robot_model/link_model.h
 -
 eigen_stl_containers/eigen_stl_containers.h
@@ -154,7 +154,7 @@ trajectory_msgs/JointTrajectory.h
 set
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/conversions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/conversions.h
 moveit/robot_state/robot_state.h
 -
 moveit/transforms/transforms.h
@@ -164,7 +164,7 @@ moveit_msgs/RobotState.h
 moveit_msgs/RobotTrajectory.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h
 moveit/robot_model/robot_model.h
 -
 moveit/robot_state/attached_body.h
@@ -184,7 +184,7 @@ cassert
 boost/assert.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/transforms/include/moveit/transforms/transforms.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/transforms/include/moveit/transforms/transforms.h
 geometry_msgs/TransformStamped.h
 -
 geometry_msgs/Pose.h
@@ -196,7 +196,7 @@ boost/noncopyable.hpp
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include/moveit/rdf_loader/rdf_loader.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include/moveit/rdf_loader/rdf_loader.h
 moveit/macros/class_forward.h
 -
 urdf/model.h
@@ -204,7 +204,7 @@ urdf/model.h
 srdfdom/model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization/robot_state_rviz_plugin/include/moveit/robot_state_rviz_plugin/robot_state_display.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization/robot_state_rviz_plugin/include/moveit/robot_state_rviz_plugin/robot_state_display.h
 rviz/display.h
 -
 moveit/rdf_loader/rdf_loader.h
@@ -216,7 +216,7 @@ moveit_msgs/DisplayRobotState.h
 ros/ros.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization/robot_state_rviz_plugin/src/robot_state_display.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization/robot_state_rviz_plugin/src/robot_state_display.cpp
 moveit/robot_state_rviz_plugin/robot_state_display.h
 -
 moveit/robot_state/conversions.h
@@ -250,7 +250,7 @@ OgreSceneManager.h
 OgreSceneNode.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/octomap_render.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/octomap_render.h
 memory
 -
 vector
@@ -260,7 +260,7 @@ rviz/ogre_helpers/point_cloud.h
 moveit/rviz_plugin_render_tools/octomap_render.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h
 moveit/macros/class_forward.h
 -
 moveit/robot_state/robot_state.h

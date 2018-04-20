@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 eigen_stl_containers/eigen_stl_containers.h
 -
 random_numbers/random_numbers.h
@@ -22,7 +22,7 @@ memory
 vector
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
 cstdlib
 -
 vector
@@ -34,15 +34,15 @@ memory
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map.h
 octomap/octomap.h
 -
 boost/thread/shared_mutex.hpp
@@ -52,7 +52,7 @@ boost/function.hpp
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
 vector
 -
 string
@@ -76,7 +76,7 @@ boost/thread/mutex.hpp
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
 moveit/macros/class_forward.h
 -
 moveit/occupancy_map_monitor/occupancy_map.h
@@ -90,7 +90,7 @@ Eigen/Core
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/point_containment_filter/include/moveit/point_containment_filter/shape_mask.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/point_containment_filter/include/moveit/point_containment_filter/shape_mask.h
 sensor_msgs/PointCloud2.h
 -
 geometric_shapes/bodies.h
@@ -108,7 +108,7 @@ map
 boost/thread/mutex.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/pointcloud_octomap_updater/include/moveit/pointcloud_octomap_updater/pointcloud_octomap_updater.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/pointcloud_octomap_updater/include/moveit/pointcloud_octomap_updater/pointcloud_octomap_updater.h
 ros/ros.h
 -
 tf/tf.h
@@ -126,7 +126,7 @@ moveit/point_containment_filter/shape_mask.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/pointcloud_octomap_updater/src/pointcloud_octomap_updater.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/pointcloud_octomap_updater/src/pointcloud_octomap_updater.cpp
 cmath
 -
 moveit/pointcloud_octomap_updater/pointcloud_octomap_updater.h

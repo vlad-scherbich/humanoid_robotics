@@ -67,14 +67,14 @@ set(moveit_ros_planning_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(moveit_ros_planning_SOURCE_PREFIX /home/kathleen/fetch_ws/src/moveit/moveit_ros/planning)
-  set(moveit_ros_planning_DEVEL_PREFIX /home/kathleen/fetch_ws/devel/.private/moveit_ros_planning)
+  set(moveit_ros_planning_SOURCE_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning)
+  set(moveit_ros_planning_DEVEL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning)
   set(moveit_ros_planning_INSTALL_PREFIX "")
   set(moveit_ros_planning_PREFIX ${moveit_ros_planning_DEVEL_PREFIX})
 else()
   set(moveit_ros_planning_SOURCE_PREFIX "")
   set(moveit_ros_planning_DEVEL_PREFIX "")
-  set(moveit_ros_planning_INSTALL_PREFIX /home/kathleen/fetch_ws/install)
+  set(moveit_ros_planning_INSTALL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/install)
   set(moveit_ros_planning_PREFIX ${moveit_ros_planning_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(moveit_ros_planning_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/kinematics_plugin_loader/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/robot_model_loader/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/constraint_sampler_manager_loader/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/planning_pipeline/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/planning_scene_monitor/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/plan_execution/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/collision_plugin_loader/include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/kinematics_plugin_loader/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/robot_model_loader/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/constraint_sampler_manager_loader/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/planning_pipeline/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/planning_scene_monitor/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/plan_execution/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/collision_plugin_loader/include;/usr/include/eigen3 " STREQUAL " ")
   set(moveit_ros_planning_INCLUDE_DIRS "")
-  set(_include_dirs "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/kinematics_plugin_loader/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/robot_model_loader/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/constraint_sampler_manager_loader/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/planning_pipeline/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/planning_scene_monitor/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/plan_execution/include;/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/collision_plugin_loader/include;/usr/include/eigen3")
+  set(_include_dirs "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/kinematics_plugin_loader/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/robot_model_loader/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/constraint_sampler_manager_loader/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/planning_pipeline/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/planning_scene_monitor/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/trajectory_execution_manager/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/plan_execution/include;/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/collision_plugin_loader/include;/usr/include/eigen3")
   if(NOT "https://github.com/ros-planning/moveit/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros-planning/moveit/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://moveit.ros.org " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/include;/home
         message(FATAL_ERROR "Project 'moveit_ros_planning' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'moveit_ros_planning' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'moveit_ros_planning' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/${idir}'.  ${_report}")
     endif()
     _list_append_unique(moveit_ros_planning_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib;/home/kathleen/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib;/home/kathleen/humanoid_robotics/project/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

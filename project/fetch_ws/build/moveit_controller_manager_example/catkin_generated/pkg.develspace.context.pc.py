@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "moveit_core".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "moveit_controller_manager_example"
-PROJECT_SPACE_DIR = "/home/kathleen/fetch_ws/devel/.private/moveit_controller_manager_example"
+PROJECT_SPACE_DIR = "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_controller_manager_example"
 PROJECT_VERSION = "0.9.11"

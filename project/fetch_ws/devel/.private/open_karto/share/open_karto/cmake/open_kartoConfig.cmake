@@ -67,14 +67,14 @@ set(open_karto_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(open_karto_SOURCE_PREFIX /home/kathleen/fetch_ws/src/open_karto)
-  set(open_karto_DEVEL_PREFIX /home/kathleen/fetch_ws/devel/.private/open_karto)
+  set(open_karto_SOURCE_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto)
+  set(open_karto_DEVEL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/open_karto)
   set(open_karto_INSTALL_PREFIX "")
   set(open_karto_PREFIX ${open_karto_DEVEL_PREFIX})
 else()
   set(open_karto_SOURCE_PREFIX "")
   set(open_karto_DEVEL_PREFIX "")
-  set(open_karto_INSTALL_PREFIX /home/kathleen/fetch_ws/install)
+  set(open_karto_INSTALL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/install)
   set(open_karto_PREFIX ${open_karto_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(open_karto_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/kathleen/fetch_ws/src/open_karto/include;/usr/include " STREQUAL " ")
+if(NOT "/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include;/usr/include " STREQUAL " ")
   set(open_karto_INCLUDE_DIRS "")
-  set(_include_dirs "/home/kathleen/fetch_ws/src/open_karto/include;/usr/include")
+  set(_include_dirs "/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include;/usr/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/kathleen/fetch_ws/src/open_karto/include;/usr/include " STREQUAL "
         message(FATAL_ERROR "Project 'open_karto' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'open_karto' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/fetch_ws/src/open_karto/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'open_karto' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/${idir}'.  ${_report}")
     endif()
     _list_append_unique(open_karto_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/kathleen/fetch_ws/devel/.private/open_karto/lib;/home/kathleen/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/open_karto/lib;/home/kathleen/humanoid_robotics/project/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

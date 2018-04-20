@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib;/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib;/opt/ros/kinetic/lib")
+set(ORDERED_PATHS "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib;/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib;/opt/ros/kinetic/lib")

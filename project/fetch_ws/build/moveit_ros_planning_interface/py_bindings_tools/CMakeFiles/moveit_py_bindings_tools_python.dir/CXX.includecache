@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/include/moveit/py_bindings_tools/roscpp_initializer.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/include/moveit/py_bindings_tools/roscpp_initializer.h
 boost/python.hpp
 -
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/src/wrap_python_roscpp_initializer.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/py_bindings_tools/src/wrap_python_roscpp_initializer.cpp
 moveit/py_bindings_tools/roscpp_initializer.h
 -
 boost/python.hpp

@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wextra -Werror -Wno-unused-parameter -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"robot_controllers\" -Drobot_controllers_EXPORTS
 
-CXX_INCLUDES = -I/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/include -I/home/kathleen/fetch_ws/devel/.private/robot_controllers_msgs/include -I/home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/include -I/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_msgs/include -I/home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

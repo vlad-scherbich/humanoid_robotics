@@ -9,9 +9,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/moveit_setup_assistant_tools.dir/src/tools/collision_matrix_model.cpp.o"
   "CMakeFiles/moveit_setup_assistant_tools.dir/src/tools/rotated_header_view.cpp.o"
   "CMakeFiles/moveit_setup_assistant_tools.dir/moveit_setup_assistant_tools_automoc.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_tools.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_tools.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_tools.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_tools.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_tools.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_setup_assistant/lib/libmoveit_setup_assistant_tools.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

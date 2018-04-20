@@ -12,9 +12,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_frame_manipulation.cpp.o"
   "CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/src/motion_planning_param_widget.cpp.o"
   "CMakeFiles/moveit_motion_planning_rviz_plugin_core.dir/moveit_motion_planning_rviz_plugin_core_automoc.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

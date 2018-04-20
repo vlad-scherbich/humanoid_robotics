@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/grasping_msgs
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/grasping_msgs
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs
 
 # Utility rule file for object_recognition_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/depend:
-	cd /home/kathleen/fetch_ws/build/grasping_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/grasping_msgs /home/kathleen/fetch_ws/src/grasping_msgs /home/kathleen/fetch_ws/build/grasping_msgs /home/kathleen/fetch_ws/build/grasping_msgs /home/kathleen/fetch_ws/build/grasping_msgs/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs /home/kathleen/humanoid_robotics/project/fetch_ws/src/grasping_msgs /home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs /home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs /home/kathleen/humanoid_robotics/project/fetch_ws/build/grasping_msgs/CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/object_recognition_msgs_generate_messages_lisp.dir/depend
 

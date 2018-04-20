@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 eigen_stl_containers/eigen_stl_containers.h
 -
 random_numbers/random_numbers.h
@@ -22,19 +22,19 @@ memory
 vector
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/body_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/body_operations.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 geometric_shapes/bodies.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/bodies.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/bodies.h
 geometric_shapes/shape_messages.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shape_messages.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shape_messages.h
 geometry_msgs/Pose.h
 -
 vector
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_messages.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_messages.h
 shape_msgs/SolidPrimitive.h
 -
 shape_msgs/Mesh.h
@@ -44,7 +44,7 @@ shape_msgs/Plane.h
 boost/variant.hpp
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
 cstdlib
 -
 vector
@@ -56,7 +56,7 @@ memory
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/include/moveit/distance_field/distance_field.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/include/moveit/distance_field/distance_field.h
 moveit/macros/class_forward.h
 -
 moveit/macros/deprecation.h
@@ -80,13 +80,13 @@ eigen_stl_containers/eigen_stl_containers.h
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/include/moveit/distance_field/find_internal_points.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/include/moveit/distance_field/find_internal_points.h
 eigen_stl_containers/eigen_stl_containers.h
 -
 geometric_shapes/bodies.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h
 moveit/distance_field/voxel_grid.h
 -
 moveit/distance_field/distance_field.h
@@ -102,7 +102,7 @@ set
 octomap/octomap.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/include/moveit/distance_field/voxel_grid.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/include/moveit/distance_field/voxel_grid.h
 algorithm
 -
 cmath
@@ -112,7 +112,7 @@ Eigen/Core
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/src/distance_field.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/src/distance_field.cpp
 moveit/distance_field/distance_field.h
 -
 moveit/distance_field/find_internal_points.h
@@ -128,11 +128,11 @@ octomap/octomap.h
 octomap/OcTree.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/src/find_internal_points.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/src/find_internal_points.cpp
 moveit/distance_field/find_internal_points.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/src/propagation_distance_field.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/src/propagation_distance_field.cpp
 moveit/distance_field/propagation_distance_field.h
 -
 visualization_msgs/Marker.h
@@ -146,15 +146,15 @@ boost/iostreams/copy.hpp
 boost/iostreams/filter/zlib.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
 
 /opt/ros/kinetic/include/eigen_conversions/eigen_msg.h
 std_msgs/Float64MultiArray.h

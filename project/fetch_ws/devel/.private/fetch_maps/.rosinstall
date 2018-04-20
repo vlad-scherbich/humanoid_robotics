@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/kathleen/fetch_ws/devel/.private/fetch_maps/setup.sh
+    local-name: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/fetch_maps/setup.sh

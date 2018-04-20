@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 eigen_stl_containers/eigen_stl_containers.h
 -
 random_numbers/random_numbers.h
@@ -22,33 +22,33 @@ memory
 vector
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/body_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/body_operations.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 geometric_shapes/bodies.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/bodies.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/bodies.h
 geometric_shapes/shape_messages.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shape_messages.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shape_messages.h
 geometry_msgs/Pose.h
 -
 vector
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/mesh_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/mesh_operations.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 eigen_stl_containers/eigen_stl_containers.h
 -
 vector
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_extents.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_extents.h
 shape_msgs/SolidPrimitive.h
 -
 shape_msgs/Mesh.h
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_messages.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_messages.h
 shape_msgs/SolidPrimitive.h
 -
 shape_msgs/Mesh.h
@@ -58,19 +58,19 @@ shape_msgs/Plane.h
 boost/variant.hpp
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_operations.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 geometric_shapes/shape_messages.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shape_messages.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shape_messages.h
 geometric_shapes/mesh_operations.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/mesh_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/mesh_operations.h
 visualization_msgs/Marker.h
 -
 iostream
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_to_marker.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_to_marker.h
 shape_msgs/Mesh.h
 -
 shape_msgs/SolidPrimitive.h
@@ -78,7 +78,7 @@ shape_msgs/SolidPrimitive.h
 visualization_msgs/Marker.h
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
 cstdlib
 -
 vector
@@ -90,15 +90,15 @@ memory
 string
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/solid_primitive_dims.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/solid_primitive_dims.h
 shape_msgs/SolidPrimitive.h
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/src/bodies.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/bodies.cpp
 geometric_shapes/bodies.h
-/home/kathleen/fetch_ws/src/geometric_shapes/src/geometric_shapes/bodies.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/geometric_shapes/bodies.h
 geometric_shapes/body_operations.h
-/home/kathleen/fetch_ws/src/geometric_shapes/src/geometric_shapes/body_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/geometric_shapes/body_operations.h
 console_bridge/console.h
 -
 libqhull/libqhull.h
@@ -144,7 +144,7 @@ algorithm
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/src/body_operations.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/body_operations.cpp
 geometric_shapes/body_operations.h
 -
 geometric_shapes/shape_operations.h
@@ -154,11 +154,11 @@ console_bridge/console.h
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/src/mesh_operations.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/mesh_operations.cpp
 geometric_shapes/mesh_operations.h
-/home/kathleen/fetch_ws/src/geometric_shapes/src/geometric_shapes/mesh_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/geometric_shapes/mesh_operations.h
 geometric_shapes/shape_operations.h
-/home/kathleen/fetch_ws/src/geometric_shapes/src/geometric_shapes/shape_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/geometric_shapes/shape_operations.h
 cstdio
 -
 cmath
@@ -184,15 +184,15 @@ Eigen/Geometry
 boost/math/constants/constants.hpp
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/src/shape_extents.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/shape_extents.cpp
 geometric_shapes/shape_extents.h
 -
 limits
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/src/shape_operations.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/shape_operations.cpp
 geometric_shapes/shape_operations.h
-/home/kathleen/fetch_ws/src/geometric_shapes/src/geometric_shapes/shape_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/geometric_shapes/shape_operations.h
 cstdio
 -
 cmath
@@ -214,7 +214,7 @@ geometric_shapes/shape_extents.h
 geometric_shapes/solid_primitive_dims.h
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/src/shape_to_marker.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/shape_to_marker.cpp
 geometric_shapes/shape_to_marker.h
 -
 sstream
@@ -222,9 +222,9 @@ sstream
 stdexcept
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/src/shapes.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/shapes.cpp
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/src/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/src/geometric_shapes/shapes.h
 eigen_stl_containers/eigen_stl_containers.h
 -
 octomap/octomap.h

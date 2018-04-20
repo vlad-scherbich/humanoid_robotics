@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
 stdexcept
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/exceptions/src/exceptions.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/exceptions/src/exceptions.cpp
 moveit/exceptions/exceptions.h
 -
 console_bridge/console.h

@@ -1,8 +1,8 @@
-prefix=/home/kathleen/fetch_ws/install
+prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/install
 
 Name: moveit_ros_benchmarks
 Description: Description of moveit_ros_benchmarks
 Version: 0.9.11
-Cflags: -I/home/kathleen/fetch_ws/install/include
-Libs: -L/home/kathleen/fetch_ws/install/lib -lmoveit_ros_benchmarks
+Cflags: -I/home/kathleen/humanoid_robotics/project/fetch_ws/install/include
+Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/install/lib -lmoveit_ros_benchmarks
 Requires: moveit_ros_planning moveit_ros_warehouse roscpp

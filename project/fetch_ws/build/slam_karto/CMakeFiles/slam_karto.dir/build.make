@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/slam_karto
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/slam_karto
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto
 
 # Include any dependencies generated for this target.
 include CMakeFiles/slam_karto.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/slam_karto.dir/progress.make
 include CMakeFiles/slam_karto.dir/flags.make
 
 CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o: CMakeFiles/slam_karto.dir/flags.make
-CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o: /home/kathleen/fetch_ws/src/slam_karto/src/slam_karto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/slam_karto/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o -c /home/kathleen/fetch_ws/src/slam_karto/src/slam_karto.cpp
+CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/slam_karto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/slam_karto.cpp
 
 CMakeFiles/slam_karto.dir/src/slam_karto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam_karto.dir/src/slam_karto.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/slam_karto/src/slam_karto.cpp > CMakeFiles/slam_karto.dir/src/slam_karto.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/slam_karto.cpp > CMakeFiles/slam_karto.dir/src/slam_karto.cpp.i
 
 CMakeFiles/slam_karto.dir/src/slam_karto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam_karto.dir/src/slam_karto.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/slam_karto/src/slam_karto.cpp -o CMakeFiles/slam_karto.dir/src/slam_karto.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/slam_karto.cpp -o CMakeFiles/slam_karto.dir/src/slam_karto.cpp.s
 
 CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o.provides.build: CMakeFiles/slam_k
 
 
 CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o: CMakeFiles/slam_karto.dir/flags.make
-CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o: /home/kathleen/fetch_ws/src/slam_karto/src/spa_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/slam_karto/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o -c /home/kathleen/fetch_ws/src/slam_karto/src/spa_solver.cpp
+CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/spa_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/spa_solver.cpp
 
 CMakeFiles/slam_karto.dir/src/spa_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam_karto.dir/src/spa_solver.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/slam_karto/src/spa_solver.cpp > CMakeFiles/slam_karto.dir/src/spa_solver.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/spa_solver.cpp > CMakeFiles/slam_karto.dir/src/spa_solver.cpp.i
 
 CMakeFiles/slam_karto.dir/src/spa_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam_karto.dir/src/spa_solver.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/slam_karto/src/spa_solver.cpp -o CMakeFiles/slam_karto.dir/src/spa_solver.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/spa_solver.cpp -o CMakeFiles/slam_karto.dir/src/spa_solver.cpp.s
 
 CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o.requires:
 
@@ -113,41 +113,41 @@ slam_karto_OBJECTS = \
 # External object files for target slam_karto
 slam_karto_EXTERNAL_OBJECTS =
 
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: CMakeFiles/slam_karto.dir/build.make
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /home/kathleen/fetch_ws/devel/.private/open_karto/lib/libkarto.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /home/kathleen/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libtf.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libactionlib.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libroscpp.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libtf2.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/librosconsole.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/librostime.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libcpp_common.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: CMakeFiles/slam_karto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/fetch_ws/build/slam_karto/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto"
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: CMakeFiles/slam_karto.dir/src/slam_karto.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: CMakeFiles/slam_karto.dir/src/spa_solver.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: CMakeFiles/slam_karto.dir/build.make
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/open_karto/lib/libkarto.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libtf.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libactionlib.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libroscpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libtf2.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/librosconsole.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/librostime.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /opt/ros/kinetic/lib/libcpp_common.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto: CMakeFiles/slam_karto.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slam_karto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/slam_karto.dir/build: /home/kathleen/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto
+CMakeFiles/slam_karto.dir/build: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto
 
 .PHONY : CMakeFiles/slam_karto.dir/build
 
@@ -161,6 +161,6 @@ CMakeFiles/slam_karto.dir/clean:
 .PHONY : CMakeFiles/slam_karto.dir/clean
 
 CMakeFiles/slam_karto.dir/depend:
-	cd /home/kathleen/fetch_ws/build/slam_karto && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/slam_karto /home/kathleen/fetch_ws/src/slam_karto /home/kathleen/fetch_ws/build/slam_karto /home/kathleen/fetch_ws/build/slam_karto /home/kathleen/fetch_ws/build/slam_karto/CMakeFiles/slam_karto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto /home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto /home/kathleen/humanoid_robotics/project/fetch_ws/build/slam_karto/CMakeFiles/slam_karto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/slam_karto.dir/depend
 

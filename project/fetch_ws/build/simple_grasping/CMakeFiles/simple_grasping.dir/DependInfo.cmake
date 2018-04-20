@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kathleen/fetch_ws/src/simple_grasping/src/cloud_tools.cpp" "/home/kathleen/fetch_ws/build/simple_grasping/CMakeFiles/simple_grasping.dir/src/cloud_tools.cpp.o"
-  "/home/kathleen/fetch_ws/src/simple_grasping/src/object_support_segmentation.cpp" "/home/kathleen/fetch_ws/build/simple_grasping/CMakeFiles/simple_grasping.dir/src/object_support_segmentation.cpp.o"
-  "/home/kathleen/fetch_ws/src/simple_grasping/src/shape_extraction.cpp" "/home/kathleen/fetch_ws/build/simple_grasping/CMakeFiles/simple_grasping.dir/src/shape_extraction.cpp.o"
-  "/home/kathleen/fetch_ws/src/simple_grasping/src/shape_grasp_planner.cpp" "/home/kathleen/fetch_ws/build/simple_grasping/CMakeFiles/simple_grasping.dir/src/shape_grasp_planner.cpp.o"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping/src/cloud_tools.cpp" "/home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/CMakeFiles/simple_grasping.dir/src/cloud_tools.cpp.o"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping/src/object_support_segmentation.cpp" "/home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/CMakeFiles/simple_grasping.dir/src/object_support_segmentation.cpp.o"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping/src/shape_extraction.cpp" "/home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/CMakeFiles/simple_grasping.dir/src/shape_extraction.cpp.o"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping/src/shape_grasp_planner.cpp" "/home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/CMakeFiles/simple_grasping.dir/src/shape_grasp_planner.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -48,8 +48,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/hdf5/openmpi"
   "/usr/include/python2.7"
   "/usr/include/tcl"
-  "/home/kathleen/fetch_ws/src/simple_grasping/include"
-  "/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping/include"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/pcl-1.7"

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
 stdexcept
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
 geometry_msgs/PoseStamped.h
 -
 moveit_msgs/MoveItErrorCodes.h
@@ -26,25 +26,25 @@ boost/function.hpp
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/fixed_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/fixed_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/floating_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/floating_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
 string
 -
 vector
@@ -60,7 +60,7 @@ random_numbers/random_numbers.h
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
 moveit/robot_model/joint_model.h
 -
 moveit/robot_model/link_model.h
@@ -74,7 +74,7 @@ boost/function.hpp
 set
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
 string
 -
 vector
@@ -90,19 +90,19 @@ eigen_stl_containers/eigen_stl_vector_container.h
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/planar_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/planar_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/revolute_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/revolute_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h
 moveit/macros/class_forward.h
 -
 moveit/exceptions/exceptions.h
@@ -130,7 +130,7 @@ Eigen/Geometry
 iostream
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/attached_body.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/attached_body.h
 moveit/robot_model/link_model.h
 -
 eigen_stl_containers/eigen_stl_containers.h
@@ -142,7 +142,7 @@ trajectory_msgs/JointTrajectory.h
 set
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h
 moveit/robot_model/robot_model.h
 -
 moveit/robot_state/attached_body.h
@@ -162,13 +162,13 @@ cassert
 boost/assert.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
 chrono
 -
 cstdlib
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
 moveit/kinematics_base/kinematics_base.h
 -
 moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
@@ -188,9 +188,9 @@ mutex
 utility
 -
 cached_ik_kinematics_plugin-inl.h
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
 functional
 -
 random
@@ -198,17 +198,17 @@ random
 boost/numeric/ublas/matrix.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
 vector
 -
 functional
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
 NearestNeighbors.h
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
 GreedyKCenters.h
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
 moveit/exceptions/exceptions.h
 -
 unordered_set
@@ -220,7 +220,7 @@ algorithm
 utility
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/src/ik_cache.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/src/ik_cache.cpp
 boost/filesystem/fstream.hpp
 -
 chrono
@@ -232,29 +232,29 @@ numeric
 moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/chainiksolver_pos_nr_jl_mimic.hpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/chainiksolver_pos_nr_jl_mimic.hpp
 kdl/chainiksolver.hpp
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/chainiksolver.hpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/chainiksolver.hpp
 kdl/chainfksolver.hpp
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/chainfksolver.hpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/chainfksolver.hpp
 moveit/kdl_kinematics_plugin/joint_mimic.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/chainiksolver_vel_pinv_mimic.hpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/chainiksolver_vel_pinv_mimic.hpp
 kdl/chainiksolver.hpp
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/chainiksolver.hpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/chainiksolver.hpp
 kdl/chainjnttojacsolver.hpp
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/chainjnttojacsolver.hpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/chainjnttojacsolver.hpp
 kdl/utilities/svd_HH.hpp
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/utilities/svd_HH.hpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/utilities/svd_HH.hpp
 kdl/utilities/svd_eigen_HH.hpp
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/utilities/svd_eigen_HH.hpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl/utilities/svd_eigen_HH.hpp
 moveit/kdl_kinematics_plugin/joint_mimic.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/joint_mimic.hpp
 
-/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
 ros/ros.h
 -
 random_numbers/random_numbers.h

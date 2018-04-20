@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/robot_controllers
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers
 
 # Utility rule file for run_tests_robot_controllers_gtest_trajectory_tests.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/robot_controllers
 include test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/progress.make
 
 test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests:
-	cd /home/kathleen/fetch_ws/build/robot_controllers/test && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/kathleen/fetch_ws/build/robot_controllers/test_results/robot_controllers/gtest-trajectory_tests.xml /home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/robot_controllers/trajectory_tests\ --gtest_output=xml:/home/kathleen/fetch_ws/build/robot_controllers/test_results/robot_controllers/gtest-trajectory_tests.xml
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/test && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/test_results/robot_controllers/gtest-trajectory_tests.xml /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/robot_controllers/trajectory_tests\ --gtest_output=xml:/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/test_results/robot_controllers/gtest-trajectory_tests.xml
 
 run_tests_robot_controllers_gtest_trajectory_tests: test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests
 run_tests_robot_controllers_gtest_trajectory_tests: test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/build: ru
 .PHONY : test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/build
 
 test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/clean:
-	cd /home/kathleen/fetch_ws/build/robot_controllers/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/cmake_clean.cmake
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/clean
 
 test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/depend:
-	cd /home/kathleen/fetch_ws/build/robot_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/test /home/kathleen/fetch_ws/build/robot_controllers /home/kathleen/fetch_ws/build/robot_controllers/test /home/kathleen/fetch_ws/build/robot_controllers/test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/test /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/test /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_tests_robot_controllers_gtest_trajectory_tests.dir/depend
 

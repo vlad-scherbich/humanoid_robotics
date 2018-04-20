@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/robot_controllers_interface
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_interface
 
 # Include any dependencies generated for this target.
 include CMakeFiles/robot_controllers_interface.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/robot_controllers_interface.dir/progress.make
 include CMakeFiles/robot_controllers_interface.dir/flags.make
 
 CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o: CMakeFiles/robot_controllers_interface.dir/flags.make
-CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp
+CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp
 
 CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp > CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp > CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.i
 
 CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp -o CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp -o CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.s
 
 CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o.provides.
 
 
 CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o: CMakeFiles/robot_controllers_interface.dir/flags.make
-CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp
+CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp
 
 CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp > CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp > CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.i
 
 CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp -o CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp -o CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.s
 
 CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o.requires:
 
@@ -113,73 +113,73 @@ robot_controllers_interface_OBJECTS = \
 # External object files for target robot_controllers_interface
 robot_controllers_interface_EXTERNAL_OBJECTS =
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: CMakeFiles/robot_controllers_interface.dir/build.make
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/libPocoFoundation.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroslib.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librospack.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librostime.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/libPocoFoundation.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroslib.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librospack.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librostime.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: CMakeFiles/robot_controllers_interface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so"
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: CMakeFiles/robot_controllers_interface.dir/src/controller_loader.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: CMakeFiles/robot_controllers_interface.dir/src/controller_manager.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: CMakeFiles/robot_controllers_interface.dir/build.make
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/libPocoFoundation.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroslib.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librospack.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librostime.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/libPocoFoundation.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroslib.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librospack.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/librostime.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so: CMakeFiles/robot_controllers_interface.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_controllers_interface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/robot_controllers_interface.dir/build: /home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so
+CMakeFiles/robot_controllers_interface.dir/build: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so
 
 .PHONY : CMakeFiles/robot_controllers_interface.dir/build
 
@@ -193,6 +193,6 @@ CMakeFiles/robot_controllers_interface.dir/clean:
 .PHONY : CMakeFiles/robot_controllers_interface.dir/clean
 
 CMakeFiles/robot_controllers_interface.dir/depend:
-	cd /home/kathleen/fetch_ws/build/robot_controllers_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_interface /home/kathleen/fetch_ws/build/robot_controllers_interface /home/kathleen/fetch_ws/build/robot_controllers_interface /home/kathleen/fetch_ws/build/robot_controllers_interface/CMakeFiles/robot_controllers_interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_interface /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_interface /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_interface /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_interface/CMakeFiles/robot_controllers_interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_controllers_interface.dir/depend
 

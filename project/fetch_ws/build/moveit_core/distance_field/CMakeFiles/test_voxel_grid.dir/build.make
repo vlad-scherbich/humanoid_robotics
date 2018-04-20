@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_core
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_core
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core
 
 # Include any dependencies generated for this target.
 include distance_field/CMakeFiles/test_voxel_grid.dir/depend.make
@@ -58,17 +58,17 @@ include distance_field/CMakeFiles/test_voxel_grid.dir/progress.make
 include distance_field/CMakeFiles/test_voxel_grid.dir/flags.make
 
 distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o: distance_field/CMakeFiles/test_voxel_grid.dir/flags.make
-distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o: /home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/test/test_voxel_grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/moveit_core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o"
-	cd /home/kathleen/fetch_ws/build/moveit_core/distance_field && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o -c /home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/test/test_voxel_grid.cpp
+distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/test/test_voxel_grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o"
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/distance_field && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/test/test_voxel_grid.cpp
 
 distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.i"
-	cd /home/kathleen/fetch_ws/build/moveit_core/distance_field && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/test/test_voxel_grid.cpp > CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.i
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/distance_field && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/test/test_voxel_grid.cpp > CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.i
 
 distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.s"
-	cd /home/kathleen/fetch_ws/build/moveit_core/distance_field && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field/test/test_voxel_grid.cpp -o CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.s
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/distance_field && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field/test/test_voxel_grid.cpp -o CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.s
 
 distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o.requires:
 
@@ -88,87 +88,87 @@ test_voxel_grid_OBJECTS = \
 # External object files for target test_voxel_grid
 test_voxel_grid_EXTERNAL_OBJECTS =
 
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: distance_field/CMakeFiles/test_voxel_grid.dir/build.make
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: gtest/gtest/libgtest.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_distance_field.so.0.9.11
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib/libgeometric_shapes.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/liboctomap.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/liboctomath.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libkdl_parser.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/liburdf.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroscpp.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librandom_numbers.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroslib.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librospack.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libsrdfdom.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librostime.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libcpp_common.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroscpp.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librandom_numbers.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroslib.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librospack.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libsrdfdom.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librostime.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libcpp_common.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: distance_field/CMakeFiles/test_voxel_grid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/fetch_ws/build/moveit_core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid"
-	cd /home/kathleen/fetch_ws/build/moveit_core/distance_field && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_voxel_grid.dir/link.txt --verbose=$(VERBOSE)
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: distance_field/CMakeFiles/test_voxel_grid.dir/test/test_voxel_grid.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: distance_field/CMakeFiles/test_voxel_grid.dir/build.make
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: gtest/gtest/libgtest.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_distance_field.so.0.9.11
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib/libgeometric_shapes.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/liboctomap.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/liboctomath.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libkdl_parser.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/liburdf.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroscpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librandom_numbers.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroslib.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librospack.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libsrdfdom.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librostime.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libcpp_common.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroscpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librandom_numbers.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroslib.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librospack.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libsrdfdom.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/librostime.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /opt/ros/kinetic/lib/libcpp_common.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid: distance_field/CMakeFiles/test_voxel_grid.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid"
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/distance_field && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_voxel_grid.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-distance_field/CMakeFiles/test_voxel_grid.dir/build: /home/kathleen/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid
+distance_field/CMakeFiles/test_voxel_grid.dir/build: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/moveit_core/test_voxel_grid
 
 .PHONY : distance_field/CMakeFiles/test_voxel_grid.dir/build
 
@@ -177,10 +177,10 @@ distance_field/CMakeFiles/test_voxel_grid.dir/requires: distance_field/CMakeFile
 .PHONY : distance_field/CMakeFiles/test_voxel_grid.dir/requires
 
 distance_field/CMakeFiles/test_voxel_grid.dir/clean:
-	cd /home/kathleen/fetch_ws/build/moveit_core/distance_field && $(CMAKE_COMMAND) -P CMakeFiles/test_voxel_grid.dir/cmake_clean.cmake
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/distance_field && $(CMAKE_COMMAND) -P CMakeFiles/test_voxel_grid.dir/cmake_clean.cmake
 .PHONY : distance_field/CMakeFiles/test_voxel_grid.dir/clean
 
 distance_field/CMakeFiles/test_voxel_grid.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_core /home/kathleen/fetch_ws/src/moveit/moveit_core/distance_field /home/kathleen/fetch_ws/build/moveit_core /home/kathleen/fetch_ws/build/moveit_core/distance_field /home/kathleen/fetch_ws/build/moveit_core/distance_field/CMakeFiles/test_voxel_grid.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/distance_field /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/distance_field /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/distance_field/CMakeFiles/test_voxel_grid.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : distance_field/CMakeFiles/test_voxel_grid.dir/depend
 

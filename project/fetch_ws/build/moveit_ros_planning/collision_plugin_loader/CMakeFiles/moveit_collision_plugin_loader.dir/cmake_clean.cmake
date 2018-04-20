@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 eigen_stl_containers/eigen_stl_containers.h
 -
 random_numbers/random_numbers.h
@@ -22,19 +22,19 @@ memory
 vector
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/body_operations.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/body_operations.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 geometric_shapes/bodies.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/bodies.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/bodies.h
 geometric_shapes/shape_messages.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shape_messages.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shape_messages.h
 geometry_msgs/Pose.h
 -
 vector
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_messages.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shape_messages.h
 shape_msgs/SolidPrimitive.h
 -
 shape_msgs/Mesh.h
@@ -44,7 +44,7 @@ shape_msgs/Plane.h
 boost/variant.hpp
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
 cstdlib
 -
 vector
@@ -56,7 +56,7 @@ memory
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/point_containment_filter/include/moveit/point_containment_filter/shape_mask.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/point_containment_filter/include/moveit/point_containment_filter/shape_mask.h
 sensor_msgs/PointCloud2.h
 -
 geometric_shapes/bodies.h
@@ -74,7 +74,7 @@ map
 boost/thread/mutex.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/point_containment_filter/src/shape_mask.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/point_containment_filter/src/shape_mask.cpp
 moveit/point_containment_filter/shape_mask.h
 -
 geometric_shapes/body_operations.h

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/include/ikfast.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/include/ikfast.h
 vector
 -
 list
@@ -14,7 +14,7 @@ list
 stdexcept
 -
 
-/home/kathleen/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_moveit_plugin.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_moveit_plugin.cpp
 ros/ros.h
 -
 moveit/kinematics_base/kinematics_base.h
@@ -24,13 +24,13 @@ urdf/model.h
 tf_conversions/tf_kdl.h
 -
 fetch_arm_ikfast_solver.cpp
-/home/kathleen/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_solver.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_solver.cpp
 pluginlib/class_list_macros.h
 -
 
-/home/kathleen/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_solver.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_solver.cpp
 ikfast.h
-/home/kathleen/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/ikfast.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/ikfast.h
 cmath
 -
 vector
@@ -52,7 +52,7 @@ stdio.h
 stdlib.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
 geometry_msgs/PoseStamped.h
 -
 moveit_msgs/MoveItErrorCodes.h
@@ -68,11 +68,11 @@ boost/function.hpp
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 

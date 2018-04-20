@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_ros_visualization
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/moveit_ros_visualization/CMakeFiles /home/kathleen/fetch_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/CMakeFiles/progress.marks
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/moveit_ros_visualization/CMakeFiles 0
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/CMakeFiles /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/robot_state_rviz_plugin/CMakeFiles/progress.marks
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/clean
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/preinstall
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/preinstall
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/rule:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/rule
 .PHONY : robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ moveit_robot_state_rviz_plugin_core: robot_state_rviz_plugin/CMakeFiles/moveit_r
 
 # fast build rule for target.
 moveit_robot_state_rviz_plugin_core/fast:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build
 .PHONY : moveit_robot_state_rviz_plugin_core/fast
 
 # Convenience name for target.
 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/rule:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/rule
 .PHONY : robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ moveit_robot_state_rviz_plugin: robot_state_rviz_plugin/CMakeFiles/moveit_robot_
 
 # fast build rule for target.
 moveit_robot_state_rviz_plugin/fast:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build
 .PHONY : moveit_robot_state_rviz_plugin/fast
 
 # Convenience name for target.
 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_automoc.dir/rule:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_automoc.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_automoc.dir/rule
 .PHONY : robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_automoc.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ moveit_robot_state_rviz_plugin_core_automoc: robot_state_rviz_plugin/CMakeFiles/
 
 # fast build rule for target.
 moveit_robot_state_rviz_plugin_core_automoc/fast:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_automoc.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_automoc.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_automoc.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core_automoc.dir/build
 .PHONY : moveit_robot_state_rviz_plugin_core_automoc/fast
 
 # Convenience name for target.
 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_automoc.dir/rule:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_automoc.dir/rule
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f CMakeFiles/Makefile2 robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_automoc.dir/rule
 .PHONY : robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -222,7 +222,7 @@ moveit_robot_state_rviz_plugin_automoc: robot_state_rviz_plugin/CMakeFiles/movei
 
 # fast build rule for target.
 moveit_robot_state_rviz_plugin_automoc/fast:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_automoc.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_automoc.dir/build
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_automoc.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_automoc.dir/build
 .PHONY : moveit_robot_state_rviz_plugin_automoc/fast
 
 moveit_robot_state_rviz_plugin_automoc.o: moveit_robot_state_rviz_plugin_automoc.cpp.o
@@ -231,7 +231,7 @@ moveit_robot_state_rviz_plugin_automoc.o: moveit_robot_state_rviz_plugin_automoc
 
 # target to build an object file
 moveit_robot_state_rviz_plugin_automoc.cpp.o:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/moveit_robot_state_rviz_plugin_automoc.cpp.o
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/moveit_robot_state_rviz_plugin_automoc.cpp.o
 .PHONY : moveit_robot_state_rviz_plugin_automoc.cpp.o
 
 moveit_robot_state_rviz_plugin_automoc.i: moveit_robot_state_rviz_plugin_automoc.cpp.i
@@ -240,7 +240,7 @@ moveit_robot_state_rviz_plugin_automoc.i: moveit_robot_state_rviz_plugin_automoc
 
 # target to preprocess a source file
 moveit_robot_state_rviz_plugin_automoc.cpp.i:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/moveit_robot_state_rviz_plugin_automoc.cpp.i
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/moveit_robot_state_rviz_plugin_automoc.cpp.i
 .PHONY : moveit_robot_state_rviz_plugin_automoc.cpp.i
 
 moveit_robot_state_rviz_plugin_automoc.s: moveit_robot_state_rviz_plugin_automoc.cpp.s
@@ -249,7 +249,7 @@ moveit_robot_state_rviz_plugin_automoc.s: moveit_robot_state_rviz_plugin_automoc
 
 # target to generate assembly for a file
 moveit_robot_state_rviz_plugin_automoc.cpp.s:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/moveit_robot_state_rviz_plugin_automoc.cpp.s
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/moveit_robot_state_rviz_plugin_automoc.cpp.s
 .PHONY : moveit_robot_state_rviz_plugin_automoc.cpp.s
 
 moveit_robot_state_rviz_plugin_core_automoc.o: moveit_robot_state_rviz_plugin_core_automoc.cpp.o
@@ -258,7 +258,7 @@ moveit_robot_state_rviz_plugin_core_automoc.o: moveit_robot_state_rviz_plugin_co
 
 # target to build an object file
 moveit_robot_state_rviz_plugin_core_automoc.cpp.o:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/moveit_robot_state_rviz_plugin_core_automoc.cpp.o
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/moveit_robot_state_rviz_plugin_core_automoc.cpp.o
 .PHONY : moveit_robot_state_rviz_plugin_core_automoc.cpp.o
 
 moveit_robot_state_rviz_plugin_core_automoc.i: moveit_robot_state_rviz_plugin_core_automoc.cpp.i
@@ -267,7 +267,7 @@ moveit_robot_state_rviz_plugin_core_automoc.i: moveit_robot_state_rviz_plugin_co
 
 # target to preprocess a source file
 moveit_robot_state_rviz_plugin_core_automoc.cpp.i:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/moveit_robot_state_rviz_plugin_core_automoc.cpp.i
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/moveit_robot_state_rviz_plugin_core_automoc.cpp.i
 .PHONY : moveit_robot_state_rviz_plugin_core_automoc.cpp.i
 
 moveit_robot_state_rviz_plugin_core_automoc.s: moveit_robot_state_rviz_plugin_core_automoc.cpp.s
@@ -276,7 +276,7 @@ moveit_robot_state_rviz_plugin_core_automoc.s: moveit_robot_state_rviz_plugin_co
 
 # target to generate assembly for a file
 moveit_robot_state_rviz_plugin_core_automoc.cpp.s:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/moveit_robot_state_rviz_plugin_core_automoc.cpp.s
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/moveit_robot_state_rviz_plugin_core_automoc.cpp.s
 .PHONY : moveit_robot_state_rviz_plugin_core_automoc.cpp.s
 
 src/plugin_init.o: src/plugin_init.cpp.o
@@ -285,7 +285,7 @@ src/plugin_init.o: src/plugin_init.cpp.o
 
 # target to build an object file
 src/plugin_init.cpp.o:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/src/plugin_init.cpp.o
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/src/plugin_init.cpp.o
 .PHONY : src/plugin_init.cpp.o
 
 src/plugin_init.i: src/plugin_init.cpp.i
@@ -294,7 +294,7 @@ src/plugin_init.i: src/plugin_init.cpp.i
 
 # target to preprocess a source file
 src/plugin_init.cpp.i:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/src/plugin_init.cpp.i
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/src/plugin_init.cpp.i
 .PHONY : src/plugin_init.cpp.i
 
 src/plugin_init.s: src/plugin_init.cpp.s
@@ -303,7 +303,7 @@ src/plugin_init.s: src/plugin_init.cpp.s
 
 # target to generate assembly for a file
 src/plugin_init.cpp.s:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/src/plugin_init.cpp.s
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin.dir/src/plugin_init.cpp.s
 .PHONY : src/plugin_init.cpp.s
 
 src/robot_state_display.o: src/robot_state_display.cpp.o
@@ -312,7 +312,7 @@ src/robot_state_display.o: src/robot_state_display.cpp.o
 
 # target to build an object file
 src/robot_state_display.cpp.o:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.o
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.o
 .PHONY : src/robot_state_display.cpp.o
 
 src/robot_state_display.i: src/robot_state_display.cpp.i
@@ -321,7 +321,7 @@ src/robot_state_display.i: src/robot_state_display.cpp.i
 
 # target to preprocess a source file
 src/robot_state_display.cpp.i:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.i
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.i
 .PHONY : src/robot_state_display.cpp.i
 
 src/robot_state_display.s: src/robot_state_display.cpp.s
@@ -330,7 +330,7 @@ src/robot_state_display.s: src/robot_state_display.cpp.s
 
 # target to generate assembly for a file
 src/robot_state_display.cpp.s:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.s
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(MAKE) -f robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/build.make robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_core.dir/src/robot_state_display.cpp.s
 .PHONY : src/robot_state_display.cpp.s
 
 # Help Target
@@ -373,6 +373,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

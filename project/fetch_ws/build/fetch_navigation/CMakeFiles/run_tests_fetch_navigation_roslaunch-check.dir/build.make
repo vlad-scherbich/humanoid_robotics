@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/fetch_navigation
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation
 
 # Utility rule file for run_tests_fetch_navigation_roslaunch-check.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests_fetch_navigation_roslaunch-check.dir/clean:
 .PHONY : CMakeFiles/run_tests_fetch_navigation_roslaunch-check.dir/clean
 
 CMakeFiles/run_tests_fetch_navigation_roslaunch-check.dir/depend:
-	cd /home/kathleen/fetch_ws/build/fetch_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/fetch_ws/build/fetch_navigation /home/kathleen/fetch_ws/build/fetch_navigation /home/kathleen/fetch_ws/build/fetch_navigation/CMakeFiles/run_tests_fetch_navigation_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation/CMakeFiles/run_tests_fetch_navigation_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_fetch_navigation_roslaunch-check.dir/depend
 

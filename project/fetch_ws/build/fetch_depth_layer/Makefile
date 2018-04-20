@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/fetch_ros/fetch_depth_layer
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_depth_layer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/fetch_depth_layer
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_depth_layer
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/fetch_depth_layer/CMakeFiles /home/kathleen/fetch_ws/build/fetch_depth_layer/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_depth_layer/CMakeFiles /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_depth_layer/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/fetch_ws/build/fetch_depth_layer/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_depth_layer/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

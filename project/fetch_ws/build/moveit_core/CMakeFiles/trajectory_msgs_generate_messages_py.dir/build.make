@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_core
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_core
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core
 
 # Utility rule file for trajectory_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_core /home/kathleen/fetch_ws/src/moveit/moveit_core /home/kathleen/fetch_ws/build/moveit_core /home/kathleen/fetch_ws/build/moveit_core /home/kathleen/fetch_ws/build/moveit_core/CMakeFiles/trajectory_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/CMakeFiles/trajectory_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend
 

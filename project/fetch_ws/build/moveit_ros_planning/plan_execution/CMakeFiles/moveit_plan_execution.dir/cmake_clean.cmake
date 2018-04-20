@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_plan_execution.dir/src/plan_with_sensing.cpp.o"
   "CMakeFiles/moveit_plan_execution.dir/src/plan_execution.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_plan_execution.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_plan_execution.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_plan_execution.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_plan_execution.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_plan_execution.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib/libmoveit_plan_execution.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -5,8 +5,8 @@ file(REMOVE_RECURSE
   "moveit_setup_assistant_tools_automoc.cpp"
   "CMakeFiles/moveit_setup_assistant.dir/src/setup_assistant_main.cpp.o"
   "CMakeFiles/moveit_setup_assistant.dir/moveit_setup_assistant_automoc.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_setup_assistant/lib/moveit_setup_assistant/moveit_setup_assistant.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_setup_assistant/lib/moveit_setup_assistant/moveit_setup_assistant"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_setup_assistant/lib/moveit_setup_assistant/moveit_setup_assistant.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_setup_assistant/lib/moveit_setup_assistant/moveit_setup_assistant"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_ros_planning_interface
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_planning_interface
 
 # Utility rule file for trajectory_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_planning_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface /home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface /home/kathleen/fetch_ws/build/moveit_ros_planning_interface /home/kathleen/fetch_ws/build/moveit_ros_planning_interface /home/kathleen/fetch_ws/build/moveit_ros_planning_interface/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_planning_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_planning_interface /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_planning_interface /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_planning_interface/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/kathleen/fetch_ws/src/moveit/moveit_kinematics/ikfast_kinematics_plugin
+# Install script for directory: /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/ikfast_kinematics_plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kathleen/fetch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kathleen/humanoid_robotics/project/fetch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_kinematics" TYPE PROGRAM FILES
-    "/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py"
-    "/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/ikfast_kinematics_plugin/scripts/round_collada_numbers.py"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/ikfast_kinematics_plugin/scripts/create_ikfast_moveit_plugin.py"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/ikfast_kinematics_plugin/scripts/round_collada_numbers.py"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_kinematics/ikfast_kinematics_plugin" TYPE DIRECTORY FILES "/home/kathleen/fetch_ws/src/moveit/moveit_kinematics/ikfast_kinematics_plugin/templates")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_kinematics/ikfast_kinematics_plugin" TYPE DIRECTORY FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_kinematics/ikfast_kinematics_plugin/templates")
 endif()
 

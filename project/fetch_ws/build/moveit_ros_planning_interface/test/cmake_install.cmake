@@ -1,8 +1,8 @@
-# Install script for directory: /home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/test
+# Install script for directory: /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kathleen/fetch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kathleen/humanoid_robotics/project/fetch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,15 +34,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_ros_planning_interface/test" TYPE PROGRAM FILES
-    "/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/test/python_move_group.py"
-    "/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/test/python_move_group_ns.py"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/test/python_move_group.py"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/test/python_move_group_ns.py"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_ros_planning_interface/test" TYPE FILE FILES
-    "/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/test/python_move_group.test"
-    "/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/test/python_move_group_ns.test"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/test/python_move_group.test"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/test/python_move_group_ns.test"
     )
 endif()
 

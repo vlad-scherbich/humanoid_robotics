@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/lazy_free_space_updater/include/moveit/lazy_free_space_updater/lazy_free_space_updater.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/lazy_free_space_updater/include/moveit/lazy_free_space_updater/lazy_free_space_updater.h
 moveit/occupancy_map_monitor/occupancy_map.h
 -
 boost/thread.hpp
@@ -14,13 +14,13 @@ boost/thread.hpp
 deque
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/lazy_free_space_updater/src/lazy_free_space_updater.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/lazy_free_space_updater/src/lazy_free_space_updater.cpp
 moveit/lazy_free_space_updater/lazy_free_space_updater.h
 -
 ros/console.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/perception/occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map.h
 octomap/octomap.h
 -
 boost/thread/shared_mutex.hpp

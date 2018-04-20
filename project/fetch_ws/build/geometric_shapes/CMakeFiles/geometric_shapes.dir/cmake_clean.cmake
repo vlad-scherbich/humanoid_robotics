@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/geometric_shapes.dir/src/shape_operations.cpp.o"
   "CMakeFiles/geometric_shapes.dir/src/shape_to_marker.cpp.o"
   "CMakeFiles/geometric_shapes.dir/src/shapes.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib/libgeometric_shapes.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib/libgeometric_shapes.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib/libgeometric_shapes.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib/libgeometric_shapes.so"
 )
 
 # Per-language clean rules from dependency scanning.

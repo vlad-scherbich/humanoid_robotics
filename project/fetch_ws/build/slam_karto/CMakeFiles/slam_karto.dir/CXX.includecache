@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Karto.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Karto.h
 string
 -
 fstream
@@ -46,9 +46,9 @@ open_karto/Math.h
 open_karto/Macros.h
 -
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Macros.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Macros.h
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Mapper.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Mapper.h
 map
 -
 vector
@@ -56,7 +56,7 @@ vector
 open_karto/Karto.h
 -
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Math.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Math.h
 assert.h
 -
 math.h
@@ -66,37 +66,37 @@ limits
 open_karto/Types.h
 -
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Types.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Types.h
 cstddef
 -
 stdint.h
 -
 
-/home/kathleen/fetch_ws/src/slam_karto/src/slam_karto.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/slam_karto.cpp
 ros/ros.h
-/home/kathleen/fetch_ws/src/slam_karto/src/ros/ros.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/ros/ros.h
 ros/console.h
-/home/kathleen/fetch_ws/src/slam_karto/src/ros/console.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/ros/console.h
 message_filters/subscriber.h
-/home/kathleen/fetch_ws/src/slam_karto/src/message_filters/subscriber.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/message_filters/subscriber.h
 tf/transform_broadcaster.h
-/home/kathleen/fetch_ws/src/slam_karto/src/tf/transform_broadcaster.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/tf/transform_broadcaster.h
 tf/transform_listener.h
-/home/kathleen/fetch_ws/src/slam_karto/src/tf/transform_listener.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/tf/transform_listener.h
 tf/message_filter.h
-/home/kathleen/fetch_ws/src/slam_karto/src/tf/message_filter.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/tf/message_filter.h
 visualization_msgs/MarkerArray.h
-/home/kathleen/fetch_ws/src/slam_karto/src/visualization_msgs/MarkerArray.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/visualization_msgs/MarkerArray.h
 nav_msgs/MapMetaData.h
-/home/kathleen/fetch_ws/src/slam_karto/src/nav_msgs/MapMetaData.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/nav_msgs/MapMetaData.h
 sensor_msgs/LaserScan.h
-/home/kathleen/fetch_ws/src/slam_karto/src/sensor_msgs/LaserScan.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/sensor_msgs/LaserScan.h
 nav_msgs/GetMap.h
-/home/kathleen/fetch_ws/src/slam_karto/src/nav_msgs/GetMap.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/nav_msgs/GetMap.h
 open_karto/Mapper.h
-/home/kathleen/fetch_ws/src/slam_karto/src/open_karto/Mapper.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/open_karto/Mapper.h
 spa_solver.h
-/home/kathleen/fetch_ws/src/slam_karto/src/spa_solver.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/spa_solver.h
 boost/thread.hpp
 -
 string
@@ -106,15 +106,15 @@ map
 vector
 -
 
-/home/kathleen/fetch_ws/src/slam_karto/src/spa_solver.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/spa_solver.cpp
 spa_solver.h
-/home/kathleen/fetch_ws/src/slam_karto/src/spa_solver.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/spa_solver.h
 open_karto/Karto.h
 -
 ros/console.h
-/home/kathleen/fetch_ws/src/slam_karto/src/ros/console.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/ros/console.h
 
-/home/kathleen/fetch_ws/src/slam_karto/src/spa_solver.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/slam_karto/src/spa_solver.h
 open_karto/Mapper.h
 -
 Eigen/Eigen
@@ -122,7 +122,7 @@ Eigen/Eigen
 sparse_bundle_adjustment/spa2d.h
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/bpcg/bpcg.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/bpcg/bpcg.h
 vector
 -
 map
@@ -136,7 +136,7 @@ Eigen/LU
 Eigen/StdVector
 -
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/csparse.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/csparse.h
 stdio.h
 -
 iostream
@@ -150,25 +150,25 @@ Eigen/LU
 Eigen/StdVector
 -
 suitesparse/cs.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/suitesparse/cs.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/suitesparse/cs.h
 vector
 -
 map
 -
 suitesparse/cholmod.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/suitesparse/cholmod.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/suitesparse/cholmod.h
 SparseLib/compcol_double.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/compcol_double.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/compcol_double.h
 SparseLib/mvblasd.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/mvblasd.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/mvblasd.h
 SparseLib/icpre_double.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/icpre_double.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/icpre_double.h
 SparseLib/cg.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/cg.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/SparseLib/cg.h
 sparse_bundle_adjustment/bpcg/bpcg.h
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sparse_bundle_adjustment/bpcg/bpcg.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/sparse_bundle_adjustment/bpcg/bpcg.h
 
-/home/kathleen/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/spa2d.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include/sparse_bundle_adjustment/spa2d.h
 stdio.h
 -
 iostream

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_msgs
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/robot_controllers_msgs
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_msgs
 
 # Utility rule file for robot_controllers_msgs_generate_messages.
 
@@ -67,6 +67,6 @@ CMakeFiles/robot_controllers_msgs_generate_messages.dir/clean:
 .PHONY : CMakeFiles/robot_controllers_msgs_generate_messages.dir/clean
 
 CMakeFiles/robot_controllers_msgs_generate_messages.dir/depend:
-	cd /home/kathleen/fetch_ws/build/robot_controllers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_msgs /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers_msgs /home/kathleen/fetch_ws/build/robot_controllers_msgs /home/kathleen/fetch_ws/build/robot_controllers_msgs /home/kathleen/fetch_ws/build/robot_controllers_msgs/CMakeFiles/robot_controllers_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_msgs /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers_msgs /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_msgs /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_msgs /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers_msgs/CMakeFiles/robot_controllers_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_controllers_msgs_generate_messages.dir/depend
 

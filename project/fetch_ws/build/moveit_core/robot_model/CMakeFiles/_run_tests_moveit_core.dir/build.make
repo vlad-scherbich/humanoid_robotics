@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_core
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_core
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core
 
 # Utility rule file for _run_tests_moveit_core.
 
@@ -63,10 +63,10 @@ robot_model/CMakeFiles/_run_tests_moveit_core.dir/build: _run_tests_moveit_core
 .PHONY : robot_model/CMakeFiles/_run_tests_moveit_core.dir/build
 
 robot_model/CMakeFiles/_run_tests_moveit_core.dir/clean:
-	cd /home/kathleen/fetch_ws/build/moveit_core/robot_model && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_moveit_core.dir/cmake_clean.cmake
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/robot_model && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_moveit_core.dir/cmake_clean.cmake
 .PHONY : robot_model/CMakeFiles/_run_tests_moveit_core.dir/clean
 
 robot_model/CMakeFiles/_run_tests_moveit_core.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_core /home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model /home/kathleen/fetch_ws/build/moveit_core /home/kathleen/fetch_ws/build/moveit_core/robot_model /home/kathleen/fetch_ws/build/moveit_core/robot_model/CMakeFiles/_run_tests_moveit_core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/robot_model /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_core/robot_model/CMakeFiles/_run_tests_moveit_core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_model/CMakeFiles/_run_tests_moveit_core.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/simple_grasping
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/simple_grasping
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping
 
 # Utility rule file for _run_tests_simple_grasping.
 
@@ -63,10 +63,10 @@ test/CMakeFiles/_run_tests_simple_grasping.dir/build: _run_tests_simple_grasping
 .PHONY : test/CMakeFiles/_run_tests_simple_grasping.dir/build
 
 test/CMakeFiles/_run_tests_simple_grasping.dir/clean:
-	cd /home/kathleen/fetch_ws/build/simple_grasping/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_simple_grasping.dir/cmake_clean.cmake
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_simple_grasping.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/_run_tests_simple_grasping.dir/clean
 
 test/CMakeFiles/_run_tests_simple_grasping.dir/depend:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/simple_grasping /home/kathleen/fetch_ws/src/simple_grasping/test /home/kathleen/fetch_ws/build/simple_grasping /home/kathleen/fetch_ws/build/simple_grasping/test /home/kathleen/fetch_ws/build/simple_grasping/test/CMakeFiles/_run_tests_simple_grasping.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping/test /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test/CMakeFiles/_run_tests_simple_grasping.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/_run_tests_simple_grasping.dir/depend
 

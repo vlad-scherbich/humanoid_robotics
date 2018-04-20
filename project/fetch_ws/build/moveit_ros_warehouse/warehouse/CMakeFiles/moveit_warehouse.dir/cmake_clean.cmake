@@ -6,9 +6,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o"
   "CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o"
   "CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

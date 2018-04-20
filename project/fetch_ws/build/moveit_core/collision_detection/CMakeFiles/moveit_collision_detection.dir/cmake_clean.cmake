@@ -8,9 +8,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/moveit_collision_detection.dir/src/collision_world.cpp.o"
   "CMakeFiles/moveit_collision_detection.dir/src/world.cpp.o"
   "CMakeFiles/moveit_collision_detection.dir/src/world_diff.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_collision_detection.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_collision_detection.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_core/lib/libmoveit_collision_detection.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_collision_detection.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_collision_detection.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib/libmoveit_collision_detection.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

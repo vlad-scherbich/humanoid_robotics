@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_ros/manipulation
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/manipulation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_ros_manipulation
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_manipulation
 
 # Utility rule file for tf_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/tf_generate_messages_lisp.dir/clean
 
 CMakeFiles/tf_generate_messages_lisp.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_manipulation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_ros/manipulation /home/kathleen/fetch_ws/src/moveit/moveit_ros/manipulation /home/kathleen/fetch_ws/build/moveit_ros_manipulation /home/kathleen/fetch_ws/build/moveit_ros_manipulation /home/kathleen/fetch_ws/build/moveit_ros_manipulation/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_manipulation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/manipulation /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/manipulation /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_manipulation /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_manipulation /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_manipulation/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf_generate_messages_lisp.dir/depend
 

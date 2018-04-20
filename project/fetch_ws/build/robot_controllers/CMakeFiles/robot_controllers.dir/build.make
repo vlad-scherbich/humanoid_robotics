@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/robot_controllers
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers
 
 # Include any dependencies generated for this target.
 include CMakeFiles/robot_controllers.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/robot_controllers.dir/progress.make
 include CMakeFiles/robot_controllers.dir/flags.make
 
 CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp
+CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp
 
 CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp > CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp > CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp -o CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_pose.cpp -o CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp
+CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp
 
 CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp > CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp > CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp -o CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_twist.cpp -o CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o.provides.build: CMake
 
 
 CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp
+CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp
 
 CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp > CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp > CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp -o CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/cartesian_wrench.cpp -o CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o.provides.build: CMak
 
 
 CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp
+CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp
 
 CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp > CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp > CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp -o CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/diff_drive_base.cpp -o CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o.provides.build: CMake
 
 
 CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp
+CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp
 
 CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp > CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp > CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp -o CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/follow_joint_trajectory.cpp -o CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o.provides.buil
 
 
 CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp
+CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp
 
 CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp > CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp > CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp -o CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/gravity_compensation.cpp -o CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o.provides.build: 
 
 
 CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp
+CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp
 
 CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp > CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp > CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp -o CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/parallel_gripper.cpp -o CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o.provides.build: CMak
 
 
 CMakeFiles/robot_controllers.dir/src/pid.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/pid.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/robot_controllers.dir/src/pid.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/pid.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp
+CMakeFiles/robot_controllers.dir/src/pid.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/robot_controllers.dir/src/pid.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/pid.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp
 
 CMakeFiles/robot_controllers.dir/src/pid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/pid.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp > CMakeFiles/robot_controllers.dir/src/pid.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp > CMakeFiles/robot_controllers.dir/src/pid.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/pid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/pid.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp -o CMakeFiles/robot_controllers.dir/src/pid.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/pid.cpp -o CMakeFiles/robot_controllers.dir/src/pid.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/pid.cpp.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/robot_controllers.dir/src/pid.cpp.o.provides.build: CMakeFiles/robot_
 
 
 CMakeFiles/robot_controllers.dir/src/point_head.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/point_head.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/robot_controllers.dir/src/point_head.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/point_head.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp
+CMakeFiles/robot_controllers.dir/src/point_head.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/robot_controllers.dir/src/point_head.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/point_head.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp
 
 CMakeFiles/robot_controllers.dir/src/point_head.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/point_head.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp > CMakeFiles/robot_controllers.dir/src/point_head.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp > CMakeFiles/robot_controllers.dir/src/point_head.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/point_head.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/point_head.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp -o CMakeFiles/robot_controllers.dir/src/point_head.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/point_head.cpp -o CMakeFiles/robot_controllers.dir/src/point_head.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/point_head.cpp.o.requires:
 
@@ -274,17 +274,17 @@ CMakeFiles/robot_controllers.dir/src/point_head.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o: CMakeFiles/robot_controllers.dir/flags.make
-CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o: /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o -c /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp
+CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o: /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o -c /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp
 
 CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp > CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp > CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.i
 
 CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp -o CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers/src/scaled_mimic.cpp -o CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.s
 
 CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o.requires:
 
@@ -313,68 +313,68 @@ robot_controllers_OBJECTS = \
 # External object files for target robot_controllers
 robot_controllers_EXTERNAL_OBJECTS =
 
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/pid.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/point_head.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/build.make
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libkdl_parser.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /home/kathleen/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/libPocoFoundation.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libroslib.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librospack.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libtf_conversions.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libkdl_conversions.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libtf.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libtf2.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/liburdf.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librostime.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library /home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so"
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/cartesian_pose.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/cartesian_twist.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/cartesian_wrench.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/diff_drive_base.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/follow_joint_trajectory.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/gravity_compensation.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/parallel_gripper.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/pid.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/point_head.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/build.make
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libkdl_parser.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers_interface/lib/librobot_controllers_interface.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/libPocoFoundation.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libroslib.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librospack.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libtf_conversions.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libkdl_conversions.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libtf.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libtf2.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/liburdf.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/librostime.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so: CMakeFiles/robot_controllers.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_controllers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/robot_controllers.dir/build: /home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so
+CMakeFiles/robot_controllers.dir/build: /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so
 
 .PHONY : CMakeFiles/robot_controllers.dir/build
 
@@ -396,6 +396,6 @@ CMakeFiles/robot_controllers.dir/clean:
 .PHONY : CMakeFiles/robot_controllers.dir/clean
 
 CMakeFiles/robot_controllers.dir/depend:
-	cd /home/kathleen/fetch_ws/build/robot_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers /home/kathleen/fetch_ws/src/robot_controllers/robot_controllers /home/kathleen/fetch_ws/build/robot_controllers /home/kathleen/fetch_ws/build/robot_controllers /home/kathleen/fetch_ws/build/robot_controllers/CMakeFiles/robot_controllers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers /home/kathleen/humanoid_robotics/project/fetch_ws/src/robot_controllers/robot_controllers /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers /home/kathleen/humanoid_robotics/project/fetch_ws/build/robot_controllers/CMakeFiles/robot_controllers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_controllers.dir/depend
 

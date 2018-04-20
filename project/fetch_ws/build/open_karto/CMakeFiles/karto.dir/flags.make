@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -Dkarto_EXPORTS
 
-CXX_INCLUDES = -I/home/kathleen/fetch_ws/src/open_karto/include 
+CXX_INCLUDES = -I/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include 
 

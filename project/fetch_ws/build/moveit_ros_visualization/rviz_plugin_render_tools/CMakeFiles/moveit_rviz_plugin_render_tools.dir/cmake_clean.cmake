@@ -8,9 +8,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_visualization.cpp.o"
   "CMakeFiles/moveit_rviz_plugin_render_tools.dir/src/trajectory_panel.cpp.o"
   "CMakeFiles/moveit_rviz_plugin_render_tools.dir/moveit_rviz_plugin_render_tools_automoc.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/measure_ik_call_cost.dir/src/measure_ik_call_cost.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_kinematics/lib/moveit_kinematics/measure_ik_call_cost.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_kinematics/lib/moveit_kinematics/measure_ik_call_cost"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_kinematics/lib/moveit_kinematics/measure_ik_call_cost.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_kinematics/lib/moveit_kinematics/measure_ik_call_cost"
 )
 
 # Per-language clean rules from dependency scanning.

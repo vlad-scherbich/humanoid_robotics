@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_setup_assistant
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant
 
 # Utility rule file for moveit_setup_assistant_widgets_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_setup_assistant
 include CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/progress.make
 
 CMakeFiles/moveit_setup_assistant_widgets_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kathleen/fetch_ws/build/moveit_setup_assistant/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target moveit_setup_assistant_widgets"
-	/usr/bin/cmake -E cmake_autogen /home/kathleen/fetch_ws/build/moveit_setup_assistant/CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/ Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target moveit_setup_assistant_widgets"
+	/usr/bin/cmake -E cmake_autogen /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/ Release
 
 moveit_setup_assistant_widgets_automoc: CMakeFiles/moveit_setup_assistant_widgets_automoc
 moveit_setup_assistant_widgets_automoc: CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/clean:
 .PHONY : CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/clean
 
 CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_setup_assistant && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant /home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant /home/kathleen/fetch_ws/build/moveit_setup_assistant /home/kathleen/fetch_ws/build/moveit_setup_assistant /home/kathleen/fetch_ws/build/moveit_setup_assistant/CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/moveit_setup_assistant_widgets_automoc.dir/depend
 

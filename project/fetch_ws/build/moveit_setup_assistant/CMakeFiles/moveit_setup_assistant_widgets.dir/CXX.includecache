@@ -6,171 +6,171 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_author_information_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_author_information_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_configuration_files_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_configuration_files_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_default_collisions_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_default_collisions_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_double_list_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_double_list_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_end_effectors_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_end_effectors_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_group_edit_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_group_edit_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_header_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_header_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_kinematic_chain_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_kinematic_chain_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_navigation_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_navigation_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_passive_joints_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_passive_joints_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_planning_groups_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_planning_groups_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_robot_poses_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_robot_poses_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_setup_assistant_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_setup_assistant_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/setup_assistant_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_assistant_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_assistant_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_setup_screen_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_setup_screen_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_start_screen_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_start_screen_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_virtual_joints_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_virtual_joints_widget.cpp
 ../../src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moveit_setup_assistant_widgets_automoc.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moveit_setup_assistant_widgets_automoc.cpp
 moc_author_information_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_author_information_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_author_information_widget.cpp
 moc_configuration_files_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_configuration_files_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_configuration_files_widget.cpp
 moc_default_collisions_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_default_collisions_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_default_collisions_widget.cpp
 moc_double_list_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_double_list_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_double_list_widget.cpp
 moc_end_effectors_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_end_effectors_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_end_effectors_widget.cpp
 moc_group_edit_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_group_edit_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_group_edit_widget.cpp
 moc_header_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_header_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_header_widget.cpp
 moc_kinematic_chain_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_kinematic_chain_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_kinematic_chain_widget.cpp
 moc_navigation_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_navigation_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_navigation_widget.cpp
 moc_passive_joints_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_passive_joints_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_passive_joints_widget.cpp
 moc_planning_groups_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_planning_groups_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_planning_groups_widget.cpp
 moc_robot_poses_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_robot_poses_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_robot_poses_widget.cpp
 moc_setup_assistant_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_setup_assistant_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_setup_assistant_widget.cpp
 moc_setup_screen_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_setup_screen_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_setup_screen_widget.cpp
 moc_start_screen_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_start_screen_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_start_screen_widget.cpp
 moc_virtual_joints_widget.cpp
-/home/kathleen/fetch_ws/build/moveit_setup_assistant/moc_virtual_joints_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_setup_assistant/moc_virtual_joints_widget.cpp
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/bodies.h
 geometric_shapes/shapes.h
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/geometric_shapes/shapes.h
 eigen_stl_containers/eigen_stl_containers.h
 -
 random_numbers/random_numbers.h
@@ -184,7 +184,7 @@ memory
 vector
 -
 
-/home/kathleen/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/geometric_shapes/include/geometric_shapes/shapes.h
 cstdlib
 -
 vector
@@ -196,7 +196,7 @@ memory
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_common.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_common.h
 boost/array.hpp
 -
 boost/function.hpp
@@ -214,7 +214,7 @@ Eigen/Core
 console_bridge/console.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_detector_allocator.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_detector_allocator.h
 moveit/collision_detection/collision_robot.h
 -
 moveit/collision_detection/collision_world.h
@@ -222,7 +222,7 @@ moveit/collision_detection/collision_world.h
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_matrix.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_matrix.h
 moveit/collision_detection/collision_common.h
 -
 moveit/macros/class_forward.h
@@ -240,7 +240,7 @@ string
 map
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_robot.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_robot.h
 moveit/collision_detection/collision_matrix.h
 -
 moveit/macros/class_forward.h
@@ -252,7 +252,7 @@ moveit_msgs/LinkPadding.h
 moveit_msgs/LinkScale.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_world.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/collision_world.h
 boost/utility.hpp
 -
 moveit/collision_detection/collision_matrix.h
@@ -264,7 +264,7 @@ moveit/collision_detection/world.h
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/world.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/world.h
 moveit/macros/class_forward.h
 -
 string
@@ -282,7 +282,7 @@ Eigen/Geometry
 eigen_stl_containers/eigen_stl_vector_container.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/world_diff.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/collision_detection/include/moveit/collision_detection/world_diff.h
 moveit/collision_detection/world.h
 -
 moveit/macros/class_forward.h
@@ -290,11 +290,11 @@ moveit/macros/class_forward.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
 stdexcept
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/kinematic_constraints/include/moveit/kinematic_constraints/kinematic_constraint.h
 moveit/robot_model/robot_model.h
 -
 moveit/robot_state/robot_state.h
@@ -314,7 +314,7 @@ iostream
 vector
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h
 geometry_msgs/PoseStamped.h
 -
 moveit_msgs/MoveItErrorCodes.h
@@ -330,17 +330,17 @@ boost/function.hpp
 string
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/deprecation.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/planning_scene/include/moveit/planning_scene/planning_scene.h
 moveit/robot_model/robot_model.h
 -
 moveit/robot_state/robot_state.h
@@ -380,15 +380,15 @@ boost/concept_check.hpp
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/fixed_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/fixed_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/floating_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/floating_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model.h
 string
 -
 vector
@@ -404,7 +404,7 @@ random_numbers/random_numbers.h
 Eigen/Geometry
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/joint_model_group.h
 moveit/robot_model/joint_model.h
 -
 moveit/robot_model/link_model.h
@@ -418,7 +418,7 @@ boost/function.hpp
 set
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/link_model.h
 string
 -
 vector
@@ -434,19 +434,19 @@ eigen_stl_containers/eigen_stl_vector_container.h
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/planar_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/planar_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/prismatic_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/revolute_joint_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/revolute_joint_model.h
 moveit/robot_model/joint_model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_model/include/moveit/robot_model/robot_model.h
 moveit/macros/class_forward.h
 -
 moveit/exceptions/exceptions.h
@@ -474,7 +474,7 @@ Eigen/Geometry
 iostream
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/attached_body.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/attached_body.h
 moveit/robot_model/link_model.h
 -
 eigen_stl_containers/eigen_stl_containers.h
@@ -486,7 +486,7 @@ trajectory_msgs/JointTrajectory.h
 set
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/conversions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/conversions.h
 moveit/robot_state/robot_state.h
 -
 moveit/transforms/transforms.h
@@ -496,7 +496,7 @@ moveit_msgs/RobotState.h
 moveit_msgs/RobotTrajectory.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_state/include/moveit/robot_state/robot_state.h
 moveit/robot_model/robot_model.h
 -
 moveit/robot_state/attached_body.h
@@ -516,7 +516,7 @@ cassert
 boost/assert.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/robot_trajectory/include/moveit/robot_trajectory/robot_trajectory.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/robot_trajectory/include/moveit/robot_trajectory/robot_trajectory.h
 moveit/macros/class_forward.h
 -
 moveit/macros/deprecation.h
@@ -530,7 +530,7 @@ moveit_msgs/RobotState.h
 deque
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/transforms/include/moveit/transforms/transforms.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/transforms/include/moveit/transforms/transforms.h
 geometry_msgs/TransformStamped.h
 -
 geometry_msgs/Pose.h
@@ -542,7 +542,7 @@ boost/noncopyable.hpp
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include/moveit/rdf_loader/rdf_loader.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include/moveit/rdf_loader/rdf_loader.h
 moveit/macros/class_forward.h
 -
 urdf/model.h
@@ -550,7 +550,7 @@ urdf/model.h
 srdfdom/model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization/robot_state_rviz_plugin/include/moveit/robot_state_rviz_plugin/robot_state_display.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization/robot_state_rviz_plugin/include/moveit/robot_state_rviz_plugin/robot_state_display.h
 rviz/display.h
 -
 moveit/rdf_loader/rdf_loader.h
@@ -562,7 +562,7 @@ moveit_msgs/DisplayRobotState.h
 ros/ros.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/octomap_render.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/octomap_render.h
 memory
 -
 vector
@@ -572,7 +572,7 @@ rviz/ogre_helpers/point_cloud.h
 moveit/rviz_plugin_render_tools/octomap_render.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization/rviz_plugin_render_tools/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h
 moveit/macros/class_forward.h
 -
 moveit/robot_state/robot_state.h
@@ -582,11 +582,11 @@ moveit/rviz_plugin_render_tools/octomap_render.h
 rviz/robot/robot.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/include/moveit/setup_assistant/tools/compute_default_collisions.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/include/moveit/setup_assistant/tools/compute_default_collisions.h
 moveit/planning_scene/planning_scene.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/include/moveit/setup_assistant/tools/moveit_config_data.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/include/moveit/setup_assistant/tools/moveit_config_data.h
 boost/shared_ptr.hpp
 -
 srdfdom/model.h
@@ -604,7 +604,7 @@ moveit/collision_detection/collision_matrix.h
 moveit/setup_assistant/tools/compute_default_collisions.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_linear_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_linear_model.h
 QAbstractProxyModel
 -
 QSortFilterProxyModel
@@ -614,19 +614,19 @@ QVector
 moveit/setup_assistant/tools/compute_default_collisions.h
 -
 collision_matrix_model.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_matrix_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_matrix_model.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_matrix_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_matrix_model.h
 QAbstractTableModel
 -
 moveit/setup_assistant/tools/compute_default_collisions.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/rotated_header_view.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/rotated_header_view.h
 QHeaderView
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.cpp
 QVBoxLayout
 -
 QPushButton
@@ -638,7 +638,7 @@ QApplication
 QSplitter
 -
 author_information_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.h
 srdfdom/model.h
 -
 ros/ros.h
@@ -652,7 +652,7 @@ iostream
 fstream
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.h
 QWidget
 -
 QString
@@ -662,11 +662,11 @@ QLineEdit
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.cpp
 QVBoxLayout
 -
 QPushButton
@@ -680,7 +680,7 @@ QSplitter
 QRegExp
 -
 configuration_files_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.h
 srdfdom/model.h
 -
 ros/ros.h
@@ -694,7 +694,7 @@ iostream
 fstream
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.h
 QWidget
 -
 QPushButton
@@ -712,11 +712,11 @@ QList
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.cpp
 QHBoxLayout
 -
 QMessageBox
@@ -738,17 +738,17 @@ QKeyEvent
 QMenu
 -
 default_collisions_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.h
 ../tools/collision_matrix_model.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_matrix_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_matrix_model.h
 ../tools/collision_linear_model.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_linear_model.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/collision_linear_model.h
 ../tools/rotated_header_view.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/rotated_header_view.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/tools/rotated_header_view.h
 ros/console.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.h
 QWidget
 -
 QLabel
@@ -786,11 +786,11 @@ moveit/setup_assistant/tools/compute_default_collisions.h
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.cpp
 QVBoxLayout
 -
 QHBoxLayout
@@ -810,9 +810,9 @@ QString
 QHeaderView
 -
 double_list_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
 QWidget
 -
 QLabel
@@ -822,9 +822,9 @@ QTableWidget
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.cpp
 end_effectors_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.h
 QFormLayout
 -
 QMessageBox
@@ -832,7 +832,7 @@ QMessageBox
 QApplication
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.h
 QWidget
 -
 QVBoxLayout
@@ -858,11 +858,11 @@ QComboBox
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.cpp
 QVBoxLayout
 -
 QHBoxLayout
@@ -874,11 +874,11 @@ QFormLayout
 QString
 -
 group_edit_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.h
 pluginlib/class_loader.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.h
 QWidget
 -
 QLabel
@@ -892,7 +892,7 @@ QPushButton
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.cpp
 QPushButton
 -
 QFont
@@ -902,9 +902,9 @@ QFileDialog
 QVBoxLayout
 -
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 QWidget
 -
 QLabel
@@ -912,7 +912,7 @@ QLabel
 QLineEdit
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.cpp
 QVBoxLayout
 -
 QHBoxLayout
@@ -930,9 +930,9 @@ QMessageBox
 QString
 -
 kinematic_chain_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.h
 QWidget
 -
 QLabel
@@ -944,15 +944,15 @@ moveit/setup_assistant/tools/moveit_config_data.h
 ros/ros.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.cpp
 navigation_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.h
 QDebug
 -
 iostream
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.h
 QListView
 -
 QStandardItemModel
@@ -966,15 +966,15 @@ QStyledItemDelegate
 QPainter
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.cpp
 passive_joints_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.h
 QFormLayout
 -
 QMessageBox
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.h
 QWidget
 -
 QVBoxLayout
@@ -996,19 +996,19 @@ QComboBox
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 double_list_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.cpp
 ros/ros.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/ros/ros.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/ros/ros.h
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 planning_groups_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.h
 boost/thread.hpp
 -
 boost/lexical_cast.hpp
@@ -1044,7 +1044,7 @@ boost/graph/depth_first_search.hpp
 boost/graph/visitors.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.h
 QWidget
 -
 QTreeWidget
@@ -1056,17 +1056,17 @@ QStackedLayout
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 double_list_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/double_list_widget.h
 kinematic_chain_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/kinematic_chain_widget.h
 group_edit_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/group_edit_widget.h
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.cpp
 robot_poses_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.h
 moveit_msgs/JointLimits.h
 -
 QFormLayout
@@ -1082,7 +1082,7 @@ moveit/robot_state/conversions.h
 moveit_msgs/DisplayRobotState.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.h
 QWidget
 -
 QVBoxLayout
@@ -1112,15 +1112,15 @@ moveit/planning_scene/planning_scene.h
 ros/ros.h
 -
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_assistant_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_assistant_widget.cpp
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 setup_assistant_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_assistant_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_assistant_widget.h
 QStackedLayout
 -
 QListWidget
@@ -1154,7 +1154,7 @@ rviz/default_plugin/view_controllers/orbit_view_controller.h
 moveit/robot_state_rviz_plugin/robot_state_display.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_assistant_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_assistant_widget.h
 QWidget
 -
 QVBoxLayout
@@ -1178,25 +1178,25 @@ QSplitter
 QStringList
 -
 navigation_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/navigation_widget.h
 start_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.h
 default_collisions_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/default_collisions_widget.h
 planning_groups_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/planning_groups_widget.h
 robot_poses_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/robot_poses_widget.h
 end_effectors_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/end_effectors_widget.h
 virtual_joints_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.h
 passive_joints_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/passive_joints_widget.h
 author_information_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/author_information_widget.h
 configuration_files_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/configuration_files_widget.h
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 ros/ros.h
@@ -1206,17 +1206,17 @@ boost/program_options.hpp
 boost/thread/mutex.hpp
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.cpp
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 iostream
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 QWidget
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.cpp
 QLabel
 -
 QTimer
@@ -1242,9 +1242,9 @@ ros/ros.h
 ros/package.h
 -
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 start_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.h
 fstream
 -
 streambuf
@@ -1258,7 +1258,7 @@ boost/algorithm/string.hpp
 moveit/rdf_loader/rdf_loader.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/start_screen_widget.h
 QWidget
 -
 QLineEdit
@@ -1276,11 +1276,11 @@ srdfdom/model.h
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.cpp
 virtual_joints_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.h
 QFormLayout
 -
 QMessageBox
@@ -1288,7 +1288,7 @@ QMessageBox
 QApplication
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/virtual_joints_widget.h
 QWidget
 -
 QVBoxLayout
@@ -1310,9 +1310,9 @@ QComboBox
 moveit/setup_assistant/tools/moveit_config_data.h
 -
 header_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/header_widget.h
 setup_screen_widget.h
-/home/kathleen/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_setup_assistant/src/widgets/setup_screen_widget.h
 
 /opt/ros/kinetic/include/class_loader/class_loader.h
 boost/bind.hpp

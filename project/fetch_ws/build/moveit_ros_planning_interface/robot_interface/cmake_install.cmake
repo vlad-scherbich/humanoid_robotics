@@ -1,8 +1,8 @@
-# Install script for directory: /home/kathleen/fetch_ws/src/moveit/moveit_ros/planning_interface/robot_interface
+# Install script for directory: /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning_interface/robot_interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kathleen/fetch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kathleen/humanoid_robotics/project/fetch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,8 +45,8 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/moveit_ros_planning_interface" TYPE SHARED_LIBRARY FILES
-    "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning_interface/lib/python2.7/dist-packages/moveit_ros_planning_interface/_moveit_robot_interface.so.0.9.11"
-    "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning_interface/lib/python2.7/dist-packages/moveit_ros_planning_interface/_moveit_robot_interface.so"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning_interface/lib/python2.7/dist-packages/moveit_ros_planning_interface/_moveit_robot_interface.so.0.9.11"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning_interface/lib/python2.7/dist-packages/moveit_ros_planning_interface/_moveit_robot_interface.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/moveit_ros_planning_interface/_moveit_robot_interface.so.0.9.11"
@@ -56,7 +56,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_manipulation/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_move_group/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning_interface/lib:"
+           OLD_RPATH "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_manipulation/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_move_group/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning_interface/lib:"
            NEW_RPATH "")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")

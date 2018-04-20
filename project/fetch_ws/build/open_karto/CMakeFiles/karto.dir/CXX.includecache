@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Karto.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Karto.h
 string
 -
 fstream
@@ -46,9 +46,9 @@ open_karto/Math.h
 open_karto/Macros.h
 -
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Macros.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Macros.h
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Mapper.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Mapper.h
 map
 -
 vector
@@ -56,7 +56,7 @@ vector
 open_karto/Karto.h
 -
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Math.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Math.h
 assert.h
 -
 math.h
@@ -66,13 +66,13 @@ limits
 open_karto/Types.h
 -
 
-/home/kathleen/fetch_ws/src/open_karto/include/open_karto/Types.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/include/open_karto/Types.h
 cstddef
 -
 stdint.h
 -
 
-/home/kathleen/fetch_ws/src/open_karto/src/Karto.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/src/Karto.cpp
 math.h
 -
 assert.h
@@ -88,9 +88,9 @@ string.h
 stdio.h
 -
 open_karto/Karto.h
-/home/kathleen/fetch_ws/src/open_karto/src/open_karto/Karto.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/src/open_karto/Karto.h
 
-/home/kathleen/fetch_ws/src/open_karto/src/Mapper.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/src/Mapper.cpp
 sstream
 -
 fstream
@@ -110,5 +110,5 @@ math.h
 assert.h
 -
 open_karto/Mapper.h
-/home/kathleen/fetch_ws/src/open_karto/src/open_karto/Mapper.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/open_karto/src/open_karto/Mapper.h
 

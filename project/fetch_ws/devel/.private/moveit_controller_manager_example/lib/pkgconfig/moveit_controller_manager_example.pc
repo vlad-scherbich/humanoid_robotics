@@ -1,8 +1,8 @@
-prefix=/home/kathleen/fetch_ws/devel/.private/moveit_controller_manager_example
+prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_controller_manager_example
 
 Name: moveit_controller_manager_example
 Description: Description of moveit_controller_manager_example
 Version: 0.9.11
 Cflags: 
-Libs: -L/home/kathleen/fetch_ws/devel/.private/moveit_controller_manager_example/lib 
+Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_controller_manager_example/lib 
 Requires: moveit_core

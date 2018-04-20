@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/transforms/include/moveit/transforms/transforms.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/transforms/include/moveit/transforms/transforms.h
 geometry_msgs/TransformStamped.h
 -
 geometry_msgs/Pose.h
@@ -26,7 +26,7 @@ boost/noncopyable.hpp
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/transforms/src/transforms.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/transforms/src/transforms.cpp
 moveit/transforms/transforms.h
 -
 eigen_conversions/eigen_msg.h

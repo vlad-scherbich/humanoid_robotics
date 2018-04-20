@@ -1,8 +1,8 @@
-# Install script for directory: /home/kathleen/fetch_ws/src/moveit/moveit_ros/warehouse/warehouse
+# Install script for directory: /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/warehouse/warehouse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kathleen/fetch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kathleen/humanoid_robotics/project/fetch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,8 +45,8 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.so.0.9.11"
-    "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.so"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.so.0.9.11"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/libmoveit_warehouse.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmoveit_warehouse.so.0.9.11"
@@ -56,7 +56,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_perception/lib:"
+           OLD_RPATH "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_perception/lib:"
            NEW_RPATH "")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -72,12 +72,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_save_to_warehouse"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_save_to_warehouse" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_save_to_warehouse")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_save_to_warehouse"
-         OLD_RPATH "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
+         OLD_RPATH "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_save_to_warehouse")
@@ -92,12 +92,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_broadcast"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_broadcast" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_broadcast")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_broadcast"
-         OLD_RPATH "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
+         OLD_RPATH "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_broadcast")
@@ -112,12 +112,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text"
-         OLD_RPATH "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
+         OLD_RPATH "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text")
@@ -132,12 +132,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text"
-         OLD_RPATH "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
+         OLD_RPATH "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text")
@@ -152,12 +152,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_init_demo_warehouse"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_init_demo_warehouse" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_init_demo_warehouse")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_init_demo_warehouse"
-         OLD_RPATH "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
+         OLD_RPATH "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_init_demo_warehouse")
@@ -172,12 +172,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_services"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse" TYPE EXECUTABLE FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_services" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_services")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_services"
-         OLD_RPATH "/home/kathleen/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
+         OLD_RPATH "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_planning/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_core/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/geometric_shapes/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_perception/lib:/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_warehouse/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/moveit_ros_warehouse/moveit_warehouse_services")
@@ -186,6 +186,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kathleen/fetch_ws/src/moveit/moveit_ros/warehouse/warehouse/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/warehouse/warehouse/include/")
 endif()
 

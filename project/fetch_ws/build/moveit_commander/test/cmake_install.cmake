@@ -1,8 +1,8 @@
-# Install script for directory: /home/kathleen/fetch_ws/src/moveit/moveit_commander/test
+# Install script for directory: /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_commander/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kathleen/fetch_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kathleen/humanoid_robotics/project/fetch_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,15 +34,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_commander/test" TYPE PROGRAM FILES
-    "/home/kathleen/fetch_ws/src/moveit/moveit_commander/test/python_moveit_commander.py"
-    "/home/kathleen/fetch_ws/src/moveit/moveit_commander/test/python_moveit_commander_ns.py"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_commander/test/python_moveit_commander.py"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_commander/test/python_moveit_commander_ns.py"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/moveit_commander/test" TYPE FILE FILES
-    "/home/kathleen/fetch_ws/src/moveit/moveit_commander/test/python_moveit_commander.test"
-    "/home/kathleen/fetch_ws/src/moveit/moveit_commander/test/python_moveit_commander_ns.test"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_commander/test/python_moveit_commander.test"
+    "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_commander/test/python_moveit_commander_ns.test"
     )
 endif()
 

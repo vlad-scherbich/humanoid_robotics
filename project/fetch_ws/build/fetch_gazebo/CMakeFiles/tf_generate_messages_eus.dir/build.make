@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/fetch_gazebo/fetch_gazebo
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_gazebo/fetch_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/fetch_gazebo
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_gazebo
 
 # Utility rule file for tf_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/tf_generate_messages_eus.dir/clean
 
 CMakeFiles/tf_generate_messages_eus.dir/depend:
-	cd /home/kathleen/fetch_ws/build/fetch_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/fetch_gazebo/fetch_gazebo /home/kathleen/fetch_ws/src/fetch_gazebo/fetch_gazebo /home/kathleen/fetch_ws/build/fetch_gazebo /home/kathleen/fetch_ws/build/fetch_gazebo /home/kathleen/fetch_ws/build/fetch_gazebo/CMakeFiles/tf_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_gazebo/fetch_gazebo /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_gazebo/fetch_gazebo /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_gazebo /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_gazebo /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_gazebo/CMakeFiles/tf_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf_generate_messages_eus.dir/depend
 

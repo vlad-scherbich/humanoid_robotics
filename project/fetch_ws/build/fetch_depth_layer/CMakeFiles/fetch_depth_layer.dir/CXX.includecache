@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/fetch_ros/fetch_depth_layer/include/fetch_depth_layer/depth_layer.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_depth_layer/include/fetch_depth_layer/depth_layer.h
 boost/thread/mutex.hpp
 -
 boost/shared_ptr.hpp
@@ -28,7 +28,7 @@ opencv2/rgbd.hpp
 opencv2/rgbd/rgbd.hpp
 -
 
-/home/kathleen/fetch_ws/src/fetch_ros/fetch_depth_layer/src/depth_layer.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_depth_layer/src/depth_layer.cpp
 pluginlib/class_list_macros.h
 -
 fetch_depth_layer/depth_layer.h

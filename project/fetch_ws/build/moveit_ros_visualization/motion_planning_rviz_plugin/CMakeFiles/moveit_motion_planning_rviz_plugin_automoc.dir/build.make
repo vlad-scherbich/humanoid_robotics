@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_ros_visualization
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization
 
 # Utility rule file for moveit_motion_planning_rviz_plugin_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/moveit_ros_visualization
 include motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/progress.make
 
 motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kathleen/fetch_ws/build/moveit_ros_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target moveit_motion_planning_rviz_plugin"
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/kathleen/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/ Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target moveit_motion_planning_rviz_plugin"
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/ Release
 
 moveit_motion_planning_rviz_plugin_automoc: motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc
 moveit_motion_planning_rviz_plugin_automoc: motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/build.make
@@ -68,10 +68,10 @@ motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automo
 .PHONY : motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/build
 
 motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/clean:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/cmake_clean.cmake
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/cmake_clean.cmake
 .PHONY : motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/clean
 
 motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/depend:
-	cd /home/kathleen/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization /home/kathleen/fetch_ws/src/moveit/moveit_ros/visualization/motion_planning_rviz_plugin /home/kathleen/fetch_ws/build/moveit_ros_visualization /home/kathleen/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin /home/kathleen/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/visualization/motion_planning_rviz_plugin /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin /home/kathleen/humanoid_robotics/project/fetch_ws/build/moveit_ros_visualization/motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_automoc.dir/depend
 

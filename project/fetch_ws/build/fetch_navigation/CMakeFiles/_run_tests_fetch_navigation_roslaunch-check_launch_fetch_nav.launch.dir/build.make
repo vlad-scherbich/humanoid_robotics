@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/fetch_navigation
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation
 
 # Utility rule file for _run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/fetch_navigation
 include CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch.dir/progress.make
 
 CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch:
-	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation/roslaunch-check_launch_fetch_nav.launch.xml /usr/bin/cmake\ -E\ make_directory\ /home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation /opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check\ -o\ '/home/kathleen/fetch_ws/build/fetch_navigation/test_results/fetch_navigation/roslaunch-check_launch_fetch_nav.launch.xml'\ '/home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation/launch/fetch_nav.launch'\ 
+	catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation/test_results/fetch_navigation/roslaunch-check_launch_fetch_nav.launch.xml /usr/bin/cmake\ -E\ make_directory\ /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation/test_results/fetch_navigation /opt/ros/kinetic/share/roslaunch/cmake/../scripts/roslaunch-check\ -o\ '/home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation/test_results/fetch_navigation/roslaunch-check_launch_fetch_nav.launch.xml'\ '/home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation/launch/fetch_nav.launch'\ 
 
 _run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch: CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch
 _run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch: CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch.d
 .PHONY : CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch.dir/clean
 
 CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch.dir/depend:
-	cd /home/kathleen/fetch_ws/build/fetch_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/fetch_ws/build/fetch_navigation /home/kathleen/fetch_ws/build/fetch_navigation /home/kathleen/fetch_ws/build/fetch_navigation/CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/src/fetch_ros/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation /home/kathleen/humanoid_robotics/project/fetch_ws/build/fetch_navigation/CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_fetch_navigation_roslaunch-check_launch_fetch_nav.launch.dir/depend
 

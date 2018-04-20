@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/simple_grasping
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/simple_grasping
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping
 
 # Utility rule file for moveit_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/simple_grasping /home/kathleen/fetch_ws/src/simple_grasping /home/kathleen/fetch_ws/build/simple_grasping /home/kathleen/fetch_ws/build/simple_grasping /home/kathleen/fetch_ws/build/simple_grasping/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/moveit_msgs_generate_messages_nodejs.dir/depend
 

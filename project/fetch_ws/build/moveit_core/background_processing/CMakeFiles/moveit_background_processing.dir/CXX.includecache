@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/background_processing/include/moveit/background_processing/background_processing.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/background_processing/include/moveit/background_processing/background_processing.h
 deque
 -
 string
@@ -20,7 +20,7 @@ boost/noncopyable.hpp
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/background_processing/src/background_processing.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/background_processing/src/background_processing.cpp
 moveit/background_processing/background_processing.h
 -
 console_bridge/console.h

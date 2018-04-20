@@ -1,8 +1,8 @@
-prefix=/home/kathleen/fetch_ws/devel/.private/fetch_gazebo_demo
+prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/fetch_gazebo_demo
 
 Name: fetch_gazebo_demo
 Description: Description of fetch_gazebo_demo
 Version: 0.7.1
 Cflags: 
-Libs: -L/home/kathleen/fetch_ws/devel/.private/fetch_gazebo_demo/lib 
+Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/fetch_gazebo_demo/lib 
 Requires: 

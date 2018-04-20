@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningAction.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningAction.h
 string
 -
 vector
@@ -28,7 +28,7 @@ grasping_msgs/GraspPlanningActionResult.h
 grasping_msgs/GraspPlanningActionFeedback.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningActionFeedback.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningActionFeedback.h
 string
 -
 vector
@@ -50,7 +50,7 @@ actionlib_msgs/GoalStatus.h
 grasping_msgs/GraspPlanningFeedback.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningActionGoal.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningActionGoal.h
 string
 -
 vector
@@ -72,7 +72,7 @@ actionlib_msgs/GoalID.h
 grasping_msgs/GraspPlanningGoal.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningActionResult.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningActionResult.h
 string
 -
 vector
@@ -94,7 +94,7 @@ actionlib_msgs/GoalStatus.h
 grasping_msgs/GraspPlanningResult.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningFeedback.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningFeedback.h
 string
 -
 vector
@@ -112,7 +112,7 @@ ros/message_operations.h
 moveit_msgs/Grasp.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningGoal.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningGoal.h
 string
 -
 vector
@@ -130,7 +130,7 @@ ros/message_operations.h
 grasping_msgs/Object.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningResult.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspPlanningResult.h
 string
 -
 vector
@@ -148,7 +148,7 @@ ros/message_operations.h
 moveit_msgs/Grasp.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspableObject.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/GraspableObject.h
 string
 -
 vector
@@ -168,7 +168,7 @@ grasping_msgs/Object.h
 moveit_msgs/Grasp.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/Object.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/Object.h
 string
 -
 vector
@@ -200,7 +200,7 @@ geometry_msgs/Pose.h
 shape_msgs/Plane.h
 -
 
-/home/kathleen/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/ObjectProperty.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/grasping_msgs/include/grasping_msgs/ObjectProperty.h
 string
 -
 vector
@@ -216,13 +216,13 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kathleen/fetch_ws/src/simple_grasping/include/simple_grasping/shape_grasp_planner.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping/include/simple_grasping/shape_grasp_planner.h
 ros/ros.h
 -
 grasping_msgs/GraspableObject.h
 -
 
-/home/kathleen/fetch_ws/src/simple_grasping/src/grasp_planner_node.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping/src/grasp_planner_node.cpp
 ros/ros.h
 -
 actionlib/server/simple_action_server.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/chomp_motion_planner
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/chomp_motion_planner
 
 # Utility rule file for trajectory_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/kathleen/fetch_ws/build/chomp_motion_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner /home/kathleen/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner /home/kathleen/fetch_ws/build/chomp_motion_planner /home/kathleen/fetch_ws/build/chomp_motion_planner /home/kathleen/fetch_ws/build/chomp_motion_planner/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/chomp_motion_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner /home/kathleen/humanoid_robotics/project/fetch_ws/build/chomp_motion_planner /home/kathleen/humanoid_robotics/project/fetch_ws/build/chomp_motion_planner /home/kathleen/humanoid_robotics/project/fetch_ws/build/chomp_motion_planner/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/depend
 

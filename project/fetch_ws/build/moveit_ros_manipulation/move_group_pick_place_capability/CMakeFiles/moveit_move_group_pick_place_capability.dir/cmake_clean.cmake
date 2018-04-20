@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/moveit_move_group_pick_place_capability.dir/src/pick_place_action_capability.cpp.o"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_manipulation/lib/libmoveit_move_group_pick_place_capability.pdb"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_manipulation/lib/libmoveit_move_group_pick_place_capability.so"
-  "/home/kathleen/fetch_ws/devel/.private/moveit_ros_manipulation/lib/libmoveit_move_group_pick_place_capability.so.0.9.11"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_manipulation/lib/libmoveit_move_group_pick_place_capability.pdb"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_manipulation/lib/libmoveit_move_group_pick_place_capability.so"
+  "/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_manipulation/lib/libmoveit_move_group_pick_place_capability.so.0.9.11"
 )
 
 # Per-language clean rules from dependency scanning.

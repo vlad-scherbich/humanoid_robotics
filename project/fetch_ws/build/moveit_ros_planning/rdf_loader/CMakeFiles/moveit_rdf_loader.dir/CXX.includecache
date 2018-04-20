@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/profiler/include/moveit/profiler/profiler.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/profiler/include/moveit/profiler/profiler.h
 map
 -
 string
@@ -32,7 +32,7 @@ string
 iostream
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include/moveit/rdf_loader/rdf_loader.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/include/moveit/rdf_loader/rdf_loader.h
 moveit/macros/class_forward.h
 -
 urdf/model.h
@@ -40,7 +40,7 @@ urdf/model.h
 srdfdom/model.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/src/rdf_loader.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/planning/rdf_loader/src/rdf_loader.cpp
 moveit/rdf_loader/rdf_loader.h
 -
 moveit/profiler/profiler.h

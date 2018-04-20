@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathleen/fetch_ws/src/simple_grasping
+CMAKE_SOURCE_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/simple_grasping
+CMAKE_BINARY_DIR = /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping
 
 # Utility rule file for run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kathleen/fetch_ws/build/simple_grasping
 include test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/progress.make
 
 test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction:
-	cd /home/kathleen/fetch_ws/build/simple_grasping/test && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/kathleen/fetch_ws/build/simple_grasping/test_results/simple_grasping/gtest-simple_grasping_test_shape_extraction.xml /home/kathleen/fetch_ws/devel/.private/simple_grasping/lib/simple_grasping/simple_grasping_test_shape_extraction\ --gtest_output=xml:/home/kathleen/fetch_ws/build/simple_grasping/test_results/simple_grasping/gtest-simple_grasping_test_shape_extraction.xml
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test_results/simple_grasping/gtest-simple_grasping_test_shape_extraction.xml /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/simple_grasping/lib/simple_grasping/simple_grasping_test_shape_extraction\ --gtest_output=xml:/home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test_results/simple_grasping/gtest-simple_grasping_test_shape_extraction.xml
 
 run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction: test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction
 run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction: test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extra
 .PHONY : test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/build
 
 test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/clean:
-	cd /home/kathleen/fetch_ws/build/simple_grasping/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/cmake_clean.cmake
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/clean
 
 test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/depend:
-	cd /home/kathleen/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/fetch_ws/src/simple_grasping /home/kathleen/fetch_ws/src/simple_grasping/test /home/kathleen/fetch_ws/build/simple_grasping /home/kathleen/fetch_ws/build/simple_grasping/test /home/kathleen/fetch_ws/build/simple_grasping/test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping /home/kathleen/humanoid_robotics/project/fetch_ws/src/simple_grasping/test /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test /home/kathleen/humanoid_robotics/project/fetch_ws/build/simple_grasping/test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/run_tests_simple_grasping_gtest_simple_grasping_test_shape_extraction.dir/depend
 

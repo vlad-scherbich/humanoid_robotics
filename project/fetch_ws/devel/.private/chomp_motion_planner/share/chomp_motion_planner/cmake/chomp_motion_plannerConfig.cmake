@@ -67,14 +67,14 @@ set(chomp_motion_planner_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(chomp_motion_planner_SOURCE_PREFIX /home/kathleen/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner)
-  set(chomp_motion_planner_DEVEL_PREFIX /home/kathleen/fetch_ws/devel/.private/chomp_motion_planner)
+  set(chomp_motion_planner_SOURCE_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner)
+  set(chomp_motion_planner_DEVEL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/chomp_motion_planner)
   set(chomp_motion_planner_INSTALL_PREFIX "")
   set(chomp_motion_planner_PREFIX ${chomp_motion_planner_DEVEL_PREFIX})
 else()
   set(chomp_motion_planner_SOURCE_PREFIX "")
   set(chomp_motion_planner_DEVEL_PREFIX "")
-  set(chomp_motion_planner_INSTALL_PREFIX /home/kathleen/fetch_ws/install)
+  set(chomp_motion_planner_INSTALL_PREFIX /home/kathleen/humanoid_robotics/project/fetch_ws/install)
   set(chomp_motion_planner_PREFIX ${chomp_motion_planner_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(chomp_motion_planner_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/kathleen/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/include " STREQUAL " ")
+if(NOT "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/include " STREQUAL " ")
   set(chomp_motion_planner_INCLUDE_DIRS "")
-  set(_include_dirs "/home/kathleen/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/include")
+  set(_include_dirs "/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/chomp_motion_planner " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/kathleen/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_pl
         message(FATAL_ERROR "Project 'chomp_motion_planner' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'chomp_motion_planner' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'chomp_motion_planner' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/${idir}'.  ${_report}")
     endif()
     _list_append_unique(chomp_motion_planner_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/kathleen/fetch_ws/devel/.private/chomp_motion_planner/lib;/home/kathleen/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/chomp_motion_planner/lib;/home/kathleen/humanoid_robotics/project/fetch_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

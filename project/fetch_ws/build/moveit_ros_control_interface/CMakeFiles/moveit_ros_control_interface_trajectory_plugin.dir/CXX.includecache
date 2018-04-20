@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h
 vector
 -
 string
@@ -16,21 +16,21 @@ moveit_msgs/RobotTrajectory.h
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/class_forward.h
 moveit/macros/declare_ptr.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_core/macros/include/moveit/macros/declare_ptr.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h
 moveit/controller_manager/controller_manager.h
 -
 moveit/macros/class_forward.h
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp
 ros/ros.h
 -
 moveit_ros_control_interface/ControllerHandle.h
@@ -42,7 +42,7 @@ moveit_simple_controller_manager/follow_joint_trajectory_controller_handle.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h
 actionlib/client/simple_action_client.h
 -
 moveit/controller_manager/controller_manager.h
@@ -52,7 +52,7 @@ moveit/macros/class_forward.h
 memory
 -
 
-/home/kathleen/fetch_ws/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/moveit_simple_controller_manager/follow_joint_trajectory_controller_handle.h
+/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/moveit_simple_controller_manager/follow_joint_trajectory_controller_handle.h
 moveit_simple_controller_manager/action_based_controller_handle.h
 -
 control_msgs/FollowJointTrajectoryAction.h
