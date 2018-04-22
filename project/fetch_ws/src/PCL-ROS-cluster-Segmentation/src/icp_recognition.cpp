@@ -9,6 +9,7 @@ Author: Sean Cassero
 
 
 #include <ros/ros.h>
+#include <ros/common.h>
 #include <sensor_msgs/PointCloud2.h>
 #include <sensor_msgs/point_cloud_conversion.h>
 #include <pcl_conversions/pcl_conversions.h>
@@ -90,25 +91,23 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 	Eigen::Matrix4f trans = icp.getFinalTransformation();
 
 	// Convert Matrix 4f to Affine 3d 
-	Eigen::Matrix4d m4 = trans.template cast<double>();
-	Eigen::Matrix3d m3 = Eigen::Matrix3d::Identity();
-	
-	for i = 1:3 {
-		for j = 1:3 {
-			m3(i,j) = m4(i,j);
-		}
-	}
+	//Eigen::Matrix4d m4 = trans.template cast<double>();
+	tf::Transform t;
+	tf::eigenMatrix4fToTransform(trans,t);	
+
+	// Convert Matrix4f to Affine3d 
+	//Eigen::Affine3f af3f; 
+	//af3f.matrix() = trans;
+	//Eigen::Affine3d af3d = af3f.cast<double>();
 	
 	// Convert Matrix4d to Affine3d 
-	//Eigen::Affine3d affine(md);
+	//Eigen::Affine3d affine(m4);
 	//tf::Transform transform;
 	//tf::transformEigenToTF(affine, transform); 
 
 	// Convert Affine3d to geometry_msgs
 	//geometry_msgs::Pose pose;
-	//tf::transformTFToMsg(transform, ts);
-	//tf::poseEigenToMsg(affine,pose);
-	//tf2::toMsg(affine);
+	//tf::poseEigenToMsg(b,pose);
 
 	//std::cout << "Pose of object: " << pose << std::endl;
 	
