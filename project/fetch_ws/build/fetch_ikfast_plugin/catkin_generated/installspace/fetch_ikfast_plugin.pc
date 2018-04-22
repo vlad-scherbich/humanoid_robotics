@@ -1,8 +1,0 @@
-prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/install
-
-Name: fetch_ikfast_plugin
-Description: Description of fetch_ikfast_plugin
-Version: 0.7.13
-Cflags: 
-Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/install/lib 
-Requires: moveit_core pluginlib roscpp tf_conversions

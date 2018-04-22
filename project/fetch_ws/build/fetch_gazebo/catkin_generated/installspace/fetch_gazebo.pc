@@ -1,8 +1,0 @@
-prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/install
-
-Name: fetch_gazebo
-Description: Description of fetch_gazebo
-Version: 0.7.1
-Cflags: -I/home/kathleen/humanoid_robotics/project/fetch_ws/install/include
-Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/install/lib -lfetch_gazebo_plugin
-Requires: control_toolbox gazebo_ros robot_controllers robot_controllers_interface

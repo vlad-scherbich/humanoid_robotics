@@ -1,8 +1,0 @@
-prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/install
-
-Name: moveit_ros_perception
-Description: Description of moveit_ros_perception
-Version: 0.9.11
-Cflags: -I/home/kathleen/humanoid_robotics/project/fetch_ws/install/include -I/opt/ros/kinetic/include -I/usr/include/eigen3
-Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/install/lib -lmoveit_lazy_free_space_updater -lmoveit_point_containment_filter -lmoveit_occupancy_map_monitor -lmoveit_pointcloud_octomap_updater_core -lmoveit_semantic_world /opt/ros/kinetic/lib/liboctomap.so /opt/ros/kinetic/lib/liboctomath.so
-Requires: moveit_core image_transport moveit_msgs

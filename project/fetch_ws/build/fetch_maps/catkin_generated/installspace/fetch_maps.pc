@@ -1,8 +1,0 @@
-prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/install
-
-Name: fetch_maps
-Description: Description of fetch_maps
-Version: 0.7.13
-Cflags: 
-Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/install/lib 
-Requires: 

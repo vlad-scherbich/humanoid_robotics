@@ -1,8 +1,0 @@
-prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/install
-
-Name: fetch_gazebo_demo
-Description: Description of fetch_gazebo_demo
-Version: 0.7.1
-Cflags: 
-Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/install/lib 
-Requires: 
