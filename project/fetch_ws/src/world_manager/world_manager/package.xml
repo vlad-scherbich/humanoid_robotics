@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>world_manager</name>
+  <version>2.0.0</version>
+  <description>  
+    Code for interfacing with Movit planning scene and object TFs
+  </description>
+
+
+  <maintainer email="jvarley@cs.columbia.edu">Jake Varley</maintainer>
+
+  <author>Jake</author>
+  <license>BSD</license>
+  <url>https://github.com/CRLab/world_manager.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+ 
+  <run_depend>world_manager_msgs</run_depend>
+
+  <export>
+    <architecture_independent/>
+  </export>
+</package>
+
