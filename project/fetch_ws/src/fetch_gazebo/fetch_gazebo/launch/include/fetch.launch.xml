@@ -1,9 +1,44 @@
 <launch>
-
+  
   <arg name="x" default="0.0" />
   <arg name="y" default="0.0" />
   <arg name="z" default="0.0" />
   <arg name="yaw" default="0.0" />
+
+  <!-- Trajectory Planners -->
+  <param name="grasp_approach_tran_frame" type="string" value="/wrist_roll_link" />
+  <param name="world_frame" type="string" value="/base_link" />
+  <param name="arm_move_group_name" type="string" value="arm" />
+  <param name="gripper_move_group_name" type="string" value="gripper" />
+  <param name="analyzer_planner_id" type="string" value="[RRTConnectkConfigDefault]" />
+  <param name="executor_planner_id" type="string" value="[BiRRTkConfigDefault]" />
+  <param name="allowed_analyzing_time" type="double" value="2" />
+  <param name="allowed_execution_time" type="double" value="8" />
+  <param name="final_block_position_x" type="double" value="0.2" />
+  <param name="final_block_position_y" type="double" value="0.3" />
+  <param name="final_block_position_z" type="double" value="0.2" />
+  <param name="pre_grasp_approach_direction_frame_id" type="string" value="/wrist_roll_link" />
+  <param name="pre_grasp_approach_direction_x" type="double" value="1" />
+  <param name="pre_grasp_approach_direction_y" type="double" value="0" />
+  <param name="pre_grasp_approach_direction_z" type="double" value="0" />
+  <param name="post_grasp_retreat_direction_frame_id" type="string" value="/base_link" />
+  <param name="post_grasp_retreat_direction_x" type="double" value="0" />
+  <param name="post_grasp_retreat_direction_y" type="double" value="0" />
+  <param name="post_grasp_retreat_direction_z" type="double" value="1" />
+  <rosparam param="pre_grasp_goal_point_effort">[50.0, 50.0]</rosparam>
+  <rosparam param="pre_grasp_goal_point_positions">[0.05, 0.05]</rosparam>
+  <param name="pre_grasp_goal_point_time_from_start_secs" type="double" value="0" />
+  <rosparam param="pre_grasp_joint_names">['l_gripper_finger_joint', 'r_gripper_finger_joint']</rosparam>
+  <rosparam param="grasp_goal_point_effort">[50.0, 50.0]</rosparam>
+  <rosparam param="grasp_goal_point_positions">[1.047, 1.047]</rosparam>
+  <param name="grasp_goal_point_time_from_start_secs" type="double" value="0" />
+  <rosparam param="grasp_posture_joint_names">['l_gripper_finger_joint', 'r_gripper_finger_joint']</rosparam>
+  <param name="pre_grasp_approach_min_distance" type="double" value="0.05" />
+  <param name="pre_grasp_approach_desired_distance" type="double" value="0.1" />
+  <param name="post_grasp_retreat_min_distance" type="double" value="0.05" />
+  <param name="post_grasp_retreat_desired_distance" type="double" value="0.1" />
+  <param name="max_contact_force" type="double" value="-1" />
+
 
   <!-- Setup controllers -->
   <rosparam file="$(find fetch_gazebo)/config/default_controllers.yaml" command="load" />
