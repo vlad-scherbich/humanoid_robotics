@@ -25,13 +25,15 @@ Author: Sean Cassero
 #include <Eigen/Geometry>
 #include <eigen_conversions/eigen_msg.h>
 
-#include "geometry_msgs/Pose.h"
-#include "geometry_msgs/PoseStamped.h"
+#include <geometry_msgs/Pose.h>
+#include <geometry_msgs/PoseStamped.h>
 #include <tf/tf.h>
 #include <tf/transform_datatypes.h>
 #include <tf/transform_listener.h>
 #include <tf2/convert.h>
 #include "tf_conversions/tf_eigen.h"
+#include <tf2/convert.h>
+#include <tf2_eigen/tf2_eigen.h>
 
 class icp_recognition {
 
@@ -67,59 +69,40 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 	// Convert candidate meshes to cloud
         const std::string meshFileName = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/PCL-ROS-cluster-Segmentation/models/bowl/meshes/bowl.ply";
 
+	// Load .ply file into pointcloud
 	pcl::PolygonMesh objectMesh;
 	pcl::io::loadPolygonFilePLY(meshFileName, objectMesh);
-        //pcl::io::loadPolygonFileSTL( meshFileName, testMesh );
-        //pcl_conversions::fromPCL( testMesh.cloud, output );
 	std::cout << "loaded PLY FILE";        
 	pcl::fromPCLPointCloud2(objectMesh.cloud, *cloud_out);
-        /* std::cout << "size:" << cloud_out->points.size() << std::endl;
-        for (size_t i = 0; i < cloud_in->points.size (); ++i)
-            cloud_out->points[i].x = cloud_in->points[i].x + 0.7f;
-        std::cout << "Transformed " << cloud_in->points.size () << " data points:"
-                  << std::endl;
-
-	*/
-        pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;
+        
+	// Run ICP algorithm and print score
+	pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;
         icp.setInputSource(cloud_in);
         icp.setInputTarget(cloud_out);
         pcl::PointCloud<pcl::PointXYZ> Final;
         icp.align(Final);
         std::cout << " has converged:" << icp.hasConverged() << " score: " <<
                   icp.getFitnessScore() << std::endl;
-        std::cout << icp.getFinalTransformation() << std::endl;
+        
+	// Get final transformed matrix4f
+	std::cout << icp.getFinalTransformation() << std::endl;
 	Eigen::Matrix4f trans = icp.getFinalTransformation();
-
-	// Convert Matrix 4f to Affine 3d 
-	//Eigen::Matrix4d m4 = trans.template cast<double>();
-	tf::Transform t;
-	tf::eigenMatrix4fToTransform(trans,t);	
-
-	// Convert Matrix4f to Affine3d 
-	//Eigen::Affine3f af3f; 
-	//af3f.matrix() = trans;
-	//Eigen::Affine3d af3d = af3f.cast<double>();
 	
-	// Convert Matrix4d to Affine3d 
-	//Eigen::Affine3d affine(m4);
-	//tf::Transform transform;
-	//tf::transformEigenToTF(affine, transform); 
+	// Convert Matrix4f to Matrix4d 
+	Eigen::Matrix4d m4 = trans.template cast<double>(); 
+	
+	// Convert Matrix4f to Affine3d 
+	Eigen::Affine3d af3d;
+	af3d.matrix() = m4;
 
 	// Convert Affine3d to geometry_msgs
-	//geometry_msgs::Pose pose;
-	//tf::poseEigenToMsg(b,pose);
+	geometry_msgs::Pose pose;
+	pose = tf2::toMsg(af3d);
+	
+	// Print Pose 
+	std::cout << "Pose: " << std::endl;
+	std::cout << pose << std::endl;
 
-	//std::cout << "Pose of object: " << pose << std::endl;
-	
-	/* 
-	loadPolygonFilePLY - load list of objects as point cloud 
-	To do: 
-	- For every cluster - compare cluster and all meshes and find the best match
-	- Once found, then add to a list of objects found and then later after the for loop, we want to publish the list of objects constantly to a topic. 
-	- Debug: 
-	- Publish new topic to Rviz and check whether it is seeing the correct thing 
-	
-	*/ 
     }
 }
 
