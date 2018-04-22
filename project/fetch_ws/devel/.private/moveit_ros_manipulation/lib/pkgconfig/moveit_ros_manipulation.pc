@@ -1,8 +1,0 @@
-prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_manipulation
-
-Name: moveit_ros_manipulation
-Description: Description of moveit_ros_manipulation
-Version: 0.9.11
-Cflags: -I/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_manipulation/include -I/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/manipulation/pick_place/include -I/home/kathleen/humanoid_robotics/project/fetch_ws/src/moveit/moveit_ros/manipulation/move_group_pick_place_capability/include -I/usr/include/eigen3
-Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/moveit_ros_manipulation/lib -lmoveit_pick_place_planner
-Requires: moveit_core moveit_ros_planning

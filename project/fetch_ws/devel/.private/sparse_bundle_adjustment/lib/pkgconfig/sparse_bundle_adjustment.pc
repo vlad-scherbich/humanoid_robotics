@@ -1,8 +1,0 @@
-prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment
-
-Name: sparse_bundle_adjustment
-Description: Description of sparse_bundle_adjustment
-Version: 0.3.2
-Cflags: -I/home/kathleen/humanoid_robotics/project/fetch_ws/src/sparse_bundle_adjustment/include
-Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib -lsba
-Requires: 

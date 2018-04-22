@@ -1,8 +1,0 @@
-prefix=/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/fetch_depth_layer
-
-Name: fetch_depth_layer
-Description: Description of fetch_depth_layer
-Version: 0.7.13
-Cflags: 
-Libs: -L/home/kathleen/humanoid_robotics/project/fetch_ws/devel/.private/fetch_depth_layer/lib 
-Requires: 
