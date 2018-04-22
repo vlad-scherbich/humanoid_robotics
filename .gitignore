@@ -8,3 +8,4 @@ project/fetch_ws/build/*
 project/fetch_ws/devel/*
 project/fetch_ws/logs/*
 .private/*
+project/fetch_ws/.catkin_tools/*
