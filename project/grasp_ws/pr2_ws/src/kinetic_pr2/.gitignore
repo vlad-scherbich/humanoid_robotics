@@ -1,6 +1,0 @@
-*~
-.catkin_workspace
-build/
-devel/
-src/CMakeLists.txt
-*.pyc
