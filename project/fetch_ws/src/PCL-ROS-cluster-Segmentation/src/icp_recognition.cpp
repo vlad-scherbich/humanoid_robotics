@@ -23,15 +23,8 @@ Author: Sean Cassero
 #include <pcl/conversions.h>
 #include <Eigen/Core>
 #include <Eigen/Geometry>
-#include <eigen_conversions/eigen_msg.h>
-
 #include <geometry_msgs/Pose.h>
-#include <geometry_msgs/PoseStamped.h>
-#include <tf/tf.h>
-#include <tf/transform_datatypes.h>
-#include <tf/transform_listener.h>
 #include <tf2/convert.h>
-#include "tf_conversions/tf_eigen.h"
 #include <tf2/convert.h>
 #include <tf2_eigen/tf2_eigen.h>
 
@@ -103,6 +96,10 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 	std::cout << "Pose: " << std::endl;
 	std::cout << pose << std::endl;
 
+	/*
+	- Publish as marker 
+	- Check which frame 
+	*/
     }
 }
 
