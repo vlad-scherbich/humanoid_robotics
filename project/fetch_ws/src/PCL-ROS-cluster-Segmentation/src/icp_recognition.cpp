@@ -27,6 +27,16 @@ Author: Sean Cassero
 #include <tf2/convert.h>
 #include <tf2/convert.h>
 #include <tf2_eigen/tf2_eigen.h>
+#include <visualization_msgs/Marker.h>
+#include <algorithm> 
+#include <pcl/common/projection_matrix.h>
+#include <pcl/common/centroid.h>
+#include <pcl/common/common.h>
+
+/*
+- Check if cloud_in gives correct post 
+- Find minimum score and update minCloud outside of for loop --> publish marker
+*/
 
 class icp_recognition {
 
@@ -35,12 +45,16 @@ public:
     explicit icp_recognition(ros::NodeHandle nh) : m_nh(nh) {
         // define the subscriber and publisher
         m_clusterSub = m_nh.subscribe("/obj_recognition/pcl_clusters", 1, &icp_recognition::cluster_cb, this);
-    }
+	// Visualize marker in rviz 
+	vis_pub = m_nh.advertise<visualization_msgs::Marker>("pose_marker",1);
+}
 
 private:
 
     ros::NodeHandle m_nh;
     ros::Subscriber m_clusterSub;
+    ros::Publisher posePub;
+    ros::Publisher vis_pub;
 
     void cluster_cb(const obj_recognition::SegmentedClustersArray& cluster_msg);
 
@@ -49,6 +63,10 @@ private:
 // define callback function
 void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray& cluster_msg)
 {
+
+    pcl::PointCloud<pcl::PointXYZ>::Ptr minCloud (new pcl::PointCloud<pcl::PointXYZ>);	
+    float minCount = 1000;	    
+
     for(const sensor_msgs::PointCloud2 &cluster : cluster_msg.clusters) {
         // Container for original & filtered data
         pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_in (new pcl::PointCloud<pcl::PointXYZ>);
@@ -67,7 +85,8 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 	pcl::io::loadPolygonFilePLY(meshFileName, objectMesh);
 	std::cout << "loaded PLY FILE";        
 	pcl::fromPCLPointCloud2(objectMesh.cloud, *cloud_out);
-        
+	cloud_out->header.frame_id = "world";        
+
 	// Run ICP algorithm and print score
 	pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;
         icp.setInputSource(cloud_in);
@@ -78,29 +97,49 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
                   icp.getFitnessScore() << std::endl;
         
 	// Get final transformed matrix4f
-	std::cout << icp.getFinalTransformation() << std::endl;
-	Eigen::Matrix4f trans = icp.getFinalTransformation();
+	//std::cout << icp.getFinalTransformation() << std::endl;
+	//Eigen::Matrix4f trans = icp.getFinalTransformation();
 	
-	// Convert Matrix4f to Matrix4d 
-	Eigen::Matrix4d m4 = trans.template cast<double>(); 
-	
-	// Convert Matrix4f to Affine3d 
-	Eigen::Affine3d af3d;
-	af3d.matrix() = m4;
+	// Find minimum score and corresponding point cloud 
+	if((icp.getFitnessScore() < minCount) == 1){
+		minCount = icp.getFitnessScore();
+		minCloud = cloud_in;
+	}
 
-	// Convert Affine3d to geometry_msgs
-	geometry_msgs::Pose pose;
-	pose = tf2::toMsg(af3d);
 	
-	// Print Pose 
-	std::cout << "Pose: " << std::endl;
-	std::cout << pose << std::endl;
+      }	
 
-	/*
-	- Publish as marker 
-	- Check which frame 
-	*/
-    }
+	// Find centroid of point cloud and fill values in Vector4f 
+	Eigen::Vector4f centroid; 
+	pcl::compute3DCentroid(*minCloud, centroid);
+	std::cout << "Centroid coordinates: " << centroid << std::endl; 
+	
+	// Publish marker in frame "world" 
+	visualization_msgs::Marker marker; 
+	marker.header.frame_id = "world";
+	marker.header.stamp = ros::Time();
+	marker.ns = "my_namespace";
+	marker.id = 0;
+	marker.type = visualization_msgs::Marker::SPHERE;
+	marker.action = visualization_msgs::Marker::ADD;
+	marker.pose.position.x = centroid(0);
+	marker.pose.position.y = centroid(1);
+	marker.pose.position.z = centroid(2);
+	marker.pose.orientation.x = 0.0;
+	marker.pose.orientation.y = 0.0;
+	marker.pose.orientation.z = 0.0;
+	marker.pose.orientation.w = 1.0; 
+	marker.scale.x = 0.1;
+	marker.scale.y = 0.1;
+	marker.scale.z = 0.1;
+	marker.color.a = 1.0;
+	marker.color.r = 0.0;
+	marker.color.g = 1.0;
+	marker.color.b = 0.0;
+
+	// Publish marker 
+	vis_pub.publish(marker);
+
 }
 
 
