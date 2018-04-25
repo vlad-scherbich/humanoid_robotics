@@ -1,0 +1,22 @@
+# Goal
+int32 graspable_body_id
+
+Planner planner
+string search_energy
+SearchSpace search_space
+SearchContact search_contact
+SimAnnParams sim_ann_params
+
+int32 max_steps
+int32 feedback_num_steps
+---
+# Result
+Grasp[] grasps
+float64[] energies
+string search_energy
+---
+# Feedback 
+int32 current_step
+Grasp[] grasps
+float64[] energies
+string search_energy
