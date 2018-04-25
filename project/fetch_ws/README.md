@@ -37,7 +37,7 @@ To see markers in RViz (visual debugging):
 
 
 # 1st terminal
-# `one_table.world` file was modified by removing Coke can and adding Spam can (search 'spam_12oz.dae' in the file)
+# `one_table.world` file was modified by removing Coke can and adding Spam can (search 'spam_12oz.dae' in the file and replace with the path on your computer)
 # you need to convert .PLY meshes from YCB db given by David into .DAE for use in Gazebo: http://www.meshconvert.com/
 # GraspIt! and MoveIt accept both formats
 $ roslaunch fetch_gazebo simulation.launch
