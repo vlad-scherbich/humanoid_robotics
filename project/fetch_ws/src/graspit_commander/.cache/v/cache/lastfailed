@@ -1,0 +1,3 @@
+{
+  "tests/integration/world_io_test.py::WorldIOTest::testSaveWorld": true
+}
