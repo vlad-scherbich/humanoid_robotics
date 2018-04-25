@@ -39,7 +39,8 @@ result = move_group.get_move_action().get_result()
 
 
 
-# check all the grasp plans:
+# check all the grasp plans (assuming 'gripper_poses' is defined):
+"""
 for pose in gripper_poses:
     # Finish building the Pose_stamped message
     # If the message stamp is not current it could be ignored
@@ -50,7 +51,7 @@ for pose in gripper_poses:
     # Move gripper frame to the pose specified
     move_group.moveToPose(gripper_pose_stamped, gripper_frame)
     result = move_group.get_move_action().get_result()
-
+"""
 
 
 

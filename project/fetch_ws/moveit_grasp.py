@@ -78,11 +78,13 @@ grasping_controller = curpp.MoveitPickPlaceInterface(
 
 
 # Convert graspit grasp to moveit grasp
+# graspit_grasps = gc.planGrasps(graspable_body_id=0)
+
 graspit_grasp = graspit_grasps.grasps[0]
-moveit_grasp_msg = graspit_grasp_to_moveit_grasp('spam', graspit_grasp)
+moveit_grasp_msg = graspit_grasp_to_moveit_grasp('spam_12oz', graspit_grasp)
 
 # Execute pick on block
-success, pick_result = grasping_controller.execute_moveit_grasp('spam', moveit_grasp_msg)
+success, pick_result = grasping_controller.execute_moveit_grasp('spam_12oz', moveit_grasp_msg)
 if not success:
 	error_code = curpp.moveit_error_code_to_string(pick_result.error_code)
         rospy.logerr("Failed to execute pick. Reason: {}".format(error_code))
@@ -95,7 +97,7 @@ from geometry_msgs.msg import Quaternion, Pose, Point, Vector3
 from std_msgs.msg import Header, ColorRGBA
 
 
-def _moveit_msg_to_marker(moveit_msg, id, duration=100, frame_id='spam'):
+def _moveit_msg_to_marker(moveit_msg, id, duration=100, frame_id='spam_12oz'):
     position = moveit_msg.grasp_pose.pose.position
     orientation = moveit_msg.grasp_pose.pose.orientation
     marker = Marker(
@@ -116,13 +118,13 @@ marker_publisher = rospy.Publisher('visualization_marker', Marker, queue_size=10
 
 
 for i, grasp in enumerate(graspit_grasps.grasps):
-    moveit_grasp_msg = graspit_grasp_to_moveit_grasp('spam', grasp)
+    moveit_grasp_msg = graspit_grasp_to_moveit_grasp('spam_12oz', grasp)
     #moveit_grasp_msg = graspit_grasp_to_moveit_grasp('base_link', grasp)
 
-    marker = _moveit_msg_to_marker(moveit_grasp_msg, i, frame_id='spam')
+    marker = _moveit_msg_to_marker(moveit_grasp_msg, i, frame_id='spam_12oz')
     marker_publisher.publish(marker)       
              
-    success, pick_result = grasping_controller.execute_moveit_grasp('spam', moveit_grasp_msg)
+    success, pick_result = grasping_controller.execute_moveit_grasp('spam_12oz', moveit_grasp_msg)
     if not success:
         error_code = curpp.moveit_error_code_to_string(pick_result.error_code)
     	rospy.logerr("Failed to execute pick. Reason: {}".format(error_code))
