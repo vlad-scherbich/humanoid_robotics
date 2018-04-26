@@ -1,12 +1,8 @@
 /*
 
-ROS node for point cloud cluster based segmentaion of cluttered objects on table
-
-Author: Sean Cassero
-7/15/15
+Author: Kathleen Lee and Seungwook Han 
 
 */
-
 
 #include <ros/ros.h>
 #include <ros/common.h>
@@ -65,7 +61,7 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 {
 
     pcl::PointCloud<pcl::PointXYZ>::Ptr minCloud (new pcl::PointCloud<pcl::PointXYZ>);	
-    float minCount = 1000;	    
+    float minCount = 100000;	    
 
     for(const sensor_msgs::PointCloud2 &cluster : cluster_msg.clusters) {
         // Container for original & filtered data
@@ -78,7 +74,7 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
                   << std::endl;
 
 	// Convert candidate meshes to cloud
-        const std::string meshFileName = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/PCL-ROS-cluster-Segmentation/models/bowl/meshes/bowl.ply";
+        const std::string meshFileName = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/PCL-ROS-cluster-Segmentation/models/meshes/bowl.ply";
 
 	// Load .ply file into pointcloud
 	pcl::PolygonMesh objectMesh;
@@ -146,7 +142,8 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 
 int main (int argc, char** argv)
 {
-    // Initialize ROS
+	
+    // Initialize ROS	
     ros::init (argc, argv, "ICPRecognition");
     ros::NodeHandle nh;
 
