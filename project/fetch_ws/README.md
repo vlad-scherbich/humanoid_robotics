@@ -74,19 +74,13 @@ graspit_grasps = gc.planGrasps(graspable_body_id=0)
 # first grasp plan
 grasp = graspit_grasps.grasps[0]
 
-# (2) add object / gripper to GraspIt! and plan grasps
+# (2) add object mesh to MoveIt with world_manager
 import geometry_msgs.msg
 import world_manager
    
 pose = geometry_msgs.msg.PoseStamped()
 pose.header.frame_id='/base_link'
-pose.pose.position.x = 0.875394 
-pose.pose.position.y = -0.421532
-pose.pose.position.z = 0.770578
-pose.pose.orientation.x = -0.007156
-pose.pose.orientation.y = -0.003732
-pose.pose.orientation.z = 0.002217
-pose.pose.orientation.w = 1.0
+pose.pose = Pose(Point(0.875394, -0.421532, 0.770578), Quaternion(-0.007156, -0.003732, 0.002217, 1.0))
 
 world_manager.world_manager_client.add_mesh('spam_12oz', '/home/vlad/Downloads/spam_12oz.dae', pose)
 
