@@ -199,7 +199,7 @@ void segmentation::cloud_cb (const sensor_msgs::PointCloud2ConstPtr& cloud_msg)
     }
 
     pcl::toPCLPointCloud2(concatenatedClusters, outputPCL);
-    outputPCL.header.frame_id = "world";
+    outputPCL.header.frame_id = "head_camera_rgb_optical_frame";
     pcl_pub_.publish(outputPCL);
 
     // publish the clusters

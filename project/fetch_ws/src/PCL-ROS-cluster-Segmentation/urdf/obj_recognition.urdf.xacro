@@ -13,7 +13,7 @@
   <xacro:property name="mass_camera" value="0.2" />
 
   <!--Import gazebo elements-->
-  <xacro:include filename="$(find obj_recognition)/urdf/obj_recognition.gazebo.xacro" />
+  <xacro:include filename="$(find fetch_gazebo)/robots/fetch.gazebo.xacro" />
 
   <!--Links-->
   <link name="world"/>

@@ -1,7 +1,7 @@
 <launch>
   <!--Load urdf to param server-->
   <arg name="use_tf_static" default="false"/>
-  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find obj_recognition)/urdf/obj_recognition.urdf.xacro'"/>
+  <param name="robot_description" textfile="$(find obj_recognition)/fetch_description/robots/fetch.urdf"/>
 
   <!--GUI used to send fake joint values-->
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
