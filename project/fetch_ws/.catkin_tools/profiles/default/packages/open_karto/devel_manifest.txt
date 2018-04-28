@@ -1,5 +1,0 @@
-open_karto
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/open_karto/lib/libkarto.so /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/libkarto.so
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/open_karto/lib/pkgconfig/open_karto.pc /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/pkgconfig/open_karto.pc
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/open_karto/share/open_karto/cmake/open_kartoConfig.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/open_karto/cmake/open_kartoConfig.cmake
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/open_karto/share/open_karto/cmake/open_kartoConfig-version.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/open_karto/cmake/open_kartoConfig-version.cmake

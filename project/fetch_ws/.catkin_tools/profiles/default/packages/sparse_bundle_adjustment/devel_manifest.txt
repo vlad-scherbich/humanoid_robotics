@@ -1,5 +1,0 @@
-sparse_bundle_adjustment
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/libsba.so
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/lib/pkgconfig/sparse_bundle_adjustment.pc /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/pkgconfig/sparse_bundle_adjustment.pc
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig-version.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig-version.cmake
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/sparse_bundle_adjustment/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig.cmake

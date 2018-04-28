@@ -1,5 +1,0 @@
-slam_karto
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/slam_karto/slam_karto /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/slam_karto/slam_karto
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/lib/pkgconfig/slam_karto.pc /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/pkgconfig/slam_karto.pc
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/share/slam_karto/cmake/slam_kartoConfig-version.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/slam_karto/cmake/slam_kartoConfig-version.cmake
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/slam_karto/share/slam_karto/cmake/slam_kartoConfig.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/slam_karto/cmake/slam_kartoConfig.cmake

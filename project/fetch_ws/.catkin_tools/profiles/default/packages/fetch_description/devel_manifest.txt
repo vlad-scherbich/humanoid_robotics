@@ -1,4 +1,0 @@
-fetch_ros/fetch_description
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/fetch_description/lib/pkgconfig/fetch_description.pc /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/pkgconfig/fetch_description.pc
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/fetch_description/share/fetch_description/cmake/fetch_descriptionConfig-version.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/fetch_description/cmake/fetch_descriptionConfig-version.cmake
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/fetch_description/share/fetch_description/cmake/fetch_descriptionConfig.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/fetch_description/cmake/fetch_descriptionConfig.cmake

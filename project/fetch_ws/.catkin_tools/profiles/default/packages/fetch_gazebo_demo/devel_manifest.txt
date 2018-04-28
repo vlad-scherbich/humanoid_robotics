@@ -1,4 +1,0 @@
-fetch_gazebo/fetch_gazebo_demo
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/fetch_gazebo_demo/lib/pkgconfig/fetch_gazebo_demo.pc /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/pkgconfig/fetch_gazebo_demo.pc
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/fetch_gazebo_demo/share/fetch_gazebo_demo/cmake/fetch_gazebo_demoConfig.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/fetch_gazebo_demo/cmake/fetch_gazebo_demoConfig.cmake
-/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/fetch_gazebo_demo/share/fetch_gazebo_demo/cmake/fetch_gazebo_demoConfig-version.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/fetch_gazebo_demo/cmake/fetch_gazebo_demoConfig-version.cmake
