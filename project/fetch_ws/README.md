@@ -1,10 +1,10 @@
-# In GraspIt!, object location specified with:
-# x y z x y z quarternian
-# <pose frame=''>-0.01 -0.012 0.15 0 -0 0 1</pose>
+In GraspIt!, object location specified with:
+x y z x y z quarternian
+<pose frame=''>-0.01 -0.012 0.15 0 -0 0 1</pose>
 
-# For Gazebo (and MoveIt?), object location specified with:
-# x y z r(oll) p(itch) y(aw)
-# <pose frame=''>-0.01 -0.012 0.15 0 -0 0</pose> 
+For Gazebo (and MoveIt?), object location specified with:
+x y z r(oll) p(itch) y(aw)
+<pose frame=''>-0.01 -0.012 0.15 0 -0 0</pose> 
 
 
 Steps:
@@ -37,19 +37,19 @@ To see markers in RViz (visual debugging):
 
 
 # 1st terminal
-# `one_table.world` file was modified by removing Coke can and adding Spam can (search 'spam_12oz.dae' in the file and replace with the path on your computer)
-# you need to convert .PLY meshes from YCB db given by David into .DAE for use in Gazebo: http://www.meshconvert.com/
-# GraspIt! and MoveIt accept both formats
+`one_table.world` file was modified by removing Coke can and adding Spam can (search 'spam_12oz.dae' in the file and replace with the path on your computer).
+You need to convert .PLY meshes from YCB db given by David into .DAE for use in Gazebo: http://www.meshconvert.com/
+
+GraspIt! and MoveIt accept both formats
 $ roslaunch fetch_gazebo simulation.launch
 
-# 2nd terminal
+# 2nd terminal: GraspIt!
 $ roslaunch graspit_interface graspit_interface.launch
 
-# 3rd terminal
+# 3rd terminal: RViz
 $ roslaunch rviz rviz
 
-# 4th terminal
-# (1) add object / gripper to GraspIt! and plan grasps
+# 4th terminal: add object / gripper to GraspIt! and plan grasps
 $ ipython  # if not installed, highly recommended
 
 from geometry_msgs.msg import Pose
@@ -75,7 +75,6 @@ graspit_grasps = gc.planGrasps(graspable_body_id=0)
 grasp = graspit_grasps.grasps[0]
 
 # (2) add object / gripper to GraspIt! and plan grasps
-# add Spam to MoveIt
 import geometry_msgs.msg
 import world_manager
    
@@ -91,8 +90,10 @@ pose.pose.orientation.w = 1.0
 
 world_manager.world_manager_client.add_mesh('spam_12oz', '/home/vlad/Downloads/spam_12oz.dae', pose)
 
-# (3) Manual move plans in MoveIt (debugging basically, to see if I can move Fetch arm into ANY position at all)
+# (3) Manual move plans in MoveIt
+(debugging basically, to see if I can move Fetch arm into ANY position at all)
 - see move_to_poses.py
 
-# (4) GraspIt! messages translated to MoveIt (what David said about using currp; I first DL'ed 'curpp' directly and tried using his library, but it gave me errors I couldn't resolve. So this is copy-paste of his code that tranlates GraspIt to MoveIt)
+#(4) GraspIt! messages translated to MoveIt 
+(what David said about using currp; I first DL'ed 'curpp' directly and tried using his library, but it gave me errors I couldn't resolve. So this is copy-paste of his code that tranlates GraspIt to MoveIt)
 - see moveit_grasp.py
