@@ -1,5 +1,5 @@
 robot_controllers/robot_controllers
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig.cmake /home/kathleen/fetch_ws/devel/share/robot_controllers/cmake/robot_controllersConfig.cmake
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig-version.cmake /home/kathleen/fetch_ws/devel/share/robot_controllers/cmake/robot_controllersConfig-version.cmake
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so /home/kathleen/fetch_ws/devel/lib/librobot_controllers.so
-/home/kathleen/fetch_ws/devel/.private/robot_controllers/lib/pkgconfig/robot_controllers.pc /home/kathleen/fetch_ws/devel/lib/pkgconfig/robot_controllers.pc
+/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/librobot_controllers.so /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/librobot_controllers.so
+/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/lib/pkgconfig/robot_controllers.pc /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/pkgconfig/robot_controllers.pc
+/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/robot_controllers/cmake/robot_controllersConfig.cmake
+/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/robot_controllers/share/robot_controllers/cmake/robot_controllersConfig-version.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/robot_controllers/cmake/robot_controllersConfig-version.cmake

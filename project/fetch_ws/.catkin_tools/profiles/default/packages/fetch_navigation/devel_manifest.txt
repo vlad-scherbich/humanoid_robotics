@@ -1,4 +1,4 @@
 fetch_ros/fetch_navigation
-/home/kathleen/fetch_ws/devel/.private/fetch_navigation/share/fetch_navigation/cmake/fetch_navigationConfig-version.cmake /home/kathleen/fetch_ws/devel/share/fetch_navigation/cmake/fetch_navigationConfig-version.cmake
-/home/kathleen/fetch_ws/devel/.private/fetch_navigation/share/fetch_navigation/cmake/fetch_navigationConfig.cmake /home/kathleen/fetch_ws/devel/share/fetch_navigation/cmake/fetch_navigationConfig.cmake
-/home/kathleen/fetch_ws/devel/.private/fetch_navigation/lib/pkgconfig/fetch_navigation.pc /home/kathleen/fetch_ws/devel/lib/pkgconfig/fetch_navigation.pc
+/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/fetch_navigation/lib/pkgconfig/fetch_navigation.pc /home/vlad/humanoid_robotics/project/fetch_ws/devel/lib/pkgconfig/fetch_navigation.pc
+/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/fetch_navigation/share/fetch_navigation/cmake/fetch_navigationConfig.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/fetch_navigation/cmake/fetch_navigationConfig.cmake
+/home/vlad/humanoid_robotics/project/fetch_ws/devel/.private/fetch_navigation/share/fetch_navigation/cmake/fetch_navigationConfig-version.cmake /home/vlad/humanoid_robotics/project/fetch_ws/devel/share/fetch_navigation/cmake/fetch_navigationConfig-version.cmake
