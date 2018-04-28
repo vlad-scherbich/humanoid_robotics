@@ -1,0 +1,34 @@
+location: src
+sources:
+
+# Standard includes
+- name: curpp
+  repo: 'http://github.com/CRLab/curpp.git'
+  rev: master
+- name: world_manager
+  repo: 'http://github.com/CRLab/world_manager.git'
+  rev: master
+
+# Vision includes
+- name: cluster_segmentation
+  repo: 'https://github.com/CRLab/cluster_segmentation.git'
+  rev: master
+
+# Graspit includes
+- name: graspit_interface
+  repo: https://github.com/graspit-simulator/graspit_interface.git
+  rev: master
+- name: graspit_commander
+  repo: https://github.com/graspit-simulator/graspit_commander.git
+  rev: master
+- name: grid_sample_plugin
+  repo: http://github.com/CRLab/grid_sample_plugin.git
+  rev: master
+
+# Robot includes
+- name: fetch_gazebo
+  repo: https://github.com/fetchrobotics/fetch_gazebo.git
+  rev: gazebo7
+- name: fetch_ros
+  repo: https://github.com/fetchrobotics/fetch_ros.git
+  rev: indigo-devel
