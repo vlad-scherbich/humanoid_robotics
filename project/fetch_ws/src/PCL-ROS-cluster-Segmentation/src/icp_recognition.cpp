@@ -74,14 +74,14 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
                   << std::endl;
 
 	// Convert candidate meshes to cloud
-        const std::string meshFileName = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/PCL-ROS-cluster-Segmentation/models/meshes/bowl.ply";
+        const std::string meshFileName = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/ycb_meshes/banana/meshes/banana.ply";
 
 	// Load .ply file into pointcloud
 	pcl::PolygonMesh objectMesh;
 	pcl::io::loadPolygonFilePLY(meshFileName, objectMesh);
 	std::cout << "loaded PLY FILE";        
 	pcl::fromPCLPointCloud2(objectMesh.cloud, *cloud_out);
-	cloud_out->header.frame_id = "world";        
+	cloud_out->header.frame_id = "head_camera_rgb_optical_frame";        
 
 	// Run ICP algorithm and print score
 	pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;
@@ -112,7 +112,7 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 	
 	// Publish marker in frame "world" 
 	visualization_msgs::Marker marker; 
-	marker.header.frame_id = "world";
+	marker.header.frame_id = "head_camera_rgb_optical_frame";
 	marker.header.stamp = ros::Time();
 	marker.ns = "my_namespace";
 	marker.id = 0;
