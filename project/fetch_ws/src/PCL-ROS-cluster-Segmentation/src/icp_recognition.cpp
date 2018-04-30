@@ -20,6 +20,8 @@ Author: Kathleen Lee and Seungwook Han
 #include <Eigen/Core>
 #include <Eigen/Geometry>
 #include <geometry_msgs/Pose.h>
+#include <geometry_msgs/PoseStamped.h>
+#include <std_msgs/Header.h>
 #include <tf2/convert.h>
 #include <tf2/convert.h>
 #include <tf2_eigen/tf2_eigen.h>
@@ -42,6 +44,7 @@ public:
         // define the subscriber and publisher
         m_clusterSub = m_nh.subscribe("/obj_recognition/pcl_clusters", 1, &icp_recognition::cluster_cb, this);
 	// Visualize marker in rviz 
+	posePub = m_nh.advertise<geometry_msgs::PoseStamped>("pose_stamp",1);
 	vis_pub = m_nh.advertise<visualization_msgs::Marker>("pose_marker",1);
 }
 
@@ -59,7 +62,7 @@ private:
 // define callback function
 void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray& cluster_msg)
 {
-
+	
     pcl::PointCloud<pcl::PointXYZ>::Ptr minCloud (new pcl::PointCloud<pcl::PointXYZ>);	
     float minCount = 100000;	    
 
@@ -76,12 +79,15 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 	// Convert candidate meshes to cloud
         const std::string meshFileName = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/ycb_meshes/banana/meshes/banana.ply";
 
+	// Frame id
+	const std::string myFrame = "head_camera_rgb_optical_frame";
+
 	// Load .ply file into pointcloud
 	pcl::PolygonMesh objectMesh;
 	pcl::io::loadPolygonFilePLY(meshFileName, objectMesh);
 	std::cout << "loaded PLY FILE";        
 	pcl::fromPCLPointCloud2(objectMesh.cloud, *cloud_out);
-	cloud_out->header.frame_id = "head_camera_rgb_optical_frame";        
+	cloud_out->header.frame_id = myFrame;        
 
 	// Run ICP algorithm and print score
 	pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;
@@ -110,9 +116,9 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 	pcl::compute3DCentroid(*minCloud, centroid);
 	std::cout << "Centroid coordinates: " << centroid << std::endl; 
 	
-	// Publish marker in frame "world" 
+	// Publish marker in frame "head_camera_rgb_optical_frame" 
 	visualization_msgs::Marker marker; 
-	marker.header.frame_id = "head_camera_rgb_optical_frame";
+	marker.header.frame_id = myFrame;
 	marker.header.stamp = ros::Time();
 	marker.ns = "my_namespace";
 	marker.id = 0;
@@ -133,9 +139,19 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 	marker.color.g = 1.0;
 	marker.color.b = 0.0;
 
+	geometry_msgs::PoseStamped pose; 
+	pose.header.frame_id = myFrame;
+	pose.header.stamp = ros::Time::now();
+	pose.pose.position.x = centroid(0);
+	pose.pose.position.y = centroid(1);
+	pose.pose.position.z = centroid(2);
+	pose.pose.orientation.y = 0.0;
+	pose.pose.orientation.z = 0.0;
+	pose.pose.orientation.w = 1.0;
+
 	// Publish marker 
 	vis_pub.publish(marker);
-
+	posePub.publish(pose);
 }
 
 
