@@ -8,10 +8,10 @@
   <!--Include description and control launch files-->
   <env name="GAZEBO_MODEL_PATH" value="$(find fetch_gazebo)/models:$(optenv GAZEBO_MODEL_PATH)" />
   <include file="$(find fetch_gazebo)/launch/include/$(arg robot).launch.xml">
-    <arg name="x" value="-0.026"/>
-    <arg name="y" value="1.508"/>
-    <arg name="z" value="0.001"/>
-    <arg name="yaw" value="-1.576"/>
+    <arg name="x" value="-0.16"/>
+    <arg name="y" value="1.4116"/>
+    <arg name="z" value="0.000411"/>
+    <arg name="yaw" value="-1.5368"/>
   </include>
 
   <!--Launch a gazebo world-->

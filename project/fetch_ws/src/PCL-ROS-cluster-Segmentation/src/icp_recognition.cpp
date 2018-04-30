@@ -62,7 +62,9 @@ private:
 // define callback function
 void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray& cluster_msg)
 {
-	
+    // Frame id
+    const std::string myFrame = "head_camera_rgb_optical_frame";
+
     pcl::PointCloud<pcl::PointXYZ>::Ptr minCloud (new pcl::PointCloud<pcl::PointXYZ>);	
     float minCount = 100000;	    
 
@@ -78,9 +80,6 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 
 	// Convert candidate meshes to cloud
         const std::string meshFileName = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/ycb_meshes/banana/meshes/banana.ply";
-
-	// Frame id
-	const std::string myFrame = "head_camera_rgb_optical_frame";
 
 	// Load .ply file into pointcloud
 	pcl::PolygonMesh objectMesh;
@@ -139,19 +138,21 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
 	marker.color.g = 1.0;
 	marker.color.b = 0.0;
 
-	geometry_msgs::PoseStamped pose; 
-	pose.header.frame_id = myFrame;
-	pose.header.stamp = ros::Time::now();
-	pose.pose.position.x = centroid(0);
-	pose.pose.position.y = centroid(1);
-	pose.pose.position.z = centroid(2);
-	pose.pose.orientation.y = 0.0;
-	pose.pose.orientation.z = 0.0;
-	pose.pose.orientation.w = 1.0;
+	geometry_msgs::PoseStamped poseSt; 
+	poseSt.header.frame_id = myFrame;
+	poseSt.header.stamp = ros::Time::now();
+	poseSt.pose.position.x = centroid(0);
+	poseSt.pose.position.y = centroid(1);
+	poseSt.pose.position.z = centroid(2);
+	poseSt.pose.orientation.y = 0.0;
+	poseSt.pose.orientation.z = 0.0;
+	poseSt.pose.orientation.w = 1.0;
 
 	// Publish marker 
 	vis_pub.publish(marker);
-	posePub.publish(pose);
+
+	std::cout << poseSt << std::endl;
+	posePub.publish(poseSt);
 }
 
 
