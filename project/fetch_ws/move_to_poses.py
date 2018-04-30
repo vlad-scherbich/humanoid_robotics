@@ -23,20 +23,18 @@ gripper_pose_stamped.header.frame_id = 'base_link'
 gripper_pose_stamped.header.stamp = rospy.Time.now()
 
 # kind of works
-#gripper_pose = Pose(Point(0.900707, 0.209838, 0.877578), Quaternion(0.877578, -0.003732, 0.002217, 1.0))
-
-gripper_pose_stamped.header.stamp = rospy.Time.now()
+gripper_pose = Pose(Point(0.900707, 0.209838, 0.877578), Quaternion(0.877578, -0.003732, 0.002217, 1.0))
 
 #gripper_pose = Pose(Point(1.169531, 0.212479, 1.164348), Quaternion(-0.007156, -0.003732, 0.002217, 1.0))
 
-gripper_pose = Pose(Point(1.169531, 0.212479, 1.164348), Quaternion(-0.007156, -0.003732, 0.002217, 1.0))
-
+gripper_pose_stamped.header.stamp = rospy.Time.now()
 gripper_pose_stamped.pose = gripper_pose
 
 # Move gripper frame to the pose specified
 move_group.moveToPose(gripper_pose_stamped, gripper_frame)
 result = move_group.get_move_action().get_result()
 
+result
 
 
 # check all the grasp plans (assuming 'gripper_poses' is defined):

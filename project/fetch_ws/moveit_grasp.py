@@ -78,8 +78,6 @@ grasping_controller = curpp.MoveitPickPlaceInterface(
 
 
 # Convert graspit grasp to moveit grasp
-# graspit_grasps = gc.planGrasps(graspable_body_id=0)
-
 graspit_grasp = graspit_grasps.grasps[0]
 moveit_grasp_msg = graspit_grasp_to_moveit_grasp('spam_12oz', graspit_grasp)
 

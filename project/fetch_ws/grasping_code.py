@@ -21,8 +21,14 @@ from geometry_msgs.msg import Pose, Point, Quaternion
    
 pose = geometry_msgs.msg.PoseStamped()
 pose.header.frame_id='/base_link'
-pose.pose = Pose(Point(0.042, 0.384, 0.826), Quaternion(0, 0, 0, 1))
+
+pose.pose = Pose(Point(0.8, 0.1, 0.7), Quaternion(0, 0, 0, 1))
 world_manager.world_manager_client.add_mesh('spam', '/home/vlad/Downloads/spam_12oz.dae', pose)
+
+
+pose.pose = Pose(Point(1.0, 0.2, 0.9), Quaternion(0, 0, 0, 1))
+world_manager.world_manager_client.add_mesh('spam2', '/home/vlad/Downloads/spam_12oz.dae', pose)
+
 
 
 
@@ -32,7 +38,7 @@ from moveit_msgs.msg import MoveItErrorCodes
 from moveit_python import MoveGroupInterface, PlanningSceneInterface
 from geometry_msgs.msg import PoseStamped, Pose, Point, Quaternion
 
-rospy.init_node("hi")
+#rospy.init_node("hi")
 
 move_group_arm = MoveGroupInterface("arm_with_torso", "base_link")
 
@@ -41,7 +47,7 @@ gripper_frame = 'wrist_roll_link'
 
 # Construct a "pose_stamped" message as required by moveToPose
 gripper_pose_stamped = PoseStamped()
-gripper_pose_stamped.header.frame_id = 'spam'
+gripper_pose_stamped.header.frame_id = 'spam2'
 
 gripper_pose_stamped.pose = graspit_grasps.grasps[2].pose
 

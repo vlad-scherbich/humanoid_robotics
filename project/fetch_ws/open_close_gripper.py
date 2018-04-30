@@ -15,3 +15,7 @@ move_group.set_named_target('close')
 close_plan = move_group.plan()
 move_group.execute(close_plan)
 
+
+
+# tuck arm
+$ rosrun fetch_teleop tuck_arm
