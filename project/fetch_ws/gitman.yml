@@ -2,157 +2,98 @@ location: src
 sources:
 - name: cluster_segmentation
   repo: https://github.com/CRLab/cluster_segmentation.git 
-  sparse_paths:
-  -
   rev: master
   link:
   scripts:
-  -
-
-sources:
 - name: curpp
   repo: https://github.com/CRLab/curpp.git  
-  sparse_paths:
-  -
   rev: master
   link:
   scripts:
-  -
-
-sources:
 - name: fetch_gazebo
   repo: https://github.com/fetchrobotics/fetch_gazebo.git      
-  sparse_paths:
-  -
   rev: gazebo7
   link:
   scripts:
-  -
-
-sources:
 - name: fetch_ros
   repo: https://github.com/fetchrobotics/fetch_ros.git
   sparse_paths:
-  -
   rev: indigo-devel
   link:
   scripts:
-  -
-
-sources:
 - name: geometric_shapes
   repo: https://github.com/ros-planning/geometric_shapes.git
   sparse_paths:
-  -
   rev: kinetic-devel
   link:
   scripts:
-  -
-
-sources:
 - name: geometry2 
   repo: https://github.com/ros/geometry2.git
   sparse_paths:
-  -
   rev: kinetic-devel
   link:
   scripts:
- 
-sources:
 - name: grasping_msgs 
   repo: https://github.com/mikeferguson/grasping_msgs.git
   sparse_paths:
- 
   rev: master
   link:
   scripts:
- 
-sources:
 - name: moveit 
   repo: https://github.com/ros-planning/moveit.git
   sparse_paths:
-  -
   rev: kinetic-devel
   link:
   scripts:
- 
-sources:
 - name: open_karto
   repo: https://github.com/ros-perception/open_karto.git
   sparse_paths:
-  -
   rev: indigo-devel
   link:
   scripts:
- 
-sources:
 - name: robot_controllers
   repo: https://github.com/fetchrobotics/robot_controllers.git
   sparse_paths:
-  -
   rev: indigo-devel
   link:
   scripts:
-
-sources:
 - name: simple_grasping 
   repo: https://github.com/mikeferguson/simple_grasping.git 
   sparse_paths:
-  -
   rev: master
   link:
   scripts:
-  -
-sources:
 - name: sparse_bundle_adjustment 
   repo: https://github.com/ros-perception/sparse_bundle_adjustment.git  
   sparse_paths:
-  -
   rev: indigo-devel
   link:
   scripts:
- 
-sources:
 - name: world_manager
   repo: https://github.com/CRLab/world_manager.git  
   sparse_paths:
-  -
   rev: master
   link:
   scripts:
- 
-sources:
 - name: graspit
   repo: https://github.com/graspit-simulator/graspit.git 
   sparse_paths:
-  -
   rev: master
   link:
   scripts:
- 
-sources:
 - name: graspit_commander
   repo: https://github.com/graspit-simulator/graspit_commander.git 
-  sparse_paths:
-  -
   rev: master
   link:
   scripts:
- 
-sources:
 - name: graspit_interface
   repo: https://github.com/graspit-simulator/graspit_interface.git
   sparse_paths:
-  -
   rev: master
   link:
   scripts:
- 
-sources:
 - name: slam_karto
   repo: https://github.com/ros-perception/slam_karto.git
-  sparse_paths:
-  -
   rev: indigo-devel
   link:
   scripts:

@@ -7,5 +7,6 @@ setup.bash
 build/
 devel/
 logs/
+src/
 .catkin_tools/
 vendor/gitman
