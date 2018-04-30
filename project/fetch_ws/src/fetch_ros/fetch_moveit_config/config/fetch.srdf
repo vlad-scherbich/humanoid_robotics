@@ -33,6 +33,19 @@
         <link name="l_gripper_finger_link" />
         <link name="r_gripper_finger_link" />
     </group>
+
+    <!-- todo: -->
+    <group_state name="open" group="gripper">
+        <joint name="l_gripper_finger_joint" value="0.045" />
+        <joint name="r_gripper_finger_joint" value="0.045" />
+    </group_state>
+
+    <group_state name="close" group="gripper">
+	<joint name="l_gripper_finger_joint" value="0.001" />
+        <joint name="r_gripper_finger_joint" value="0.001" />
+    </group_state>
+
+
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="gripper" parent_link="wrist_roll_link" group="gripper" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
