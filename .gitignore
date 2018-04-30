@@ -4,7 +4,8 @@
 .txt~
 .*.*.swp
 setup.bash
-build/*
-devel/*
-logs/*
-
+build/
+devel/
+logs/
+.catkin_tools/
+vendor/gitman
