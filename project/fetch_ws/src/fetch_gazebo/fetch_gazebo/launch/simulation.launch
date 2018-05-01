@@ -16,6 +16,17 @@
     <arg name="headless" value="$(arg headless)"/>
   </include>
 
+  <!-- Start MoveIt -->
+  <include file="$(find fetch_moveit_config)/launch/move_group.launch" >
+    <arg name="info" value="true"/><!-- publish grasp markers -->
+  </include>
+
+  <group ns="world_manager">
+    <rosparam command="load" file="$(find world_manager)/configs/world_manager.yaml"/>
+
+    <node name="world_manager" pkg="world_manager" type="world_manager_server.py" output="screen"/>
+  </group>
+
   <!-- Oh, you wanted a robot? -->
   <include file="$(find fetch_gazebo)/launch/include/$(arg robot).launch.xml" />
 
