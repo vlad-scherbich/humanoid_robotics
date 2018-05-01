@@ -1,0 +1,74 @@
+<launch>
+  
+  <arg name="x" default="0.0" />
+  <arg name="y" default="0.0" />
+  <arg name="z" default="0.0" />
+  <arg name="yaw" default="0.0" />
+
+  <!-- Trajectory Planners -->
+  <param name="grasp_approach_tran_frame" type="string" value="/wrist_roll_link" />
+  <param name="world_frame" type="string" value="/base_link" />
+  <param name="arm_move_group_name" type="string" value="arm" />
+  <param name="gripper_move_group_name" type="string" value="gripper" />
+  <param name="analyzer_planner_id" type="string" value="[RRTConnectkConfigDefault]" />
+  <param name="executor_planner_id" type="string" value="[BiRRTkConfigDefault]" />
+  <param name="allowed_analyzing_time" type="double" value="2" />
+  <param name="allowed_execution_time" type="double" value="8" />
+  <param name="final_block_position_x" type="double" value="0.2" />
+  <param name="final_block_position_y" type="double" value="0.3" />
+  <param name="final_block_position_z" type="double" value="0.2" />
+  <param name="pre_grasp_approach_direction_frame_id" type="string" value="/wrist_roll_link" />
+  <param name="pre_grasp_approach_direction_x" type="double" value="1" />
+  <param name="pre_grasp_approach_direction_y" type="double" value="0" />
+  <param name="pre_grasp_approach_direction_z" type="double" value="0" />
+  <param name="post_grasp_retreat_direction_frame_id" type="string" value="/base_link" />
+  <param name="post_grasp_retreat_direction_x" type="double" value="0" />
+  <param name="post_grasp_retreat_direction_y" type="double" value="0" />
+  <param name="post_grasp_retreat_direction_z" type="double" value="1" />
+  <rosparam param="pre_grasp_goal_point_effort">[50.0, 50.0]</rosparam>
+  <rosparam param="pre_grasp_goal_point_positions">[0.05, 0.05]</rosparam>
+  <param name="pre_grasp_goal_point_time_from_start_secs" type="double" value="0" />
+  <rosparam param="pre_grasp_joint_names">['l_gripper_finger_joint', 'r_gripper_finger_joint']</rosparam>
+  <rosparam param="grasp_goal_point_effort">[50.0, 50.0]</rosparam>
+  <rosparam param="grasp_goal_point_positions">[1.047, 1.047]</rosparam>
+  <param name="grasp_goal_point_time_from_start_secs" type="double" value="0" />
+  <rosparam param="grasp_posture_joint_names">['l_gripper_finger_joint', 'r_gripper_finger_joint']</rosparam>
+  <param name="pre_grasp_approach_min_distance" type="double" value="0.05" />
+  <param name="pre_grasp_approach_desired_distance" type="double" value="0.1" />
+  <param name="post_grasp_retreat_min_distance" type="double" value="0.05" />
+  <param name="post_grasp_retreat_desired_distance" type="double" value="0.1" />
+  <param name="max_contact_force" type="double" value="-1" />
+
+
+  <!-- Setup controllers -->
+  <rosparam file="$(find fetch_gazebo)/config/default_controllers.yaml" command="load" />
+
+  <!-- URDF and TF support -->
+  <param name="robot_description" command="$(find xacro)/xacro.py $(find fetch_gazebo)/robots/fetch.gazebo.xacro" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" >
+    <param name="publish_frequency" value="100.0"/>
+  </node>
+
+  <!-- Put a robot in gazebo, make it look pretty -->
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+        args="-urdf -x $(arg x) -y $(arg y) -z $(arg z) -Y $(arg yaw) -model fetch -param robot_description"/>
+  <node name="prepare_robot" pkg="fetch_gazebo" type="prepare_simulated_robot.py" />
+
+  <!-- Give this robot a serial number and version -->
+  <param name="robot/serial" value="ABCDEFGHIJKLMNOPQRSTUVWX" />
+  <param name="robot/version" value="0.0.1" />
+
+  <!-- Head Camera Pipeline -->
+  <include file="$(find fetch_gazebo)/launch/include/head_camera.launch.xml" />
+
+  <!-- Publish base_scan_raw if anything subscribes to it -->
+  <node name="publish_base_scan_raw" pkg="topic_tools" type="relay" args="base_scan base_scan_raw" >
+    <param name="lazy" type="bool" value="True"/>
+  </node>
+
+  <!-- Start a mux between application and teleop -->
+  <node pkg="topic_tools" type="mux" name="cmd_vel_mux" respawn="true" args="base_controller/command /cmd_vel /teleop/cmd_vel">
+    <remap from="mux" to="cmd_vel_mux" />
+  </node>
+
+</launch>
