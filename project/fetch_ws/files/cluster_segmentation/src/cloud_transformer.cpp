@@ -29,13 +29,12 @@ public:
   explicit CloudTransformer(ros::NodeHandle nh)
     : nh_(nh)
   {
-    std::string myFrame("base_link"); 
     // Define Publishers and Subscribers here
     pcl_sub_ = nh_.subscribe("/head_camera/depth_registered/points", 1, &CloudTransformer::pclCallback, this);
     pcl_pub_ = nh_.advertise<sensor_msgs::PointCloud2>("/obj_recognition/point_cloud", 1);
 
     buffer_.reset(new sensor_msgs::PointCloud2);
-    buffer_->header.frame_id = myFrame;
+    buffer_->header.frame_id = "head_camera_rgb_optical_frame";
   }
 
 private:
@@ -47,9 +46,8 @@ private:
 
   void pclCallback(const sensor_msgs::PointCloud2ConstPtr& pcl_msg)
   {
-    std::string myFrame("base_link"); 
-    listener_.waitForTransform(myFrame, "camera_link", ros::Time::now(), ros::Duration(3.0));
-    pcl_ros::transformPointCloud(myFrame, *pcl_msg, *buffer_, listener_);
+    listener_.waitForTransform("head_camera_rgb_optical_frame", "camera_link", ros::Time::now(), ros::Duration(3.0));
+    pcl_ros::transformPointCloud("head_camera_rgb_optical_frame", *pcl_msg, *buffer_, listener_);
     pcl_pub_.publish(buffer_);
   }
 };  // End of class CloudTransformer

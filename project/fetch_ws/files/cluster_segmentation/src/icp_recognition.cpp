@@ -63,7 +63,7 @@ private:
 void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray& cluster_msg)
 {
     // Frame id
-    const std::string myFrame = "base_link";
+    const std::string myFrame = "head_camera_rgb_optical_frame";
 
     pcl::PointCloud<pcl::PointXYZ>::Ptr minCloud (new pcl::PointCloud<pcl::PointXYZ>);	
     float minCount = 100000;	    
