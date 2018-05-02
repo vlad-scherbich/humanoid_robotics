@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="12in_wood">
+  <model name="1in_wood">
     <link name="link">
       <inertial>
       <pose>0 0 0.0175 0 0 0</pose>
@@ -26,7 +26,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://12inwood/meshes/12inwood.dae</uri>
+            <uri>model://wood1/meshes/wood1.dae</uri>
           </mesh>
         </geometry>
       </visual>
