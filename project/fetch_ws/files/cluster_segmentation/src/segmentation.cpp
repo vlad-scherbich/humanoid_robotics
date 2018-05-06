@@ -35,7 +35,7 @@ public:
     explicit segmentation(ros::NodeHandle nh) : m_nh(nh)  {
 
         // define the subscriber and publisher
-        m_sub = m_nh.subscribe ("/obj_recognition/point_cloud", 1, &segmentation::cloud_cb, this);
+        m_sub = m_nh.subscribe ("/obj_recognition/filtered_pc", 1, &segmentation::cloud_cb, this);
         m_clusterPub = m_nh.advertise<obj_recognition::SegmentedClustersArray> ("/obj_recognition/pcl_clusters",1);
         pcl_pub_ = m_nh.advertise<sensor_msgs::PointCloud2>("/obj_recognition/segmented_clusters", 1);
 
@@ -199,7 +199,8 @@ void segmentation::cloud_cb (const sensor_msgs::PointCloud2ConstPtr& cloud_msg)
     }
 
     pcl::toPCLPointCloud2(concatenatedClusters, outputPCL);
-    outputPCL.header.frame_id = "head_camera_rgb_optical_frame";
+    std::string myFrame = "base_link"; 
+    outputPCL.header.frame_id = myFrame;
     pcl_pub_.publish(outputPCL);
 
     // publish the clusters

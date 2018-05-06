@@ -63,7 +63,7 @@ private:
 void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray& cluster_msg)
 {
     // Frame id
-    const std::string myFrame = "head_camera_rgb_optical_frame";
+    const std::string myFrame = "/base_link";
 
     pcl::PointCloud<pcl::PointXYZ>::Ptr minCloud (new pcl::PointCloud<pcl::PointXYZ>);	
     float minCount = 100000;	    
@@ -79,7 +79,7 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
                   << std::endl;
 
 	// Convert candidate meshes to cloud
-        const std::string meshFileName = "/home/seungwook/humanoid_robotics/project/fetch_ws/src/ycb_meshes/banana/meshes/banana.ply";
+        const std::string meshFileName = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/ycb_meshes/mustard/meshes/mustard.ply";
 
 	// Load .ply file into pointcloud
 	pcl::PolygonMesh objectMesh;
