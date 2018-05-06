@@ -97,5 +97,9 @@ sources:
   rev: indigo-devel
   link:
   scripts:
+  name: pc_filter
+  repo: https://github.com/CRLab/pc_filter.git
+  rev: master
+  link: 
  
 

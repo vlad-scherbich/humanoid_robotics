@@ -112,7 +112,7 @@ def callback(pose):
 
 	gp = Gripper()
 	gp.open()
-	gp.close(35)	
+	gp.close(50)	
 	
 	print 'Raising after gripping'
 	torso_action = FollowTrajectoryClient("torso_controller", ["torso_lift_joint"])
@@ -135,8 +135,6 @@ reachable.pose.orientation.z = 0.0
 reachable.pose.orientation.w = 1.0
 move_group_arm.moveToPose(reachable, gripper_frame)
 """
-
-
 
 print 'Planning grasp: '
 #sub = rospy.Subscriber('pose_stamp', PoseStamped, callback)
