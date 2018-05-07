@@ -1,10 +1,10 @@
 <launch>
    <group ns="pc_filter">
       <param name="xpassthrough/filter_limit_min" value="-1" />
-      <param name="ypassthrough/filter_limit_min" value="-5" />
-      <param name="zpassthrough/filter_limit_min" value="0" />
-      <param name="xpassthrough/filter_limit_max" value="3" />
-      <param name="ypassthrough/filter_limit_max" value="5" />
+      <param name="ypassthrough/filter_limit_min" value="-3" />
+      <param name="zpassthrough/filter_limit_min" value="0.6" />
+      <param name="xpassthrough/filter_limit_max" value="1.2" />
+      <param name="ypassthrough/filter_limit_max" value="3" />
       <param name="zpassthrough/filter_limit_max" value="1" />
       <param name="downsample" value="0.01" />
       

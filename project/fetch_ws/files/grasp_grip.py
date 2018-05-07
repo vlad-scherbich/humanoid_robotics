@@ -112,7 +112,7 @@ def callback(pose):
 
 	gp = Gripper()
 	gp.open()
-	gp.close(50)	
+	gp.close(45)	
 	
 	print 'Raising after gripping'
 	torso_action = FollowTrajectoryClient("torso_controller", ["torso_lift_joint"])

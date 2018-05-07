@@ -79,7 +79,7 @@ void icp_recognition::cluster_cb (const obj_recognition::SegmentedClustersArray&
                   << std::endl;
 
 	// Convert candidate meshes to cloud
-        const std::string meshFileName = "/home/kathleen/humanoid_robotics/project/fetch_ws/src/ycb_meshes/mustard/meshes/mustard.ply";
+        const std::string meshFileName = "/home/student/humanoid_robotics/project/fetch_ws/ycb_meshes/mustard/meshes/mustard.ply";
 
 	// Load .ply file into pointcloud
 	pcl::PolygonMesh objectMesh;
