@@ -102,7 +102,7 @@ def callback(pose):
     move_group_arm.moveToPose(reachable, gripper_frame)
     print 'Moved to reachable position'
     
-    pose.pose.position.x += 0.05
+    pose.pose.position.x += 0.10
     move_group_arm.moveToPose(pose, gripper_frame)
     result = move_group_arm.get_move_action().get_result()
     print result.error_code.val
@@ -115,8 +115,8 @@ def callback(pose):
 	gp.close(50)	
 	
 	print 'Raising after gripping'
-	torso_action = FollowTrajectoryClient("torso_controller", ["torso_lift_joint"])
-	torso_action.move_to([0.40, ])
+	#torso_action = FollowTrajectoryClient("torso_controller", ["torso_lift_joint"])
+	#torso_action.move_to([0.40, ])
     print result
 
 # Moving the robot arm into pre-grasp position
