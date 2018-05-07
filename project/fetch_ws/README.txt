@@ -15,3 +15,7 @@ make -j5 (or, make -j8)
 
 In fetch_ws/ again:
 catkin build
+
+On real robot: 
+export ROS_MASTER_URI=http://fetch22.local:11311
+
