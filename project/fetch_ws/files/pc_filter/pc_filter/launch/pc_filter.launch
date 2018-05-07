@@ -1,0 +1,25 @@
+<launch>
+   <group ns="pc_filter">
+      <param name="xpassthrough/filter_limit_min" value="-1" />
+      <param name="ypassthrough/filter_limit_min" value="-5" />
+      <param name="zpassthrough/filter_limit_min" value="0" />
+      <param name="xpassthrough/filter_limit_max" value="3" />
+      <param name="ypassthrough/filter_limit_max" value="5" />
+      <param name="zpassthrough/filter_limit_max" value="1" />
+      <param name="downsample" value="0.01" />
+      
+      <!-- Frame of reference for the original unfiltered pointcloud --> 
+      <param name="observed_frame_id" value="/base_link" />
+ 
+      <!-- Frame of reference for the filtered pointcloud -->
+      <param name="filtered_frame_id" value="/base_link" />
+
+      <!-- ROS topic the unfiltered pointcloud is being published on --> 
+      <param name="input_pc_topic" value="/obj_recognition/point_cloud" />
+
+      <!-- ROS Topic in which the filtered pointcloud will be published --> 
+      <param name="output_pc_topic" value="/obj_recognition/filtered_pc" />
+      
+      <node name="kinect2_pc_filter" pkg="pc_filter" type="pc_filter" output="screen"/>
+   </group>
+</launch>
